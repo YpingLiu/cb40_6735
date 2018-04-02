@@ -1,0 +1,37 @@
+# ==============================================
+# Policy File of /system/binakmd09911 Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type gmadfs_exec , exec_type, file_type;
+type gmadfs ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+#permissive gma303;
+init_daemon_domain(gmadfs)
+#unconfined_domain(gmadfs)
+# Purpose : M-sensor daemon for access driver node
+allow gmadfs msensor_device:chr_file { open ioctl read write };
+allow gmadfs gsensor_device:chr_file { open ioctl read write };
+allow gmadfs input_device:dir { search open read write };
+allow gmadfs input_device:file { open read };
+allow gmadfs input_device:chr_file { open ioctl read write };
+# Operate data partation directly, need modify later,e.g. use "data/misc/sensor".
+allow gmadfs system_data_file:dir { write add_name create setattr };
+allow gmadfs system_data_file:file { open write read create setattr};
+allow gmadfs system_data_file:dir remove_name;
+
