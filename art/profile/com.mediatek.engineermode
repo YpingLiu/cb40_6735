@@ -1,0 +1,6 @@
+52/4/3823
+boolean android.support.v4.view.ViewPager.onInterceptTouchEvent(android.view.MotionEvent)/9/430
+int android.support.v4.view.ViewPager.getClientWidth()/1/15
+int com.mediatek.engineermode.ChipSupport.getChip()/1/0
+void android.support.v4.view.PagerTitleStrip.requestLayout()/1/8
+void android.support.v4.view.ViewPager.draw(android.graphics.Canvas)/40/175

@@ -1,0 +1,994 @@
+12685/433/283992
+android.content.Intent com.android.gallery3d.ui.ActionModeHandler.computeSharingIntent(com.android.gallery3d.util.ThreadPool$JobContext, int)/1/311
+android.database.Cursor com.mediatek.galleryfeature.container.ContainerHelper.getConShotsCursor(android.content.Context, long, int)/1/48
+android.graphics.Bitmap com.android.gallery3d.data.DecodeUtils.findCachedBitmap(com.android.gallery3d.util.ThreadPool$JobContext, byte[], int, int, android.graphics.BitmapFactory$Options)/1/16
+android.graphics.Bitmap com.android.gallery3d.data.ImageCacheRequest.run(com.android.gallery3d.util.ThreadPool$JobContext)/5/657
+android.graphics.Bitmap com.android.gallery3d.filtershow.imageshow.MasterImage.getFilteredImage()/2/20
+android.graphics.Bitmap com.android.gallery3d.filtershow.imageshow.MasterImage.getTemporaryThumbnailBitmap()/1/40
+android.graphics.Bitmap com.android.gallery3d.filtershow.pipeline.CacheProcessing.process(android.graphics.Bitmap, java.util.Vector, com.android.gallery3d.filtershow.pipeline.FilterEnvironment)/1/281
+android.graphics.Bitmap com.android.gallery3d.filtershow.pipeline.FilterEnvironment.getBitmapCopy(android.graphics.Bitmap, int)/1/7
+android.graphics.Bitmap com.android.gallery3d.filtershow.pipeline.ImagePreset.applyFilters(android.graphics.Bitmap, int, int, com.android.gallery3d.filtershow.pipeline.FilterEnvironment)/1/64
+android.graphics.Bitmap com.android.gallery3d.glrenderer.TiledTexture$Tile.onGetBitmap()/1/156
+android.graphics.Bitmap com.android.gallery3d.glrenderer.UploadedTexture.getBorderLine(boolean, android.graphics.Bitmap$Config, int)/1/40
+android.graphics.Bitmap com.android.gallery3d.ui.BitmapLoader.getBitmap()/3/8
+android.graphics.Bitmap com.android.photos.data.GalleryBitmapPool.get(int, int)/2/13
+android.graphics.Bitmap com.mediatek.galleryfeature.container.ContainerPlayer.access$102(com.mediatek.galleryfeature.container.ContainerPlayer, android.graphics.Bitmap)/1/3
+android.graphics.Bitmap com.mediatek.galleryfeature.gif.GifPlayer$DecodeJob.run()/4/140
+android.graphics.Bitmap com.mediatek.galleryfeature.gif.GifPlayer.access$200(com.mediatek.galleryfeature.gif.GifPlayer)/1/3
+android.graphics.Bitmap com.mediatek.galleryfeature.gif.GifPlayer.access$202(com.mediatek.galleryfeature.gif.GifPlayer, android.graphics.Bitmap)/1/3
+android.graphics.Bitmap com.mediatek.galleryfeature.mav.MpoHelper.ensureGLCompatibleBitmap(android.graphics.Bitmap)/1/21
+android.graphics.Bitmap com.mediatek.galleryfeature.panorama.PanoramaDrawer.readPixels(com.mediatek.galleryframework.gl.MGLCanvas)/3499/348
+android.graphics.Bitmap com.mediatek.galleryframework.gl.MUploadedTexture.getBitmap()/1/45
+android.graphics.Canvas com.android.gallery3d.glrenderer.TiledTexture.access$100()/2/3
+android.graphics.Paint com.android.gallery3d.glrenderer.TiledTexture.access$300()/1/3
+android.graphics.Rect com.android.gallery3d.ui.PositionController.getPosition(int)/14/9
+android.graphics.Rect com.android.gallery3d.ui.SlotView$DefaultLayout.getSlotRect(int, android.graphics.Rect)/29/63
+android.graphics.Rect com.mediatek.gallery3d.layout.FancyLayout.getSlotRect(int, android.graphics.Rect)/75/73
+android.graphics.RectF com.android.gallery3d.filtershow.filters.FilterCropRepresentation.getNil()/10/8
+android.graphics.drawable.Drawable com.mediatek.galleryfeature.mav.MavSeekBar.access$000(com.mediatek.galleryfeature.mav.MavSeekBar)/1/3
+android.net.Uri com.android.gallery3d.data.LocalImage.getContentUri()/1/21
+android.opengl.GLSurfaceView com.mediatek.galleryframework.gl.GLIdleExecuter.access$400(com.mediatek.galleryframework.gl.GLIdleExecuter)/5/3
+android.support.v4.app.Fragment android.support.v4.app.FragmentManagerImpl.findFragmentByTag(java.lang.String)/1/77
+android.support.v8.renderscript.Allocation com.android.gallery3d.filtershow.pipeline.CachingPipeline.getInPixelsAllocation()/2/8
+android.support.v8.renderscript.RenderScript com.android.gallery3d.filtershow.pipeline.CachingPipeline.getRenderScriptContext()/1/10
+android.support.v8.renderscript.Type android.support.v8.renderscript.AllocationThunker.getType()/3/11
+android.support.v8.renderscript.Type android.support.v8.renderscript.TypeThunker.find(android.renderscript.Type)/7/9
+android.util.SparseIntArray com.android.gallery3d.exif.ExifInterface.getTagInfo()/1/17
+boolean android.support.v4.app.FragmentManagerImpl.execPendingActions()/1/165
+boolean android.support.v8.renderscript.ElementThunker.isCompatible(android.support.v8.renderscript.Element)/3/18
+boolean android.support.v8.renderscript.RenderScript.setupThunk(int, android.content.Context)/1/199
+boolean android.support.v8.renderscript.RenderScript.shouldThunk()/11/21
+boolean com.android.camera.FeatureSwitcher.isSubSettingEnabled()/1/16
+boolean com.android.camera.bridge.SelfTimerManager.isSelfTimerCounting()/1/8
+boolean com.android.gallery3d.anim.Animation.calculate(long)/36/62
+boolean com.android.gallery3d.anim.Animation.isActive()/22/12
+boolean com.android.gallery3d.anim.StateTransitionAnimation.calculate(long)/5/26
+boolean com.android.gallery3d.app.PhotoDataAdapter.isCamera(int)/3/11
+boolean com.android.gallery3d.app.PhotoDataAdapter.isStaticCamera(int)/3/14
+boolean com.android.gallery3d.app.PhotoDataAdapter.isVideo(int)/2/20
+boolean com.android.gallery3d.app.PhotoPage.canDisplayBottomControl(int)/2/136
+boolean com.android.gallery3d.app.PhotoPage.onPrepareOptionsMenu(android.view.Menu)/1/48
+boolean com.android.gallery3d.app.StateManager.createOptionsMenu(android.view.Menu)/1/19
+boolean com.android.gallery3d.app.StateManager.onPrepareOptionsMenu(android.view.Menu)/1/19
+boolean com.android.gallery3d.common.BitmapUtils.isRotationSupported(java.lang.String)/3/15
+boolean com.android.gallery3d.common.BitmapUtils.isSupportedByRegionDecoder(java.lang.String)/4/42
+boolean com.android.gallery3d.common.BlobCache.lookup(com.android.gallery3d.common.BlobCache$LookupRequest)/3/104
+boolean com.android.gallery3d.common.BlobCache.lookupInternal(long, int)/17/73
+boolean com.android.gallery3d.common.OverScroller$SplineOverScroller.access$000(com.android.gallery3d.common.OverScroller$SplineOverScroller)/21/3
+boolean com.android.gallery3d.common.OverScroller.computeScrollOffset()/6/140
+boolean com.android.gallery3d.common.OverScroller.isFinished()/9/20
+boolean com.android.gallery3d.common.OverScroller.isOverScrolled()/11/36
+boolean com.android.gallery3d.common.Utils.equals(java.lang.Object, java.lang.Object)/4/14
+boolean com.android.gallery3d.data.ChangeNotifier.isDirty()/1/9
+boolean com.android.gallery3d.data.ImageCacheRequest.initOption(com.android.gallery3d.util.ThreadPool$JobContext, android.graphics.BitmapFactory$Options, com.mediatek.galleryframework.base.ExtItem)/7/94
+boolean com.android.gallery3d.data.ImageCacheRequest.supportPQEnhance()/4/9
+boolean com.android.gallery3d.data.ImageCacheService.getImageData(com.android.gallery3d.data.Path, long, int, com.android.gallery3d.data.BytesBufferPool$BytesBuffer)/27/81
+boolean com.android.gallery3d.data.ImageCacheService.isSameKey(byte[], byte[])/71/20
+boolean com.android.gallery3d.data.LocalAlbum.isCameraRoll()/13/35
+boolean com.android.gallery3d.data.LocalImage.updateFromCursor(android.database.Cursor)/4/215
+boolean com.android.gallery3d.data.LocalImage.updateMediaData(android.database.Cursor)/32/163
+boolean com.android.gallery3d.data.LocalMergeAlbum.isCameraRoll()/12/26
+boolean com.android.gallery3d.data.LocalVideo.updateFromCursor(android.database.Cursor)/1/221
+boolean com.android.gallery3d.exif.ExifInterface.isIfdAllowed(int, int)/1/29
+boolean com.android.gallery3d.exif.ExifParser.isIfdRequested(int)/10/62
+boolean com.android.gallery3d.exif.ExifParser.needToParseOffsetsInCurrentIfd()/1/58
+boolean com.android.gallery3d.exif.ExifParser.seekTiffData(java.io.InputStream)/2/114
+boolean com.android.gallery3d.exif.ExifTag.checkBadComponentCount(int)/18/12
+boolean com.android.gallery3d.exif.ExifTag.checkOverflowForUnsignedLong(long[])/6/29
+boolean com.android.gallery3d.exif.ExifTag.checkOverflowForUnsignedRational(com.android.gallery3d.exif.Rational[])/2/53
+boolean com.android.gallery3d.exif.ExifTag.checkOverflowForUnsignedShort(int[])/9/21
+boolean com.android.gallery3d.exif.ExifTag.hasValue()/7/8
+boolean com.android.gallery3d.exif.ExifTag.isValidIfd(int)/3/17
+boolean com.android.gallery3d.exif.ExifTag.isValidType(short)/7/29
+boolean com.android.gallery3d.exif.ExifTag.setValue(byte[], int, int)/2/31
+boolean com.android.gallery3d.exif.ExifTag.setValue(com.android.gallery3d.exif.Rational[])/6/47
+boolean com.android.gallery3d.exif.ExifTag.setValue(int[])/2/67
+boolean com.android.gallery3d.exif.ExifTag.setValue(java.lang.String)/2/75
+boolean com.android.gallery3d.exif.ExifTag.setValue(long[])/5/27
+boolean com.android.gallery3d.exif.JpegHeader.isSofMarker(short)/1/24
+boolean com.android.gallery3d.filtershow.FilterShowActivity.dispatchTouchEvent(android.view.MotionEvent)/1/159
+boolean com.android.gallery3d.filtershow.cache.BitmapCache.cache(android.graphics.Bitmap)/6/174
+boolean com.android.gallery3d.filtershow.filters.FilterBasicRepresentation.equals(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/47
+boolean com.android.gallery3d.filtershow.filters.FilterCropRepresentation.isNil()/1/9
+boolean com.android.gallery3d.filtershow.filters.FilterFxRepresentation.equals(com.android.gallery3d.filtershow.filters.FilterRepresentation)/12/29
+boolean com.android.gallery3d.filtershow.filters.FilterMirrorRepresentation.equals(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/17
+boolean com.android.gallery3d.filtershow.filters.FilterMirrorRepresentation.isNil()/1/12
+boolean com.android.gallery3d.filtershow.filters.FilterRepresentation.canMergeWith(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/17
+boolean com.android.gallery3d.filtershow.filters.FilterRepresentation.equals(com.android.gallery3d.filtershow.filters.FilterRepresentation)/12/80
+boolean com.android.gallery3d.filtershow.filters.FilterRepresentation.same(com.android.gallery3d.filtershow.filters.FilterRepresentation)/7/16
+boolean com.android.gallery3d.filtershow.filters.FilterRotateRepresentation.equals(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/25
+boolean com.android.gallery3d.filtershow.filters.FilterRotateRepresentation.isNil()/1/12
+boolean com.android.gallery3d.filtershow.filters.FilterStraightenRepresentation.isNil()/2/14
+boolean com.android.gallery3d.filtershow.filters.FilterStraightenRepresentation.rangeCheck(double)/2/22
+boolean com.android.gallery3d.filtershow.pipeline.CacheProcessing$CacheStep.equals(com.android.gallery3d.filtershow.pipeline.CacheProcessing$CacheStep)/2/52
+boolean com.android.gallery3d.filtershow.pipeline.CacheProcessing.contains(android.graphics.Bitmap)/5/28
+boolean com.android.gallery3d.filtershow.pipeline.ImagePreset.same(com.android.gallery3d.filtershow.pipeline.ImagePreset)/1/90
+boolean com.android.gallery3d.filtershow.pipeline.ImagePreset.sameSerializationName(com.android.gallery3d.filtershow.filters.FilterRepresentation, com.android.gallery3d.filtershow.filters.FilterRepresentation)/6/19
+boolean com.android.gallery3d.filtershow.pipeline.ImagePreset.sameSerializationName(java.lang.String, java.lang.String)/11/17
+boolean com.android.gallery3d.filtershow.pipeline.ProcessingTask.postRequest(com.android.gallery3d.filtershow.pipeline.ProcessingTask$Request)/1/78
+boolean com.android.gallery3d.filtershow.state.State.equals(com.android.gallery3d.filtershow.state.State)/2/35
+boolean com.android.gallery3d.glrenderer.BasicTexture.isLoaded()/19/8
+boolean com.android.gallery3d.glrenderer.GLES20Canvas.unloadTexture(com.android.gallery3d.glrenderer.BasicTexture)/2/23
+boolean com.android.gallery3d.glrenderer.TiledTexture.isReady()/55/11
+boolean com.android.gallery3d.glrenderer.UploadedTexture$BorderKey.equals(java.lang.Object)/1/29
+boolean com.android.gallery3d.glrenderer.UploadedTexture.isContentValid()/17/14
+boolean com.android.gallery3d.glrenderer.UploadedTexture.onBind(com.android.gallery3d.glrenderer.GLCanvas)/7/8
+boolean com.android.gallery3d.glrenderer.UploadedTexture.uploadLimitReached()/26/10
+boolean com.android.gallery3d.ui.AlbumSetSlidingWindow.isActiveSlot(int)/24/12
+boolean com.android.gallery3d.ui.AlbumSetSlidingWindow.isLabelChanged(com.android.gallery3d.ui.AlbumSetSlidingWindow$AlbumSetEntry, java.lang.String, int, int)/4/20
+boolean com.android.gallery3d.ui.AlbumSetSlidingWindow.isLandCameraFolder(int, com.android.gallery3d.data.MediaSet, com.android.gallery3d.data.MediaItem)/1/108
+boolean com.android.gallery3d.ui.AlbumSetSlidingWindow.startLoadBitmap(com.android.gallery3d.ui.BitmapLoader)/11/12
+boolean com.android.gallery3d.ui.AlbumSetSlotRenderer.drawCurrentSlotDynamic(com.android.gallery3d.data.MediaItem, com.android.gallery3d.glrenderer.GLCanvas, int, int, int, int)/71/166
+boolean com.android.gallery3d.ui.AlbumSlidingWindow.isActiveSlot(int)/22/12
+boolean com.android.gallery3d.ui.AlbumSlidingWindow.requestSlotImage(int)/38/60
+boolean com.android.gallery3d.ui.AlbumSlotRenderer.drawCurrentSlotDynamic(com.android.gallery3d.ui.AlbumSlidingWindow$AlbumEntry, com.android.gallery3d.glrenderer.GLCanvas, int, int, int, int)/13/108
+boolean com.android.gallery3d.ui.BitmapLoader.isLoadingCompleted()/8/19
+boolean com.android.gallery3d.ui.BitmapLoader.isRequestInProgress()/20/13
+boolean com.android.gallery3d.ui.BitmapScreenNail.isAnimating()/2/30
+boolean com.android.gallery3d.ui.EdgeEffect.draw(com.android.gallery3d.glrenderer.GLCanvas)/4/179
+boolean com.android.gallery3d.ui.GLRootView$MyGLIdleExecuter.isSurfaceDestroyed()/1/7
+boolean com.android.gallery3d.ui.GLRootView.access$500(com.android.gallery3d.ui.GLRootView)/5/3
+boolean com.android.gallery3d.ui.GLRootView.access$600(com.android.gallery3d.ui.GLRootView)/6/3
+boolean com.android.gallery3d.ui.GLView.dispatchTouchEvent(android.view.MotionEvent, int, int, com.android.gallery3d.ui.GLView, boolean)/1/41
+boolean com.android.gallery3d.ui.GLView.removeComponent(com.android.gallery3d.ui.GLView)/1/19
+boolean com.android.gallery3d.ui.GLView.setBounds(int, int, int, int)/1/35
+boolean com.android.gallery3d.ui.GestureRecognizer$MyGestureListener.onScroll(android.view.MotionEvent, android.view.MotionEvent, float, float)/2/39
+boolean com.android.gallery3d.ui.PhotoView$2.isHoldingDown()/1/14
+boolean com.android.gallery3d.ui.PhotoView$ScreenNailPicture.isScreenNailAnimating()/2/20
+boolean com.android.gallery3d.ui.PhotoView.access$2200(com.android.gallery3d.ui.PhotoView)/4/3
+boolean com.android.gallery3d.ui.PhotoView.access$3600(com.android.gallery3d.ui.PhotoView, com.android.gallery3d.data.MediaItem, int, com.android.gallery3d.glrenderer.GLCanvas, int, int)/1/5
+boolean com.android.gallery3d.ui.PhotoView.access$4200(com.android.gallery3d.ui.PhotoView, float, float)/1/5
+boolean com.android.gallery3d.ui.PhotoView.drawCurrentDynamic(com.android.gallery3d.data.MediaItem, com.android.gallery3d.glrenderer.GLCanvas, android.graphics.Rect, int, int, int, float)/1/82
+boolean com.android.gallery3d.ui.PhotoView.drawOtherDynamic(com.android.gallery3d.data.MediaItem, int, com.android.gallery3d.glrenderer.GLCanvas, int, int)/2/49
+boolean com.android.gallery3d.ui.PhotoView.onTouch(android.view.MotionEvent)/1/23
+boolean com.android.gallery3d.ui.PositionController$Animatable.advanceAnimation()/43/71
+boolean com.android.gallery3d.ui.PositionController$Box.interpolate(float)/1/15
+boolean com.android.gallery3d.ui.PositionController$Box.interpolateLinear(float)/2/75
+boolean com.android.gallery3d.ui.PositionController$Box.startSnapback()/14/200
+boolean com.android.gallery3d.ui.PositionController$FilmRatio.startSnapback()/2/26
+boolean com.android.gallery3d.ui.PositionController$Gap.doAnimation(int, int)/5/39
+boolean com.android.gallery3d.ui.PositionController$Gap.interpolate(float)/1/54
+boolean com.android.gallery3d.ui.PositionController$Platform.interpolateLinear(float)/1/75
+boolean com.android.gallery3d.ui.PositionController$Platform.startSnapback()/3/166
+boolean com.android.gallery3d.ui.PositionController.access$1100(com.android.gallery3d.ui.PositionController)/1/3
+boolean com.android.gallery3d.ui.PositionController.access$800(com.android.gallery3d.ui.PositionController)/8/3
+boolean com.android.gallery3d.ui.PositionController.inOpeningAnimation()/7/48
+boolean com.android.gallery3d.ui.PositionController.isAlmostEqual(float, float)/4/19
+boolean com.android.gallery3d.ui.PositionController.isAtMinimalScale()/10/18
+boolean com.android.gallery3d.ui.PositionController.isCenter()/5/25
+boolean com.android.gallery3d.ui.PositionController.setBoxSize(int, int, int, boolean)/44/93
+boolean com.android.gallery3d.ui.PositionController.startAnimation(int, int, float, int)/1/32
+boolean com.android.gallery3d.ui.PositionController.viewTallerThanScaledImage(float)/1/21
+boolean com.android.gallery3d.ui.PositionController.viewWiderThanScaledImage(float)/4/21
+boolean com.android.gallery3d.ui.ScrollerHelper.advanceAnimation(long)/5/7
+boolean com.android.gallery3d.ui.SelectionManager.isItemSelected(com.android.gallery3d.data.Path)/3/10
+boolean com.android.gallery3d.ui.SlotView$DefaultLayout.advanceAnimation(long)/3/14
+boolean com.android.gallery3d.ui.SlotView.access$400()/28/3
+boolean com.android.gallery3d.ui.TileImageView$TileQueue.push(com.android.gallery3d.ui.TileImageView$Tile)/1/14
+boolean com.android.gallery3d.ui.TileImageView.decodeTile(com.android.gallery3d.ui.TileImageView$Tile)/1/70
+boolean com.android.gallery3d.ui.TileImageView.drawTile(com.android.gallery3d.ui.TileImageView$Tile, com.android.gallery3d.glrenderer.GLCanvas, android.graphics.RectF, android.graphics.RectF)/1/128
+boolean com.android.gallery3d.ui.TileImageView.isScreenNailAnimating()/1/20
+boolean com.android.gallery3d.ui.TileImageView.setPosition(int, int, float, int)/2/36
+boolean com.android.gallery3d.util.GalleryUtils.isValidLocation(double, double)/4/14
+boolean com.android.gallery3d.util.ThreadPool$Worker.acquireResource(com.android.gallery3d.util.ThreadPool$ResourceCounter)/38/49
+boolean com.android.gallery3d.util.ThreadPool$Worker.setMode(int)/5/31
+boolean com.android.photos.data.SparseArrayBitmapPool.put(android.graphics.Bitmap)/1/90
+boolean com.mediatek.camera.mode.PhotoMode.executeAction(com.mediatek.camera.ICameraMode$ActionType, java.lang.Object[])/1/224
+boolean com.mediatek.camera.setting.SettingUtils.equals(java.lang.Object, java.lang.Object)/4/14
+boolean com.mediatek.camera.setting.preference.ListPreference.isValid(java.lang.String)/1/65
+boolean com.mediatek.camera.setting.preference.SharedPreferencesTransfer.isGlobal(java.lang.String)/1/36
+boolean com.mediatek.effect.filterpacks.ve.VideoEventStill.process(android.filterfw.core.FilterContext, com.mediatek.effect.filterpacks.VideoEventFilter, boolean, android.filterfw.core.GLFrame)/1/61
+boolean com.mediatek.gallery3d.adapter.PlatformImpl.isOutOfDecodeSpec(long, int, int, java.lang.String)/1/5
+boolean com.mediatek.gallery3d.layout.EdgeAnimation.update()/28/88
+boolean com.mediatek.gallery3d.layout.FancyPaper.advanceAnimation()/7/14
+boolean com.mediatek.gallery3d.util.DecodeSpecLimitor.isOutOfBmpSpec(long, java.lang.String)/3/21
+boolean com.mediatek.gallery3d.util.DecodeSpecLimitor.isOutOfGifSpec(long, long, java.lang.String)/5/28
+boolean com.mediatek.gallery3d.util.DecodeSpecLimitor.isOutOfSpecInteral(long, int, int, java.lang.String)/4/19
+boolean com.mediatek.gallery3d.util.DecodeSpecLimitor.isOutOfSpecLimit(long, int, int, java.lang.String)/1/5
+boolean com.mediatek.gallery3d.video.MTKVideoView.isInPlaybackState()/1/5
+boolean com.mediatek.galleryfeature.container.ContainerMember.isMatching(com.mediatek.galleryframework.base.MediaData)/1/90
+boolean com.mediatek.galleryfeature.drm.DrmMember.isMatching(com.mediatek.galleryframework.base.MediaData)/29/81
+boolean com.mediatek.galleryfeature.dynamic.PhotoPlayEngine.draw(com.mediatek.galleryframework.base.MediaData, int, com.mediatek.galleryframework.gl.MGLCanvas, int, int)/56/109
+boolean com.mediatek.galleryfeature.dynamic.PhotoPlayEngine.isSkipAnimationWhenUpdateSize(int)/24/49
+boolean com.mediatek.galleryfeature.dynamic.ThumbnailPlayEngine.draw(com.mediatek.galleryframework.base.MediaData, int, com.mediatek.galleryframework.gl.MGLCanvas, int, int)/27/12
+boolean com.mediatek.galleryfeature.gif.GifMember.isMatching(com.mediatek.galleryframework.base.MediaData)/8/9
+boolean com.mediatek.galleryfeature.livephoto.LivePhotoMember.isMatching(com.mediatek.galleryframework.base.MediaData)/14/3
+boolean com.mediatek.galleryfeature.mav.MavMember.isMatching(com.mediatek.galleryframework.base.MediaData)/23/45
+boolean com.mediatek.galleryfeature.mav.MavPlayer.onStart()/2/326
+boolean com.mediatek.galleryfeature.mav.MavPlayer.setCurrentFrame()/2/30
+boolean com.mediatek.galleryfeature.mav.MavTexture.onBind(com.mediatek.galleryframework.gl.MGLCanvas)/2/5
+boolean com.mediatek.galleryfeature.panorama.PanoramaMember.isMatching(com.mediatek.galleryframework.base.MediaData)/38/88
+boolean com.mediatek.galleryfeature.panorama.PanoramaPlayer.isSkipAnimationWhenUpdateSize()/3/9
+boolean com.mediatek.galleryfeature.pq.ImageDC.isNeedHistogram()/12/18
+boolean com.mediatek.galleryfeature.video.VideoItem.isNeedToCacheThumb(com.mediatek.galleryframework.base.ThumbType)/2/21
+boolean com.mediatek.galleryfeature.video.VideoMember.isMatching(com.mediatek.galleryframework.base.MediaData)/18/8
+boolean com.mediatek.galleryframework.base.ExtItem.needHistogram()/8/13
+boolean com.mediatek.galleryframework.base.Generator.needGenerating(com.mediatek.galleryframework.base.MediaData, int)/1/29
+boolean com.mediatek.galleryframework.base.MediaData.equals(com.mediatek.galleryframework.base.MediaData)/269/298
+boolean com.mediatek.galleryframework.base.Player.prepare()/1/11
+boolean com.mediatek.galleryframework.base.Player.stop()/1/11
+boolean com.mediatek.galleryframework.gl.MBasicTexture.isLoaded()/8/8
+boolean com.mediatek.galleryframework.gl.MExtTexture.onBind(com.mediatek.galleryframework.gl.MGLCanvas)/2/11
+boolean com.mediatek.galleryframework.gl.MGLES20Canvas.unloadTexture(com.mediatek.galleryframework.gl.MBasicTexture)/2/23
+boolean com.mediatek.galleryframework.gl.MUploadedTexture.isContentValid()/6/14
+boolean com.mediatek.galleryframework.gl.MUploadedTexture.onBind(com.mediatek.galleryframework.gl.MGLCanvas)/4/8
+byte[] android.support.v8.renderscript.FieldPacker.getData()/2/16
+byte[] android.support.v8.renderscript.FieldPackerThunker.getData()/1/7
+byte[] com.android.gallery3d.data.ImageCacheService.makeKey(com.android.gallery3d.data.Path, long, int)/1/42
+byte[] com.android.gallery3d.util.GalleryUtils.getBytes(java.lang.String)/4/38
+com.android.camera.CameraManager$CameraProxy com.android.camera.CameraActivity.getCameraDevice()/1/7
+com.android.camera.ui.PreviewSurfaceView com.android.camera.CameraActivity.getPreviewSurfaceView()/1/7
+com.android.gallery3d.anim.StateTransitionAnimation$Spec com.android.gallery3d.anim.StateTransitionAnimation$Spec.specForTransition(com.android.gallery3d.anim.StateTransitionAnimation$Transition)/1/32
+com.android.gallery3d.app.AlbumDataLoader$UpdateInfo com.android.gallery3d.app.AlbumDataLoader$GetUpdateInfo.call()/1/96
+com.android.gallery3d.app.AlbumSetDataLoader$UpdateInfo com.android.gallery3d.app.AlbumSetDataLoader$GetUpdateInfo.call()/1/59
+com.android.gallery3d.app.MovieControllerOverlay com.android.gallery3d.app.MoviePlayer.access$800(com.android.gallery3d.app.MoviePlayer)/1/3
+com.android.gallery3d.app.StateManager com.android.gallery3d.app.AbstractGalleryActivity.getStateManager()/3/19
+com.android.gallery3d.data.BytesBufferPool com.android.gallery3d.data.MediaItem.getBytesBufferPool()/4/3
+com.android.gallery3d.data.BytesBufferPool$BytesBuffer com.android.gallery3d.data.BytesBufferPool.get()/3/33
+com.android.gallery3d.data.DataManager com.android.gallery3d.app.GalleryAppImpl.getDataManager()/3/24
+com.android.gallery3d.data.ImageCacheService com.android.gallery3d.app.GalleryAppImpl.getImageCacheService()/1/25
+com.android.gallery3d.data.MediaItem com.android.gallery3d.app.PhotoDataAdapter.getItem(int)/34/44
+com.android.gallery3d.data.MediaItem com.android.gallery3d.app.PhotoDataAdapter.getItemInternal(int)/21/23
+com.android.gallery3d.data.MediaItem com.android.gallery3d.app.PhotoDataAdapter.getMediaItem(int)/34/21
+com.android.gallery3d.data.MediaItem com.android.gallery3d.data.LocalAlbum.loadOrUpdateItem(com.android.gallery3d.data.Path, android.database.Cursor, com.android.gallery3d.data.DataManager, com.android.gallery3d.app.GalleryApp, boolean)/37/65
+com.android.gallery3d.data.MediaItem com.android.gallery3d.data.LocalMergeAlbum$FetchCache.getItem(int)/4/102
+com.android.gallery3d.data.MediaItem com.android.gallery3d.data.MediaSet.getCoverMediaItem()/1/43
+com.android.gallery3d.data.MediaItem com.android.gallery3d.ui.AlbumSetSlidingWindow.getMediaItem(int)/3/22
+com.android.gallery3d.data.MediaItem[] com.android.gallery3d.app.PhotoDataAdapter.access$1400(com.android.gallery3d.app.PhotoDataAdapter)/5/3
+com.android.gallery3d.data.MediaObject com.android.gallery3d.data.DataManager.getMediaObject(com.android.gallery3d.data.Path)/22/120
+com.android.gallery3d.data.MediaObject com.android.gallery3d.data.DataManager.peekMediaObject(com.android.gallery3d.data.Path)/14/5
+com.android.gallery3d.data.MediaObject com.android.gallery3d.data.Path.getObject()/47/22
+com.android.gallery3d.data.MediaSet com.android.gallery3d.data.ComboAlbumSet.getSubMediaSet(int)/2/25
+com.android.gallery3d.data.MediaSet com.android.gallery3d.data.LocalAlbumSet.access$400(com.android.gallery3d.data.LocalAlbumSet, com.android.gallery3d.data.DataManager, int, com.android.gallery3d.data.Path, int, java.lang.String)/1/5
+com.android.gallery3d.data.MediaSet com.android.gallery3d.data.LocalAlbumSet.getLocalAlbum(com.android.gallery3d.data.DataManager, int, com.android.gallery3d.data.Path, int, java.lang.String)/1/122
+com.android.gallery3d.data.Path com.android.gallery3d.app.PhotoDataAdapter.access$1600(com.android.gallery3d.app.PhotoDataAdapter)/2/3
+com.android.gallery3d.data.Path com.android.gallery3d.app.PhotoDataAdapter.getPath(int)/3/13
+com.android.gallery3d.data.Path com.android.gallery3d.data.Path.fromString(java.lang.String)/4/27
+com.android.gallery3d.data.Path com.android.gallery3d.data.Path.getChild(int)/11/9
+com.android.gallery3d.data.Path com.android.gallery3d.data.Path.getChild(java.lang.String)/36/43
+com.android.gallery3d.data.Path com.android.gallery3d.data.Path.getPrefixPath()/6/28
+com.android.gallery3d.data.PathMatcher$Node com.android.gallery3d.data.PathMatcher$Node.getChild(java.lang.String)/1/15
+com.android.gallery3d.exif.ExifTag com.android.gallery3d.exif.ExifParser.readTag()/17/194
+com.android.gallery3d.exif.ExifTag com.android.gallery3d.exif.IfdData.setTag(com.android.gallery3d.exif.ExifTag)/13/22
+com.android.gallery3d.exif.IfdData com.android.gallery3d.exif.ExifData.getIfdData(int)/6/13
+com.android.gallery3d.exif.Rational com.android.gallery3d.exif.ExifParser.readRational()/3/16
+com.android.gallery3d.filtershow.filters.FilterMirrorRepresentation$Mirror com.android.gallery3d.filtershow.filters.FilterMirrorRepresentation.getNil()/2/3
+com.android.gallery3d.filtershow.filters.FilterRepresentation com.android.gallery3d.filtershow.filters.FilterCropRepresentation.copy()/1/6
+com.android.gallery3d.filtershow.filters.FilterRepresentation com.android.gallery3d.filtershow.filters.FilterFxRepresentation.copy()/1/14
+com.android.gallery3d.filtershow.filters.FilterRepresentation com.android.gallery3d.filtershow.filters.FilterImageBorderRepresentation.copy()/1/11
+com.android.gallery3d.filtershow.filters.FilterRepresentation com.android.gallery3d.filtershow.filters.FilterMirrorRepresentation.copy()/2/6
+com.android.gallery3d.filtershow.filters.FilterRepresentation com.android.gallery3d.filtershow.pipeline.ImagePreset.getFilterRepresentationCopyFrom(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/26
+com.android.gallery3d.filtershow.filters.FilterRepresentation com.android.gallery3d.filtershow.pipeline.ImagePreset.getFilterRepresentationForType(int)/1/37
+com.android.gallery3d.filtershow.filters.FilterRepresentation com.android.gallery3d.filtershow.pipeline.ImagePreset.getRepresentation(com.android.gallery3d.filtershow.filters.FilterRepresentation)/2/29
+com.android.gallery3d.filtershow.filters.FilterRotateRepresentation$Rotation com.android.gallery3d.filtershow.filters.FilterRotateRepresentation$Rotation.fromValue(int)/1/36
+com.android.gallery3d.filtershow.filters.ImageFilter com.android.gallery3d.filtershow.filters.BaseFiltersManager.getFilterForRepresentation(com.android.gallery3d.filtershow.filters.FilterRepresentation)/3/13
+com.android.gallery3d.filtershow.imageshow.MasterImage com.android.gallery3d.filtershow.imageshow.MasterImage.getImage()/4/14
+com.android.gallery3d.filtershow.pipeline.Buffer com.android.gallery3d.filtershow.pipeline.SharedBuffer.getProducer()/2/8
+com.android.gallery3d.filtershow.pipeline.ProcessingTask$Result com.android.gallery3d.filtershow.pipeline.RenderingRequestTask.doInBackground(com.android.gallery3d.filtershow.pipeline.ProcessingTask$Request)/1/44
+com.android.gallery3d.glrenderer.GLCanvas com.android.gallery3d.ui.GLRootView.access$400(com.android.gallery3d.ui.GLRootView)/3/3
+com.android.gallery3d.glrenderer.NinePatchInstance com.android.gallery3d.glrenderer.NinePatchTexture.findInstance(com.android.gallery3d.glrenderer.GLCanvas, int, int)/1/34
+com.android.gallery3d.glrenderer.Texture com.android.gallery3d.ui.AlbumSetSlotRenderer.checkContentTexture(com.android.gallery3d.glrenderer.Texture)/32/15
+com.android.gallery3d.glrenderer.Texture com.android.gallery3d.ui.AlbumSetSlotRenderer.checkLabelTexture(com.android.gallery3d.glrenderer.Texture)/13/15
+com.android.gallery3d.glrenderer.Texture com.android.gallery3d.ui.AlbumSlotRenderer.checkTexture(com.android.gallery3d.glrenderer.Texture)/22/15
+com.android.gallery3d.glrenderer.TiledTexture$Tile com.android.gallery3d.glrenderer.TiledTexture.obtainTile()/8/27
+com.android.gallery3d.ui.AlbumSetSlidingWindow$AlbumSetEntry com.android.gallery3d.ui.AlbumSetSlidingWindow.get(int)/27/49
+com.android.gallery3d.ui.AlbumSlidingWindow$AlbumEntry com.android.gallery3d.ui.AlbumSlidingWindow.get(int)/21/49
+com.android.gallery3d.ui.GLView com.android.gallery3d.ui.GLView.getComponent(int)/7/19
+com.android.gallery3d.ui.PhotoView$Listener com.android.gallery3d.ui.PhotoView.access$000(com.android.gallery3d.ui.PhotoView)/2/3
+com.android.gallery3d.ui.PhotoView$Model com.android.gallery3d.ui.PhotoView.access$1400(com.android.gallery3d.ui.PhotoView)/20/3
+com.android.gallery3d.ui.PositionController com.android.gallery3d.ui.PhotoView.access$600(com.android.gallery3d.ui.PhotoView)/16/3
+com.android.gallery3d.ui.ScreenNail com.android.gallery3d.app.PhotoDataAdapter$ScreenNailJob.run(com.android.gallery3d.util.ThreadPool$JobContext)/1/111
+com.android.gallery3d.ui.ScreenNail com.android.gallery3d.app.PhotoDataAdapter.getScreenNail()/1/6
+com.android.gallery3d.ui.ScreenNail com.android.gallery3d.app.PhotoDataAdapter.getScreenNail(int)/6/86
+com.android.gallery3d.ui.SynchronizedHandler com.android.gallery3d.ui.AlbumSlidingWindow.access$400(com.android.gallery3d.ui.AlbumSlidingWindow)/1/3
+com.android.gallery3d.ui.TileImageView com.android.gallery3d.ui.PhotoView.access$1800(com.android.gallery3d.ui.PhotoView)/21/3
+com.android.gallery3d.ui.TileImageView$Tile com.android.gallery3d.ui.TileImageView$TileQueue.pop()/1/9
+com.android.gallery3d.ui.TileImageView$Tile com.android.gallery3d.ui.TileImageView.access$500(com.android.gallery3d.ui.TileImageView, int, int, int)/2/5
+com.android.gallery3d.ui.TileImageView$Tile com.android.gallery3d.ui.TileImageView.getTile(int, int, int)/3/13
+com.android.gallery3d.ui.TileImageView$Tile com.android.gallery3d.ui.TileImageView.obtainTile(int, int, int)/1/26
+com.android.gallery3d.util.Future com.android.gallery3d.app.PhotoDataAdapter.startTaskIfNeeded(int, int)/6/294
+com.android.gallery3d.util.JobLimiter com.android.gallery3d.ui.AlbumSlidingWindow.access$300(com.android.gallery3d.ui.AlbumSlidingWindow)/1/3
+com.android.gallery3d.util.RangeArray com.android.gallery3d.ui.PhotoView.access$2300(com.android.gallery3d.ui.PhotoView)/7/3
+com.android.gallery3d.util.RangeArray com.android.gallery3d.ui.PositionController.access$900(com.android.gallery3d.ui.PositionController)/2/3
+com.android.gallery3d.util.ThreadPool com.android.gallery3d.app.GalleryAppImpl.getThreadPool()/1/19
+com.android.gallery3d.util.ThreadPool com.android.gallery3d.ui.AlbumSetSlidingWindow.access$400(com.android.gallery3d.ui.AlbumSetSlidingWindow)/3/3
+com.android.gallery3d.util.ThreadPool$ResourceCounter com.android.gallery3d.util.ThreadPool$Worker.modeToCounter(int)/3/18
+com.android.photos.data.GalleryBitmapPool com.android.photos.data.GalleryBitmapPool.getInstance()/2/3
+com.android.photos.data.SparseArrayBitmapPool com.android.photos.data.GalleryBitmapPool.getPoolForDimensions(int, int)/2/14
+com.mediatek.camera.platform.Parameters com.android.camera.bridge.CameraDeviceImpl.getParameters()/1/7
+com.mediatek.camera.setting.SettingItem com.mediatek.camera.setting.SettingCtrl.getSetting(int)/7/7
+com.mediatek.camera.setting.SettingItem com.mediatek.camera.setting.SettingGenerator.getSettingItem(int)/7/11
+com.mediatek.camera.setting.SettingItem com.mediatek.camera.setting.SettingGenerator.getSettingItem(int, int)/3/23
+com.mediatek.camera.setting.SettingItem com.mediatek.camera.setting.SettingGenerator.getSettingItem(java.lang.String)/2/9
+com.mediatek.camera.setting.preference.CameraPreference com.mediatek.camera.setting.preference.PreferenceGroup.get(int)/1/9
+com.mediatek.camera.setting.preference.ListPreference com.mediatek.camera.setting.SettingCtrl.getListPreference(java.lang.String)/1/43
+com.mediatek.camera.setting.preference.ListPreference com.mediatek.camera.setting.SettingGenerator.getListPreference(int)/1/25
+com.mediatek.effect.filterpacks.MyUtility com.mediatek.effect.filterpacks.io.MediaEncoderOutFilter.access$000(com.mediatek.effect.filterpacks.io.MediaEncoderOutFilter)/1/3
+com.mediatek.gallery3d.ext.IImageOptionsExt com.mediatek.gallery3d.ext.GalleryPluginUtils.getImageOptionsPlugin()/27/22
+com.mediatek.galleryfeature.dynamic.PlayList$Entry com.mediatek.galleryfeature.dynamic.PlayList.get(int)/426/5
+com.mediatek.galleryfeature.dynamic.PlayThreads$Command com.mediatek.galleryfeature.dynamic.PlayThreads.access$000(com.mediatek.galleryfeature.dynamic.PlayThreads, int)/1/5
+com.mediatek.galleryfeature.dynamic.PlayThreads$Command com.mediatek.galleryfeature.dynamic.PlayThreads.getCmdsForThread(int)/74/84
+com.mediatek.galleryfeature.gif.GifDecoderWrapper com.mediatek.galleryfeature.gif.GifPlayer.access$000(com.mediatek.galleryfeature.gif.GifPlayer)/1/3
+com.mediatek.galleryfeature.gif.GifPlayer$DecodeJob com.mediatek.galleryfeature.gif.GifPlayer.access$302(com.mediatek.galleryfeature.gif.GifPlayer, com.mediatek.galleryfeature.gif.GifPlayer$DecodeJob)/3/3
+com.mediatek.galleryfeature.panorama.PanoramaMesh com.mediatek.galleryfeature.panorama.PanoramaMesh.getInstance(int, int)/2/76
+com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$VideoThumbnail com.mediatek.galleryfeature.video.ThumbnailVideoPlayer.access$000(com.mediatek.galleryfeature.video.ThumbnailVideoPlayer)/6/3
+com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$VideoThumbnail$VideoFrameTexture com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$VideoThumbnail.getFrameTexture(com.mediatek.galleryframework.gl.MGLCanvas)/16/23
+com.mediatek.galleryframework.base.ExtItem com.mediatek.galleryfeature.gif.GifMember.getItem(com.mediatek.galleryframework.base.MediaData)/2/8
+com.mediatek.galleryframework.base.ExtItem com.mediatek.galleryfeature.mav.MavMember.getItem(com.mediatek.galleryframework.base.MediaData)/3/6
+com.mediatek.galleryframework.base.ExtItem com.mediatek.galleryfeature.video.VideoMember.getItem(com.mediatek.galleryframework.base.MediaData)/3/6
+com.mediatek.galleryframework.base.ExtItem com.mediatek.galleryframework.base.MediaCenter.getItem(com.mediatek.galleryframework.base.MediaData)/6/13
+com.mediatek.galleryframework.base.ExtItem com.mediatek.galleryframework.base.MediaMember.getItem(com.mediatek.galleryframework.base.MediaData)/6/6
+com.mediatek.galleryframework.base.Generator com.mediatek.galleryfeature.video.VideoMember.getGenerator()/1/6
+com.mediatek.galleryframework.base.Layer com.mediatek.galleryfeature.drm.DrmMember.getLayer()/1/8
+com.mediatek.galleryframework.base.MediaCenter com.mediatek.gallery3d.adapter.PhotoPlayFacade.getMediaCenter()/2/14
+com.mediatek.galleryframework.base.MediaData com.android.gallery3d.data.MediaItem.getMediaData()/158/10
+com.mediatek.galleryframework.base.MediaData com.mediatek.gallery3d.adapter.MediaDataParser.parseLocalVideoMediaData(com.android.gallery3d.data.LocalVideo, android.database.Cursor)/1/102
+com.mediatek.galleryframework.base.MediaData[] com.mediatek.galleryfeature.dynamic.ThumbnailPlayEngine.transformData(com.mediatek.galleryframework.base.MediaData[])/2/252
+com.mediatek.galleryframework.base.MediaMember com.mediatek.galleryframework.base.MediaCenter.getMember(com.mediatek.galleryframework.base.MediaData)/98/103
+com.mediatek.galleryframework.base.Player com.mediatek.galleryfeature.panorama.PanoramaMember.getPlayer(com.mediatek.galleryframework.base.MediaData, com.mediatek.galleryframework.base.ThumbType)/1/10
+com.mediatek.galleryframework.base.Player com.mediatek.galleryfeature.video.VideoMember.getPlayer(com.mediatek.galleryframework.base.MediaData, com.mediatek.galleryframework.base.ThumbType)/1/66
+com.mediatek.galleryframework.base.Player com.mediatek.galleryframework.base.MediaCenter.getPlayer(com.mediatek.galleryframework.base.MediaData, com.mediatek.galleryframework.base.ThumbType)/2/13
+com.mediatek.galleryframework.base.ThumbType com.mediatek.gallery3d.adapter.FeatureHelper.convertToThumbType(int)/9/46
+com.mediatek.galleryframework.gl.GLIdleExecuter com.mediatek.galleryfeature.video.ThumbnailVideoPlayer.access$100(com.mediatek.galleryfeature.video.ThumbnailVideoPlayer)/2/3
+com.mediatek.galleryframework.gl.GLIdleExecuter$IGLSurfaceViewStatusGetter com.mediatek.galleryframework.gl.GLIdleExecuter.access$300(com.mediatek.galleryframework.gl.GLIdleExecuter)/1/3
+com.mediatek.galleryframework.gl.MGLCanvas com.android.gallery3d.glrenderer.GLES20Canvas.getMGLCanvas()/2/46
+com.mediatek.galleryframework.gl.MGLCanvas com.mediatek.galleryframework.gl.GLIdleExecuter.access$200(com.mediatek.galleryframework.gl.GLIdleExecuter)/1/3
+com.mediatek.galleryframework.gl.MGLES20Canvas$ShaderParameter[] com.mediatek.galleryframework.gl.MGLES20Canvas.prepareTexture(com.mediatek.galleryframework.gl.MBasicTexture)/1/21
+com.mediatek.galleryframework.gl.MRawTexture com.mediatek.galleryframework.gl.MGLES20Canvas.getTargetTexture()/7/17
+com.mediatek.galleryframework.gl.MTexture com.mediatek.galleryfeature.gif.GifPlayer.getTexture(com.mediatek.galleryframework.gl.MGLCanvas)/8/33
+com.mediatek.galleryframework.gl.MTexture com.mediatek.galleryfeature.mav.MavPlayer.getTexture(com.mediatek.galleryframework.gl.MGLCanvas)/4/22
+com.mediatek.galleryframework.gl.MTexture com.mediatek.galleryfeature.panorama.PanoramaPlayer.getTexture(com.mediatek.galleryframework.gl.MGLCanvas)/8/39
+com.mediatek.galleryframework.gl.MTexture com.mediatek.galleryfeature.video.ThumbnailVideoPlayer.getTexture(com.mediatek.galleryframework.gl.MGLCanvas)/6/64
+float com.android.gallery3d.common.Utils.clamp(float, float, float)/28/13
+float com.android.gallery3d.filtershow.imageshow.GeometryMathUtils.scale(float, float, float, float)/1/29
+float com.android.gallery3d.glrenderer.GLES20Canvas.getAlpha()/167/7
+float com.android.gallery3d.ui.PhotoView.access$2400(int, int, int)/1/5
+float com.android.gallery3d.ui.PhotoView.access$2500(com.android.gallery3d.ui.PhotoView, float)/1/5
+float com.android.gallery3d.ui.PhotoView.calculateMoveOutProgress(int, int, int)/8/46
+float com.android.gallery3d.ui.PositionController$Animatable.applyInterpolationCurve(int, float)/7/48
+float com.android.gallery3d.ui.PositionController.getFilmRatio()/13/5
+float com.android.gallery3d.ui.PositionController.getImageScale()/2/12
+float com.android.gallery3d.ui.PositionController.getMaximalScale(com.android.gallery3d.ui.PositionController$Box)/7/29
+float com.android.gallery3d.ui.PositionController.getMinimalScale(com.android.gallery3d.ui.PositionController$Box)/14/102
+float com.mediatek.gallery3d.ext.DefaultImageOptionsExt.getImageDisplayScale(float)/4/7
+float com.mediatek.galleryfeature.panorama.PanoramaHelper.getWidthPercent(int, int)/1/20
+float com.mediatek.galleryframework.gl.MGLES20Canvas.getAlpha()/6/7
+float[] com.android.gallery3d.filtershow.imageshow.Spline.getAppliedCurve()/12/467
+float[] com.android.gallery3d.glrenderer.GLES20Canvas.getColor(int)/1/59
+float[][] com.android.gallery3d.filtershow.filters.SplineMath.calculatetCurve(int)/2/458
+int android.support.v4.app.BackStackRecord.commitInternal(boolean)/1/85
+int android.support.v4.util.ContainerHelpers.binarySearch(long[], int, long)/13/28
+int android.support.v4.util.LongSparseArray.size()/1/10
+int android.support.v4.util.SimpleArrayMap.indexOf(java.lang.Object, int)/1/83
+int com.android.camera.CameraActivity.getCurrentMode()/1/7
+int com.android.camera.CameraActivity.getDisplayOrientation()/1/7
+int com.android.camera.bridge.CameraDeviceCtrl.getCameraId()/4/21
+int com.android.camera.bridge.CameraDeviceManagerImpl.getCurrentCameraId()/6/7
+int com.android.camera.manager.ModePicker.getModeIndex(int)/1/37
+int com.android.gallery3d.app.AlbumSetDataLoader$GetUpdateInfo.getInvalidIndex(long)/6/37
+int com.android.gallery3d.app.GalleryActionBar$ClusterAdapter.getCount()/1/6
+int com.android.gallery3d.app.MovieControllerOverlay$ScreenModeExt.getAddedRightPadding()/1/8
+int com.android.gallery3d.app.OrientationManager.getDisplayRotation()/1/7
+int com.android.gallery3d.app.PhotoDataAdapter.access$1900(com.android.gallery3d.app.PhotoDataAdapter)/1/3
+int com.android.gallery3d.app.PhotoDataAdapter.getImageRotation(int)/11/16
+int com.android.gallery3d.app.PhotoDataAdapter.getLoadingState(int)/1/31
+int com.android.gallery3d.app.StateManager.getStateCount()/2/7
+int com.android.gallery3d.common.OverScroller$SplineOverScroller.access$100(com.android.gallery3d.common.OverScroller$SplineOverScroller)/5/3
+int com.android.gallery3d.common.OverScroller$SplineOverScroller.access$802(com.android.gallery3d.common.OverScroller$SplineOverScroller, int)/1/3
+int com.android.gallery3d.common.OverScroller.getCurrX()/7/7
+int com.android.gallery3d.common.Utils.ceilLog2(float)/1/16
+int com.android.gallery3d.common.Utils.clamp(int, int, int)/8/9
+int com.android.gallery3d.common.Utils.compare(long, long)/3/14
+int com.android.gallery3d.common.Utils.floorLog2(float)/8/18
+int com.android.gallery3d.common.Utils.nextPowerOf2(int)/3/51
+int com.android.gallery3d.data.DataManager$DateTakenComparator.compare(com.android.gallery3d.data.MediaItem, com.android.gallery3d.data.MediaItem)/3/14
+int com.android.gallery3d.data.DataManager$DateTakenComparator.compare(java.lang.Object, java.lang.Object)/2/9
+int com.android.gallery3d.data.DataSourceType.identifySourceType(com.android.gallery3d.data.MediaSet)/1/32
+int com.android.gallery3d.data.LocalAlbum.getMediaItemCount()/12/138
+int com.android.gallery3d.data.LocalAlbumSet.access$100(com.android.gallery3d.data.LocalAlbumSet)/1/3
+int com.android.gallery3d.data.LocalImage.getSupportedOperations()/2/215
+int com.android.gallery3d.data.LocalMergeAlbum.access$000(com.android.gallery3d.data.LocalMergeAlbum)/15/3
+int com.android.gallery3d.data.LocalMergeAlbum.getMediaItemCount()/1/5
+int com.android.gallery3d.data.LocalMergeAlbum.getTotalMediaItemCount()/3/18
+int com.android.gallery3d.data.LocalSource$IdComparator.compare(com.android.gallery3d.data.MediaSource$PathId, com.android.gallery3d.data.MediaSource$PathId)/1/33
+int com.android.gallery3d.data.MediaItem.getFullImageRotation()/7/5
+int com.android.gallery3d.data.MediaItem.getTargetSize(int)/3/36
+int com.android.gallery3d.data.MediaSet.enumerateMediaItems(com.android.gallery3d.data.MediaSet$ItemConsumer, int)/1/44
+int com.android.gallery3d.data.MediaSet.getTotalMediaItemCount()/2/24
+int com.android.gallery3d.data.TimeClustering$DateComparator.compare(java.lang.Object, java.lang.Object)/2/9
+int com.android.gallery3d.exif.CountedDataInputStream.read(byte[], int, int)/64/17
+int com.android.gallery3d.exif.CountedDataInputStream.readInt()/27/19
+int com.android.gallery3d.exif.CountedDataInputStream.readUnsignedShort()/2/9
+int com.android.gallery3d.exif.ExifInterface.getDefinedTagDefaultIfd(int)/1/17
+int com.android.gallery3d.exif.ExifParser.next()/24/410
+int com.android.gallery3d.exif.ExifParser.read(byte[])/1/7
+int com.android.gallery3d.exif.ExifParser.readLong()/7/7
+int com.android.gallery3d.exif.ExifParser.readUnsignedShort()/2/11
+int com.android.gallery3d.exif.ExifTag.getDataSize()/4/14
+int com.android.gallery3d.exif.ExifTag.getElementSize(short)/7/5
+int com.android.gallery3d.filtershow.imageshow.GeometryMathUtils.getRotationForOrientation(int)/2/30
+int com.android.gallery3d.glrenderer.TextureUploader.upload(com.android.gallery3d.glrenderer.GLCanvas, java.util.ArrayDeque, int, boolean)/1/45
+int com.android.gallery3d.glrenderer.UploadedTexture.getHeight()/110/11
+int com.android.gallery3d.glrenderer.UploadedTexture.getWidth()/126/11
+int com.android.gallery3d.ui.AlbumLabelMaker.access$500(com.android.gallery3d.ui.AlbumLabelMaker)/1/3
+int com.android.gallery3d.ui.AlbumSetSlidingWindow.identifyCacheFlag(com.android.gallery3d.data.MediaSet)/1/17
+int com.android.gallery3d.ui.AlbumSetSlotRenderer.renderContent(com.android.gallery3d.glrenderer.GLCanvas, int, com.android.gallery3d.ui.AlbumSetSlidingWindow$AlbumSetEntry, int, int, boolean)/43/134
+int com.android.gallery3d.ui.AlbumSetSlotRenderer.renderOverlay(com.android.gallery3d.glrenderer.GLCanvas, int, com.android.gallery3d.ui.AlbumSetSlidingWindow$AlbumSetEntry, int, int, boolean)/19/134
+int com.android.gallery3d.ui.AlbumSetSlotRenderer.renderSlot(com.android.gallery3d.glrenderer.GLCanvas, int, int, int, int)/7/83
+int com.android.gallery3d.ui.AlbumSlotRenderer.renderOverlay(com.android.gallery3d.glrenderer.GLCanvas, int, com.android.gallery3d.ui.AlbumSlidingWindow$AlbumEntry, int, int)/14/108
+int com.android.gallery3d.ui.AlbumSlotRenderer.renderSlot(com.android.gallery3d.glrenderer.GLCanvas, int, int, int, int)/26/171
+int com.android.gallery3d.ui.EdgeEffect$Drawable.getIntrinsicHeight()/6/5
+int com.android.gallery3d.ui.EdgeEffect$Drawable.getIntrinsicWidth()/7/5
+int com.android.gallery3d.ui.GLView.getComponentCount()/18/13
+int com.android.gallery3d.ui.GLView.getHeight()/26/10
+int com.android.gallery3d.ui.GLView.getVisibility()/16/10
+int com.android.gallery3d.ui.GLView.getWidth()/22/10
+int com.android.gallery3d.ui.PhotoView$FullPicture.getRotation()/11/6
+int com.android.gallery3d.ui.PhotoView.access$1300(com.android.gallery3d.ui.PhotoView)/2/3
+int com.android.gallery3d.ui.PhotoView.access$2100(int, int, int)/31/5
+int com.android.gallery3d.ui.PhotoView.access$300(com.android.gallery3d.ui.PhotoView)/2/3
+int com.android.gallery3d.ui.PhotoView.access$3200(com.android.gallery3d.ui.PhotoView, float)/1/5
+int com.android.gallery3d.ui.PhotoView.covertToEngineIndex(int)/32/6
+int com.android.gallery3d.ui.PhotoView.getIconSize(float)/1/25
+int com.android.gallery3d.ui.PhotoView.getRotated(int, int, int)/86/7
+int com.android.gallery3d.ui.PhotoView.switchPosition()/2/68
+int com.android.gallery3d.ui.PositionController.access$1600(com.android.gallery3d.ui.PositionController)/1/3
+int com.android.gallery3d.ui.PositionController.gapToSide(com.android.gallery3d.ui.PositionController$Box)/5/20
+int com.android.gallery3d.ui.PositionController.getDefaultGapSize(int)/1/41
+int com.android.gallery3d.ui.PositionController.getImageHeight()/2/12
+int com.android.gallery3d.ui.PositionController.heightOf(com.android.gallery3d.ui.PositionController$Box)/28/11
+int com.android.gallery3d.ui.PositionController.heightOf(com.android.gallery3d.ui.PositionController$Box, float)/6/9
+int com.android.gallery3d.ui.PositionController.widthOf(com.android.gallery3d.ui.PositionController$Box)/26/11
+int com.android.gallery3d.ui.PositionController.widthOf(com.android.gallery3d.ui.PositionController$Box, float)/3/9
+int com.android.gallery3d.ui.ScrollerHelper.getPosition()/8/39
+int com.android.gallery3d.ui.SlotView$DefaultLayout.getScrollLimit()/3/23
+int com.android.gallery3d.ui.SlotView.renderItem(com.android.gallery3d.glrenderer.GLCanvas, int, int, boolean)/16/97
+int com.android.gallery3d.ui.TileImageView$Tile.getTextureWidth()/2/5
+int com.android.gallery3d.ui.TileImageView.access$300()/4/3
+int com.android.gallery3d.util.GalleryUtils.getBucketId(java.lang.String)/9/9
+int com.android.gallery3d.util.IntArray.removeLast()/104/13
+int com.android.gallery3d.util.RangeIntArray.get(int)/1/9
+int com.android.gallery3d.util.UpdateHelper.update(int, int)/2/7
+int com.android.photos.data.GalleryBitmapPool.getPoolIndexForDimensions(int, int)/9/40
+int com.mediatek.camera.setting.SettingConstants.getSettingId(java.lang.String)/1/22
+int com.mediatek.camera.setting.SettingConstants.getSettingType(int)/1/5
+int com.mediatek.camera.setting.rule.CommonRule.conditionSatisfied(java.lang.String)/1/7
+int com.mediatek.gallery3d.adapter.FeatureHelper.mergeSupportOperations(int, java.util.ArrayList, java.util.ArrayList)/2/73
+int com.mediatek.gallery3d.layout.FancyHelper.getScreenWidthAtFancyMode()/2/9
+int com.mediatek.gallery3d.layout.FancyLayout.getScrollLimit()/9/11
+int com.mediatek.gallery3d.layout.FancyLayout.isVisible(int, int)/10/67
+int com.mediatek.galleryfeature.dynamic.PhotoPlayEngine.getPlayHeight(int, com.mediatek.galleryframework.base.MediaData)/18/63
+int com.mediatek.galleryfeature.dynamic.PhotoPlayEngine.getPlayWidth(int, com.mediatek.galleryframework.base.MediaData)/20/63
+int com.mediatek.galleryfeature.dynamic.PlayList.findEntryByMediaData(com.mediatek.galleryfeature.dynamic.PlayList$Entry[], com.mediatek.galleryframework.base.MediaData)/17/30
+int com.mediatek.galleryfeature.dynamic.ThumbnailPlayEngine$TimeStampComparator.compare(java.lang.Object, java.lang.Object)/1/9
+int com.mediatek.galleryfeature.mav.MavPlayer$Config.access$600(com.mediatek.galleryframework.base.ThumbType)/1/5
+int com.mediatek.galleryfeature.mav.MavPlayer$Config.access$700()/1/3
+int com.mediatek.galleryfeature.mav.MavPlayer.getOutputHeight()/5/9
+int com.mediatek.galleryfeature.mav.MavPlayer.getOutputWidth()/4/9
+int com.mediatek.galleryfeature.mav.MavPlayer.getSleepTime()/1/5
+int com.mediatek.galleryfeature.mav.MpoDecoderWrapper.frameCount()/1/13
+int com.mediatek.galleryfeature.panorama.PanoramaHelper.getMiddleThumbHeight()/6/3
+int com.mediatek.galleryfeature.panorama.PanoramaHelper.getMiddleThumbWidth()/5/3
+int com.mediatek.galleryfeature.panorama.PanoramaPlayer.getOutputHeight()/6/33
+int com.mediatek.galleryfeature.panorama.PanoramaPlayer.getOutputWidth()/5/36
+int com.mediatek.galleryframework.base.ThumbType.getTargetSize()/1/30
+int com.mediatek.galleryframework.gl.IntArray.removeLast()/3/13
+int com.mediatek.galleryframework.gl.MUploadedTexture.getHeight()/15/11
+int com.mediatek.galleryframework.gl.MUploadedTexture.getWidth()/18/11
+int com.mediatek.galleryframework.util.Utils.nextPowerOf2(int)/1/51
+int com.mediatek.transcode.VideoTranscode.transcodeAdv(long, java.lang.String, java.lang.String, long, long, long, long, long, long)/1/0
+int[] com.android.gallery3d.exif.IfdData.getIfds()/1/3
+int[] com.android.gallery3d.ui.SlotView.expandIntArray(int[], int)/10/10
+int[] com.mediatek.camera.setting.preference.IntArray.toArray(int[])/1/20
+int[] com.mediatek.gallery3d.layout.FancyLayout.calcVisibleStartAndEnd(int)/13/580
+java.lang.CharSequence[] com.android.gallery3d.app.GalleryActionBar.access$300(com.android.gallery3d.app.GalleryActionBar)/1/3
+java.lang.Long com.android.gallery3d.filtershow.cache.BitmapCache.calcKey(long, long)/2/10
+java.lang.Object android.support.v4.util.LongSparseArray.get(long, java.lang.Object)/5/24
+java.lang.Object android.support.v4.util.LongSparseArray.valueAt(int)/10/12
+java.lang.Object com.android.gallery3d.app.AlbumSetDataLoader$UpdateContent.call()/1/5
+java.lang.Object com.android.gallery3d.app.TransitionStore.get(java.lang.Object, java.lang.Object)/1/11
+java.lang.Object com.android.gallery3d.common.Utils.checkNotNull(java.lang.Object)/1/9
+java.lang.Object com.android.gallery3d.data.ImageCacheRequest.run(com.android.gallery3d.util.ThreadPool$JobContext)/3/5
+java.lang.Object com.android.gallery3d.glrenderer.NinePatchTexture$SmallCache.get(int)/6/82
+java.lang.Object com.android.gallery3d.util.IdentityCache.get(java.lang.Object)/20/25
+java.lang.Object com.android.gallery3d.util.IdentityCache.put(java.lang.Object, java.lang.Object)/4/32
+java.lang.Object com.android.gallery3d.util.JobLimiter$JobWrapper.run(com.android.gallery3d.util.ThreadPool$JobContext)/3/83
+java.lang.Object com.android.gallery3d.util.RangeArray.get(int)/291/9
+java.lang.Object com.android.gallery3d.util.ThreadPool$Worker.get()/2/25
+java.lang.Object com.android.gallery3d.util.UpdateHelper.update(java.lang.Object, java.lang.Object)/2/11
+java.lang.String com.android.camera.Storage.generateFileName(java.lang.String, int)/1/71
+java.lang.String com.android.gallery3d.app.TimeBar.stringForTime(long)/1/73
+java.lang.String com.android.gallery3d.data.LocalAlbum.getLocalizedName(android.content.res.Resources, int, java.lang.String)/7/63
+java.lang.String com.android.gallery3d.data.LocalAlbum.getName()/1/15
+java.lang.String com.android.gallery3d.data.LocalMergeAlbum.getName()/1/18
+java.lang.String com.android.gallery3d.data.Path.toString()/16/38
+java.lang.String com.android.gallery3d.filtershow.pipeline.CachingPipeline.getType(com.android.gallery3d.filtershow.pipeline.RenderingRequest)/1/62
+java.lang.String com.mediatek.camera.ModuleManager.getSettingValue(com.mediatek.camera.ICameraMode$CameraModeType)/1/68
+java.lang.String com.mediatek.camera.setting.preference.ListPreference.toString()/1/90
+java.lang.String com.mediatek.camera.setting.preference.RecordLocationPreference.getValue()/1/20
+java.lang.String com.mediatek.gallery3d.ext.DefaultMovieItem.toString()/2/76
+java.lang.String com.mediatek.galleryfeature.drm.DrmFilter.getDeleteWhereClauseForImage(int, int)/1/5
+java.lang.String com.mediatek.galleryfeature.drm.DrmFilter.getWhereClauseForVideo(int, int)/1/5
+java.lang.String com.mediatek.galleryfeature.drm.DrmFilter.getWhereClauseInternal(int)/1/62
+java.lang.String com.mediatek.galleryfeature.dynamic.PlayThreads$Command.toString()/6/140
+java.lang.String com.mediatek.galleryframework.base.Generator.getVideoThumbnailPathFromOriginalFilePath(com.mediatek.galleryframework.base.MediaData, int)/4/99
+java.lang.String com.mediatek.galleryframework.base.MediaFilter.AND(java.lang.String, java.lang.String)/17/81
+java.lang.String com.mediatek.galleryframework.base.MediaFilter.OR(java.lang.String, java.lang.String)/21/81
+java.lang.String com.mediatek.galleryframework.base.MediaFilter.getExtDeleteWhereClauseForImage(java.lang.String, int)/4/30
+java.lang.String com.mediatek.galleryframework.base.MediaFilter.getExtDeleteWhereClauseForVideo(java.lang.String, int)/1/30
+java.lang.String com.mediatek.galleryframework.base.MediaFilterSetting.getExtDeleteWhereClauseForImage(java.lang.String, int)/2/14
+java.lang.String[] com.android.gallery3d.data.Path.split()/55/39
+java.lang.String[] com.android.gallery3d.data.Path.split(java.lang.String)/40/126
+java.lang.String[] com.android.gallery3d.data.Path.splitSequence(java.lang.String)/3/133
+java.nio.ByteOrder com.android.gallery3d.exif.ExifParser.getByteOrder()/1/7
+java.util.ArrayDeque com.android.gallery3d.ui.GLRootView.access$200(com.android.gallery3d.ui.GLRootView)/6/3
+java.util.ArrayDeque com.mediatek.galleryframework.gl.GLIdleExecuter.access$100(com.mediatek.galleryframework.gl.GLIdleExecuter)/4/3
+java.util.ArrayList com.android.gallery3d.data.ClusterAlbum.getMediaItemFromPath(java.util.ArrayList, int, int, com.android.gallery3d.data.DataManager)/2/67
+java.util.ArrayList com.android.gallery3d.data.LocalAlbum.getMediaItem(int, int)/1/158
+java.util.ArrayList com.android.gallery3d.data.LocalMergeAlbum.getMediaItem(int, int)/11/169
+java.util.ArrayList com.mediatek.galleryfeature.dynamic.PlayThreads.access$100(com.mediatek.galleryfeature.dynamic.PlayThreads)/2/3
+java.util.Collection com.android.gallery3d.filtershow.pipeline.ImagePreset.getGeometryFilters()/1/35
+java.util.List com.mediatek.camera.setting.SettingCtrl.queryConditionSettings(java.lang.String)/6/110
+java.util.List com.mediatek.camera.setting.SettingCtrl.queryResultSettings(java.lang.String)/16/112
+java.util.concurrent.locks.ReentrantLock com.android.gallery3d.ui.GLRootView.access$300(com.android.gallery3d.ui.GLRootView)/3/3
+long com.android.gallery3d.app.GalleryActionBar$ClusterAdapter.getItemId(int)/1/10
+long com.android.gallery3d.common.Utils.crc64Long(byte[])/5/26
+long com.android.gallery3d.data.ClusterAlbumSet.reload()/1/143
+long com.android.gallery3d.data.ComboAlbumSet.synchronizedAlbumData()/1/36
+long com.android.gallery3d.data.LocalAlbum.reload()/2/23
+long com.android.gallery3d.data.LocalMergeAlbum.reload()/1/42
+long com.android.gallery3d.data.MediaObject.nextVersionNumber()/10/15
+long com.android.gallery3d.exif.CountedDataInputStream.readUnsignedInt()/12/12
+long com.android.gallery3d.exif.CountedDataInputStream.skip(long)/8/14
+long com.android.gallery3d.exif.ExifParser.readUnsignedLong()/5/12
+long com.android.gallery3d.ui.AlbumSetSlidingWindow.getDataVersion(com.android.gallery3d.data.MediaObject)/3/10
+long com.android.gallery3d.ui.AnimationTime.get()/16/3
+long com.android.gallery3d.ui.TileImageView.makeTileKey(int, int, int)/2/14
+long com.mediatek.gallery3d.layout.EdgeAnimation.now()/1/5
+long com.mediatek.transcode.VideoTranscode.init()/1/0
+short com.android.gallery3d.exif.CountedDataInputStream.readShort()/28/19
+void android.support.v4.app.BackStackRecord$TransitionState.<init>(android.support.v4.app.BackStackRecord)/1/27
+void android.support.v4.app.Fragment.<init>()/1/40
+void android.support.v4.app.Fragment.performStop()/1/51
+void android.support.v4.app.FragmentManagerImpl.moveToState(android.support.v4.app.Fragment, int, int, int, boolean)/2/1022
+void android.support.v4.app.FragmentManagerImpl.moveToState(int, int, int, boolean)/1/95
+void android.support.v4.app.FragmentManagerImpl.noteStateNotSaved()/1/4
+void android.support.v4.app.FragmentManagerImpl.startPendingDeferredFragments()/1/30
+void android.support.v4.util.LongSparseArray.clear()/1/19
+void android.support.v4.util.LongSparseArray.gc()/1/38
+void android.support.v4.util.LongSparseArray.put(long, java.lang.Object)/1/147
+void android.support.v8.renderscript.FieldPacker.addI32(int)/2/75
+void android.support.v8.renderscript.FieldPacker.addU32(long)/1/137
+void android.support.v8.renderscript.FieldPacker.reset()/1/16
+void android.support.v8.renderscript.FieldPackerThunker.<init>(int)/1/14
+void android.support.v8.renderscript.FieldPackerThunker.addF32(float)/1/12
+void android.support.v8.renderscript.FieldPackerThunker.addI32(int)/3/12
+void com.android.camera.CameraActivity$MyOrientationEventListener.updateOrientation(int)/1/141
+void com.android.camera.FocusManager.removeMessages()/1/25
+void com.android.camera.bridge.CameraAppUiImpl.showIndicator(int)/1/52
+void com.android.camera.manager.ModePicker.onRefresh()/1/225
+void com.android.camera.manager.ViewManager.hide()/1/46
+void com.android.camera.manager.ViewManager.refresh()/1/8
+void com.android.camera.ui.MaxLinearLayout.onMeasure(int, int)/1/16
+void com.android.camera.ui.TwoStateImageView.setEnabled(boolean)/1/22
+void com.android.gallery3d.anim.Animation.<init>()/2/8
+void com.android.gallery3d.anim.FloatAnimation.onCalculate(float)/1/12
+void com.android.gallery3d.anim.StateTransitionAnimation.applyContentTransform(com.android.gallery3d.ui.GLView, com.android.gallery3d.glrenderer.GLCanvas)/2/39
+void com.android.gallery3d.anim.StateTransitionAnimation.onCalculate(float)/1/103
+void com.android.gallery3d.app.ActivityState.setStateResult(int, android.content.Intent)/1/14
+void com.android.gallery3d.app.AlbumPage.access$1800(com.android.gallery3d.app.AlbumPage, int)/1/4
+void com.android.gallery3d.app.AlbumSetDataLoader$UpdateInfo.<init>(com.android.gallery3d.app.AlbumSetDataLoader$1)/1/4
+void com.android.gallery3d.app.AlbumSetDataLoader.assertIsActive(int)/4/49
+void com.android.gallery3d.app.AlbumSetPage$1.render(com.android.gallery3d.glrenderer.GLCanvas)/1/56
+void com.android.gallery3d.app.AlbumSetPage$MyLoadingListener.<init>(com.android.gallery3d.app.AlbumSetPage)/1/6
+void com.android.gallery3d.app.AlbumSetPage.setLoadingBit(int)/1/6
+void com.android.gallery3d.app.GalleryActionBar.setClusterItemEnabled(int, boolean)/1/18
+void com.android.gallery3d.app.GalleryActionBar.setDisplayOptions(boolean, boolean)/1/27
+void com.android.gallery3d.app.MovieControllerOverlay.updateViews()/1/157
+void com.android.gallery3d.app.MoviePlayer$ScreenModeExt.<init>(com.android.gallery3d.app.MoviePlayer)/1/16
+void com.android.gallery3d.app.PanoramaMetadataSupport.<init>(com.android.gallery3d.data.MediaObject)/10/13
+void com.android.gallery3d.app.PanoramaMetadataSupport.getPanoramaSupport(com.android.gallery3d.app.GalleryApp, com.android.gallery3d.data.MediaObject$PanoramaSupportCallback)/4/67
+void com.android.gallery3d.app.PhotoDataAdapter$ScreenNailListener.<init>(com.android.gallery3d.app.PhotoDataAdapter, com.android.gallery3d.data.MediaItem)/1/12
+void com.android.gallery3d.app.PhotoDataAdapter.access$2600(com.android.gallery3d.app.PhotoDataAdapter)/1/4
+void com.android.gallery3d.app.PhotoDataAdapter.fireDataChange()/2/146
+void com.android.gallery3d.app.PhotoDataAdapter.updateHighQualityScreenNail(com.android.gallery3d.data.Path, com.android.gallery3d.util.Future)/1/77
+void com.android.gallery3d.app.PhotoDataAdapter.updateImageCache()/1/191
+void com.android.gallery3d.app.PhotoDataAdapter.updateImageRequests()/8/137
+void com.android.gallery3d.app.PhotoDataAdapter.uploadScreenNail(int)/10/86
+void com.android.gallery3d.app.PhotoPage.transitionFromAlbumPageIfNeeded()/1/112
+void com.android.gallery3d.app.SlideshowPage$3.<init>(com.android.gallery3d.app.SlideshowPage)/1/6
+void com.android.gallery3d.app.SlideshowPage$Slide.<init>(com.android.gallery3d.data.MediaItem, int, android.graphics.Bitmap)/1/10
+void com.android.gallery3d.app.TimeBar$LayoutExt.<init>(com.android.gallery3d.app.TimeBar)/1/6
+void com.android.gallery3d.common.BlobCache$LookupRequest.<init>()/8/4
+void com.android.gallery3d.common.BlobCache.writeInt(byte[], int, int)/1/17
+void com.android.gallery3d.common.OverScroller$SplineOverScroller.finish()/1/8
+void com.android.gallery3d.common.Utils.assertTrue(boolean)/41/9
+void com.android.gallery3d.common.Utils.closeSilently(java.io.Closeable)/1/16
+void com.android.gallery3d.data.BytesBufferPool.recycle(com.android.gallery3d.data.BytesBufferPool$BytesBuffer)/9/35
+void com.android.gallery3d.data.ChangeNotifier.onChange(boolean)/1/16
+void com.android.gallery3d.data.ClusterAlbum$1.consume(int, com.android.gallery3d.data.MediaItem)/7/5
+void com.android.gallery3d.data.DecodeUtils$DecodeCanceller.<init>(android.graphics.BitmapFactory$Options)/2/6
+void com.android.gallery3d.data.FilterDeleteSet.resetDeletion()/1/10
+void com.android.gallery3d.data.ImageCacheRequest.<init>(com.android.gallery3d.app.GalleryApp, com.android.gallery3d.data.Path, long, int, java.lang.String, int)/1/62
+void com.android.gallery3d.data.ImageCacheService.putImageData(com.android.gallery3d.data.Path, long, int, byte[])/1/56
+void com.android.gallery3d.data.LocalImage.<init>(com.android.gallery3d.data.Path, com.android.gallery3d.app.GalleryApp, android.database.Cursor)/7/28
+void com.android.gallery3d.data.LocalImage.getPanoramaSupport(com.android.gallery3d.data.MediaObject$PanoramaSupportCallback)/5/8
+void com.android.gallery3d.data.LocalMediaItem.<init>(com.android.gallery3d.data.Path, long)/12/10
+void com.android.gallery3d.data.LocalMediaItem.getLatLong(double[])/3/11
+void com.android.gallery3d.data.LocalMediaItem.updateContent(android.database.Cursor)/7/13
+void com.android.gallery3d.data.LocalMergeAlbum$FetchCache.<init>(com.android.gallery3d.data.LocalMergeAlbum, com.android.gallery3d.data.MediaSet)/1/8
+void com.android.gallery3d.data.LocalMergeAlbum$FetchCache.invalidate()/2/4
+void com.android.gallery3d.data.LocalMergeAlbum.invalidateCache()/1/37
+void com.android.gallery3d.data.LocalMergeAlbum.onContentDirty()/1/4
+void com.android.gallery3d.data.LocalMergeAlbum.updateData()/1/79
+void com.android.gallery3d.data.LocalVideo.<init>(com.android.gallery3d.data.Path, com.android.gallery3d.app.GalleryApp, android.database.Cursor)/3/47
+void com.android.gallery3d.data.LocationClustering$1.consume(int, com.android.gallery3d.data.MediaItem)/2/43
+void com.android.gallery3d.data.LocationClustering$SmallItem.<init>()/2/4
+void com.android.gallery3d.data.LocationClustering$SmallItem.<init>(com.android.gallery3d.data.LocationClustering$1)/3/4
+void com.android.gallery3d.data.MediaItem.<init>(com.android.gallery3d.data.Path, long)/10/16
+void com.android.gallery3d.data.MediaObject.<init>(com.android.gallery3d.data.Path, long)/16/11
+void com.android.gallery3d.data.MediaObject.getPanoramaSupport(com.android.gallery3d.data.MediaObject$PanoramaSupportCallback)/1/5
+void com.android.gallery3d.data.MediaSet.<init>(com.android.gallery3d.data.Path, long)/1/21
+void com.android.gallery3d.data.MediaSet.notifyContentChanged()/1/34
+void com.android.gallery3d.data.MediaSet.removeContentListener(com.android.gallery3d.data.ContentListener)/1/13
+void com.android.gallery3d.data.MediaSource$PathId.<init>(com.android.gallery3d.data.Path, int)/1/8
+void com.android.gallery3d.data.Path.<init>(com.android.gallery3d.data.Path, java.lang.String)/6/8
+void com.android.gallery3d.data.Path.setObject(com.android.gallery3d.data.MediaObject)/16/33
+void com.android.gallery3d.data.SmallItem.<init>()/3/4
+void com.android.gallery3d.exif.ByteBufferInputStream.<init>(java.nio.ByteBuffer)/1/6
+void com.android.gallery3d.exif.CountedDataInputStream.<init>(java.io.InputStream)/1/21
+void com.android.gallery3d.exif.CountedDataInputStream.readOrThrow(byte[])/5/6
+void com.android.gallery3d.exif.CountedDataInputStream.readOrThrow(byte[], int, int)/48/13
+void com.android.gallery3d.exif.CountedDataInputStream.skipOrThrow(long)/8/15
+void com.android.gallery3d.exif.CountedDataInputStream.skipTo(long)/8/25
+void com.android.gallery3d.exif.ExifData.addIfdData(com.android.gallery3d.exif.IfdData)/3/9
+void com.android.gallery3d.exif.ExifInterface.initTagInfo()/167/1574
+void com.android.gallery3d.exif.ExifParser$ExifTagEvent.<init>(com.android.gallery3d.exif.ExifTag, boolean)/10/8
+void com.android.gallery3d.exif.ExifParser$IfdEvent.<init>(int, boolean)/2/8
+void com.android.gallery3d.exif.ExifParser.<init>(java.io.InputStream, int, com.android.gallery3d.exif.ExifInterface)/1/131
+void com.android.gallery3d.exif.ExifParser.checkOffsetOrImageTag(com.android.gallery3d.exif.ExifTag)/27/254
+void com.android.gallery3d.exif.ExifParser.parseTiffHeader()/1/56
+void com.android.gallery3d.exif.ExifParser.readFullTagValue(com.android.gallery3d.exif.ExifTag)/9/470
+void com.android.gallery3d.exif.ExifParser.registerForTagValue(com.android.gallery3d.exif.ExifTag)/4/32
+void com.android.gallery3d.exif.ExifParser.skipTo(int)/10/35
+void com.android.gallery3d.exif.ExifReader.<init>(com.android.gallery3d.exif.ExifInterface)/1/6
+void com.android.gallery3d.exif.ExifTag.<init>(short, short, int, int, boolean)/9/17
+void com.android.gallery3d.exif.Rational.<init>(long, long)/6/8
+void com.android.gallery3d.filtershow.controller.BasicParameterInt.<init>(int, int, int, int)/2/23
+void com.android.gallery3d.filtershow.controller.BasicParameterInt.copyFrom(com.android.gallery3d.filtershow.controller.Parameter)/1/38
+void com.android.gallery3d.filtershow.controller.BasicParameterInt.setValue(int)/3/12
+void com.android.gallery3d.filtershow.controller.ParameterColor.copyPalletFrom(com.android.gallery3d.filtershow.controller.ParameterColor)/3/12
+void com.android.gallery3d.filtershow.controller.ParameterColor.setColorpalette(int[])/1/8
+void com.android.gallery3d.filtershow.filters.ColorSpaceMatrix.multiply(float[])/2/81
+void com.android.gallery3d.filtershow.filters.FilterBasicRepresentation.useParametersFrom(com.android.gallery3d.filtershow.filters.FilterRepresentation)/2/43
+void com.android.gallery3d.filtershow.filters.FilterCropRepresentation.<init>(android.graphics.RectF)/1/48
+void com.android.gallery3d.filtershow.filters.FilterCropRepresentation.<init>(com.android.gallery3d.filtershow.filters.FilterCropRepresentation)/1/13
+void com.android.gallery3d.filtershow.filters.FilterCropRepresentation.setCrop(android.graphics.RectF)/1/16
+void com.android.gallery3d.filtershow.filters.FilterCropRepresentation.useParametersFrom(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/20
+void com.android.gallery3d.filtershow.filters.FilterDrawRepresentation.useParametersFrom(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/104
+void com.android.gallery3d.filtershow.filters.FilterFxRepresentation.<init>(java.lang.String, int, int)/4/38
+void com.android.gallery3d.filtershow.filters.FilterFxRepresentation.copyAllParameters(com.android.gallery3d.filtershow.filters.FilterRepresentation)/2/7
+void com.android.gallery3d.filtershow.filters.FilterFxRepresentation.useParametersFrom(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/42
+void com.android.gallery3d.filtershow.filters.FilterGradRepresentation$Band.<init>()/4/27
+void com.android.gallery3d.filtershow.filters.FilterGradRepresentation$Band.<init>(com.android.gallery3d.filtershow.filters.FilterGradRepresentation$Band)/6/59
+void com.android.gallery3d.filtershow.filters.FilterGradRepresentation.creatExample()/1/46
+void com.android.gallery3d.filtershow.filters.FilterImageBorderRepresentation.<init>(int)/1/35
+void com.android.gallery3d.filtershow.filters.FilterImageBorderRepresentation.copyAllParameters(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/7
+void com.android.gallery3d.filtershow.filters.FilterImageBorderRepresentation.useParametersFrom(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/22
+void com.android.gallery3d.filtershow.filters.FilterMirrorRepresentation.setMirror(com.android.gallery3d.filtershow.filters.FilterMirrorRepresentation$Mirror)/1/13
+void com.android.gallery3d.filtershow.filters.FilterRepresentation.<init>(java.lang.String)/7/29
+void com.android.gallery3d.filtershow.filters.FilterRotateRepresentation.setRotation(com.android.gallery3d.filtershow.filters.FilterRotateRepresentation$Rotation)/1/13
+void com.android.gallery3d.filtershow.filters.FilterStraightenRepresentation.<init>(float)/2/42
+void com.android.gallery3d.filtershow.filters.FilterStraightenRepresentation.setStraighten(float)/1/22
+void com.android.gallery3d.filtershow.filters.FilterStraightenRepresentation.useParametersFrom(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/22
+void com.android.gallery3d.filtershow.filters.ImageFilter.nativeApplyGradientFilter(android.graphics.Bitmap, int, int, int[], int[], int[])/6/0
+void com.android.gallery3d.filtershow.filters.ImageFilterBorder.freeResources()/1/6
+void com.android.gallery3d.filtershow.filters.ImageFilterColorBorder.useRepresentation(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/6
+void com.android.gallery3d.filtershow.filters.ImageFilterContrast.nativeApplyFilter(android.graphics.Bitmap, int, int, float)/9/0
+void com.android.gallery3d.filtershow.filters.ImageFilterExposure.nativeApplyFilter(android.graphics.Bitmap, int, int, float)/10/0
+void com.android.gallery3d.filtershow.filters.ImageFilterFx.nativeApplyFilter(android.graphics.Bitmap, int, int, android.graphics.Bitmap, int, int, int, int)/38/0
+void com.android.gallery3d.filtershow.filters.ImageFilterHighlights.nativeApplyFilter(android.graphics.Bitmap, int, int, float[])/1/0
+void com.android.gallery3d.filtershow.filters.ImageFilterHue.nativeApplyFilter(android.graphics.Bitmap, int, int, float[])/5/0
+void com.android.gallery3d.filtershow.filters.ImageFilterNegative.nativeApplyFilter(android.graphics.Bitmap, int, int)/1/0
+void com.android.gallery3d.filtershow.filters.ImageFilterShadows.nativeApplyFilter(android.graphics.Bitmap, int, int, float)/5/0
+void com.android.gallery3d.filtershow.filters.ImageFilterVibrance.nativeApplyFilter(android.graphics.Bitmap, int, int, float)/7/0
+void com.android.gallery3d.filtershow.filters.ImageFilterWBalance.nativeApplyFilter(android.graphics.Bitmap, int, int, int, int)/8/0
+void com.android.gallery3d.filtershow.filters.SimpleImageFilter.useRepresentation(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/6
+void com.android.gallery3d.filtershow.filters.SplineMath.setPoint(int, double, double)/1/18
+void com.android.gallery3d.filtershow.imageshow.ControlPoint.<init>(com.android.gallery3d.filtershow.imageshow.ControlPoint)/1/12
+void com.android.gallery3d.filtershow.imageshow.GeometryMathUtils.unpackGeometry(com.android.gallery3d.filtershow.imageshow.GeometryMathUtils$GeometryHolder, java.util.Collection)/1/93
+void com.android.gallery3d.filtershow.imageshow.ImageCurves.drawHistogram(android.graphics.Canvas, int[], int, android.graphics.PorterDuff$Mode)/4/362
+void com.android.gallery3d.filtershow.imageshow.ImageShow.drawImageAndAnimate(android.graphics.Canvas, android.graphics.Bitmap)/1/1104
+void com.android.gallery3d.filtershow.imageshow.MasterImage.invalidatePartialPreview()/1/18
+void com.android.gallery3d.filtershow.imageshow.MasterImage.needsUpdateHighResPreview()/1/45
+void com.android.gallery3d.filtershow.pipeline.CacheProcessing$CacheStep.add(com.android.gallery3d.filtershow.filters.FilterRepresentation)/1/6
+void com.android.gallery3d.filtershow.pipeline.CachingPipeline.stop()/1/7
+void com.android.gallery3d.filtershow.pipeline.FilterEnvironment.setStop(boolean)/2/8
+void com.android.gallery3d.filtershow.pipeline.HighresRenderingRequestTask.stop()/1/6
+void com.android.gallery3d.filtershow.pipeline.ProcessingService.postHighresRenderingRequest(com.android.gallery3d.filtershow.pipeline.ImagePreset, float, com.android.gallery3d.filtershow.pipeline.RenderingRequestCaller)/1/32
+void com.android.gallery3d.filtershow.pipeline.ProcessingTaskController$1.handleMessage(android.os.Message)/1/73
+void com.android.gallery3d.filtershow.pipeline.RenderingRequest.<init>()/3/28
+void com.android.gallery3d.filtershow.pipeline.RenderingRequest.markAvailable()/1/19
+void com.android.gallery3d.filtershow.pipeline.SharedBuffer.invalidate()/1/9
+void com.android.gallery3d.filtershow.pipeline.SharedBuffer.swapConsumerIfNeeded()/1/22
+void com.android.gallery3d.filtershow.state.State.<init>(java.lang.String)/3/6
+void com.android.gallery3d.filtershow.state.State.<init>(java.lang.String, int)/7/8
+void com.android.gallery3d.glrenderer.BasicTexture.<init>(com.android.gallery3d.glrenderer.GLCanvas, int, int)/1/34
+void com.android.gallery3d.glrenderer.BasicTexture.draw(com.android.gallery3d.glrenderer.GLCanvas, int, int, int, int)/10/10
+void com.android.gallery3d.glrenderer.BasicTexture.freeResource()/6/22
+void com.android.gallery3d.glrenderer.BasicTexture.recycle()/1/4
+void com.android.gallery3d.glrenderer.BasicTexture.yield()/5/4
+void com.android.gallery3d.glrenderer.ColorTexture.setSize(int, int)/2/5
+void com.android.gallery3d.glrenderer.GLES20Canvas$AttributeShaderParameter.<init>(java.lang.String)/4/4
+void com.android.gallery3d.glrenderer.GLES20Canvas$UniformShaderParameter.<init>(java.lang.String)/1/4
+void com.android.gallery3d.glrenderer.GLES20Canvas.checkError()/3/36
+void com.android.gallery3d.glrenderer.GLES20Canvas.convertCoordinate(android.graphics.RectF, android.graphics.RectF, com.android.gallery3d.glrenderer.BasicTexture)/84/103
+void com.android.gallery3d.glrenderer.GLES20Canvas.copyTextureCoordinates(com.android.gallery3d.glrenderer.BasicTexture, android.graphics.RectF)/48/30
+void com.android.gallery3d.glrenderer.GLES20Canvas.deleteRecycledResources()/9/71
+void com.android.gallery3d.glrenderer.GLES20Canvas.draw(int, int, int, float, float, float, float, int, float)/1/22
+void com.android.gallery3d.glrenderer.GLES20Canvas.drawTexture(com.android.gallery3d.glrenderer.BasicTexture, android.graphics.RectF, android.graphics.RectF)/1/43
+void com.android.gallery3d.glrenderer.GLES20Canvas.drawTexture(com.android.gallery3d.glrenderer.BasicTexture, int, int, int, int)/18/38
+void com.android.gallery3d.glrenderer.GLES20Canvas.drawTextureRect(com.android.gallery3d.glrenderer.BasicTexture, android.graphics.RectF, android.graphics.RectF)/3/9
+void com.android.gallery3d.glrenderer.GLES20Canvas.drawTextureRect(com.android.gallery3d.glrenderer.BasicTexture, float[], android.graphics.RectF)/2/86
+void com.android.gallery3d.glrenderer.GLES20Canvas.fillRect(float, float, float, float, int)/3/20
+void com.android.gallery3d.glrenderer.GLES20Canvas.multiplyAlpha(float)/4/9
+void com.android.gallery3d.glrenderer.GLES20Canvas.multiplyMatrix(float[], int)/1/18
+void com.android.gallery3d.glrenderer.GLES20Canvas.restore()/154/39
+void com.android.gallery3d.glrenderer.GLES20Canvas.rotate(float, float, float, float)/10/33
+void com.android.gallery3d.glrenderer.GLES20Canvas.save()/12/5
+void com.android.gallery3d.glrenderer.GLES20Canvas.save(int)/282/101
+void com.android.gallery3d.glrenderer.GLES20Canvas.scale(float, float, float)/19/8
+void com.android.gallery3d.glrenderer.GLES20Canvas.setAlpha(float)/14/7
+void com.android.gallery3d.glrenderer.GLES20Canvas.setPosition(com.android.gallery3d.glrenderer.GLES20Canvas$ShaderParameter[], int)/1/36
+void com.android.gallery3d.glrenderer.GLES20Canvas.setTextureMatrix(android.graphics.RectF)/75/35
+void com.android.gallery3d.glrenderer.GLES20Canvas.translate(float, float)/66/77
+void com.android.gallery3d.glrenderer.GLES20Canvas.translate(float, float, float)/40/8
+void com.android.gallery3d.glrenderer.TextureUploader.addBgTexture(com.android.gallery3d.glrenderer.UploadedTexture)/7/25
+void com.android.gallery3d.glrenderer.TextureUploader.addFgTexture(com.android.gallery3d.glrenderer.UploadedTexture)/6/25
+void com.android.gallery3d.glrenderer.TiledTexture$Tile.setSize(int, int)/2/21
+void com.android.gallery3d.glrenderer.TiledTexture$Uploader.addTexture(com.android.gallery3d.glrenderer.TiledTexture)/18/30
+void com.android.gallery3d.glrenderer.TiledTexture$Uploader.clear()/1/14
+void com.android.gallery3d.glrenderer.TiledTexture.draw(com.android.gallery3d.glrenderer.GLCanvas, int, int)/2/12
+void com.android.gallery3d.glrenderer.TiledTexture.draw(com.android.gallery3d.glrenderer.GLCanvas, int, int, int, int)/1/197
+void com.android.gallery3d.glrenderer.TiledTexture.mapRect(android.graphics.RectF, android.graphics.RectF, float, float, float, float, float, float)/33/24
+void com.android.gallery3d.glrenderer.UploadedTexture.freeBitmap()/2/19
+void com.android.gallery3d.glrenderer.UploadedTexture.invalidateContent()/3/16
+void com.android.gallery3d.glrenderer.UploadedTexture.resetUploadLimit()/8/4
+void com.android.gallery3d.glrenderer.UploadedTexture.updateContent(com.android.gallery3d.glrenderer.GLCanvas)/10/65
+void com.android.gallery3d.glrenderer.UploadedTexture.uploadToCanvas(com.android.gallery3d.glrenderer.GLCanvas)/4/425
+void com.android.gallery3d.picasasource.PicasaSource$EmptyAlbumSet.<init>(com.android.gallery3d.data.Path, long)/1/4
+void com.android.gallery3d.ui.AbstractSlotRenderer.drawContent(com.android.gallery3d.glrenderer.GLCanvas, com.android.gallery3d.glrenderer.Texture, int, int, int)/1/67
+void com.android.gallery3d.ui.AbstractSlotRenderer.drawFrame(com.android.gallery3d.glrenderer.GLCanvas, android.graphics.Rect, com.android.gallery3d.glrenderer.Texture, int, int, int, int)/1/28
+void com.android.gallery3d.ui.AlbumLabelMaker.<init>(android.content.Context, com.android.gallery3d.ui.AlbumSetSlotRenderer$LabelSpec)/1/59
+void com.android.gallery3d.ui.AlbumLabelMaker.drawText(android.graphics.Canvas, int, int, java.lang.String, int, android.text.TextPaint)/1/30
+void com.android.gallery3d.ui.AlbumSetSlidingWindow$AlbumCoverLoader.<init>(com.android.gallery3d.ui.AlbumSetSlidingWindow, int, com.android.gallery3d.data.MediaItem)/1/10
+void com.android.gallery3d.ui.AlbumSetSlidingWindow$AlbumCoverLoader.onLoadComplete(android.graphics.Bitmap)/3/15
+void com.android.gallery3d.ui.AlbumSetSlidingWindow$AlbumSetEntry.<init>()/1/4
+void com.android.gallery3d.ui.AlbumSetSlidingWindow.cancelImagesInSlot(int)/6/45
+void com.android.gallery3d.ui.AlbumSetSlidingWindow.freeSlotContent(int)/2/67
+void com.android.gallery3d.ui.AlbumSetSlidingWindow.requestImagesInSlot(int)/19/45
+void com.android.gallery3d.ui.AlbumSetSlidingWindow.setActiveWindow(int, int)/2/102
+void com.android.gallery3d.ui.AlbumSetSlidingWindow.updateAllImageRequests()/1/65
+void com.android.gallery3d.ui.AlbumSetSlidingWindow.updateTextureUploadQueue()/7/89
+void com.android.gallery3d.ui.AlbumSetSlidingWindow.uploadBackgroundTextureInSlot(int)/24/41
+void com.android.gallery3d.ui.AlbumSetSlotRenderer.access$200(com.android.gallery3d.ui.AlbumSetSlotRenderer)/1/4
+void com.android.gallery3d.ui.AlbumSetSlotRenderer.drawContent(com.android.gallery3d.glrenderer.GLCanvas, com.android.gallery3d.glrenderer.Texture, int, int, int)/25/122
+void com.android.gallery3d.ui.AlbumSetSlotRenderer.prepareDrawing()/7/9
+void com.android.gallery3d.ui.AlbumSlidingWindow$AlbumEntry.<init>()/4/4
+void com.android.gallery3d.ui.AlbumSlidingWindow$PanoSupportListener.<init>(com.android.gallery3d.ui.AlbumSlidingWindow, com.android.gallery3d.ui.AlbumSlidingWindow$AlbumEntry)/9/8
+void com.android.gallery3d.ui.AlbumSlidingWindow$PanoSupportListener.panoramaInfoAvailable(com.android.gallery3d.data.MediaObject, boolean, boolean)/7/9
+void com.android.gallery3d.ui.AlbumSlidingWindow$ThumbnailLoader.<init>(com.android.gallery3d.ui.AlbumSlidingWindow, int, com.android.gallery3d.data.MediaItem)/2/10
+void com.android.gallery3d.ui.AlbumSlidingWindow$ThumbnailLoader.updateEntry()/1/184
+void com.android.gallery3d.ui.AlbumSlidingWindow.cancelNonactiveImages()/1/35
+void com.android.gallery3d.ui.AlbumSlidingWindow.cancelSlotImage(int)/20/32
+void com.android.gallery3d.ui.AlbumSlidingWindow.freeSlotContent(int)/1/33
+void com.android.gallery3d.ui.AlbumSlidingWindow.prepareSlotContent(int)/2/65
+void com.android.gallery3d.ui.AlbumSlidingWindow.updateTextureUploadQueue()/3/73
+void com.android.gallery3d.ui.AlbumSlidingWindow.uploadBgTextureInSlot(int)/4/29
+void com.android.gallery3d.ui.AlbumSlotRenderer$MyDataModelListener.<init>(com.android.gallery3d.ui.AlbumSlotRenderer)/2/6
+void com.android.gallery3d.ui.AlbumSlotRenderer.prepareDrawing()/1/9
+void com.android.gallery3d.ui.BitmapLoader.<init>()/3/9
+void com.android.gallery3d.ui.BitmapLoader.cancelLoad()/6/23
+void com.android.gallery3d.ui.BitmapLoader.onFutureDone(com.android.gallery3d.util.Future)/2/77
+void com.android.gallery3d.ui.BitmapLoader.startLoad()/35/23
+void com.android.gallery3d.ui.BitmapScreenNail.<init>(android.graphics.Bitmap, com.android.gallery3d.data.MediaItem)/1/27
+void com.android.gallery3d.ui.BitmapScreenNail.recycle()/2/13
+void com.android.gallery3d.ui.DialogDetailsView.hide()/1/11
+void com.android.gallery3d.ui.DownUpDetector.setState(boolean, android.view.MotionEvent)/1/21
+void com.android.gallery3d.ui.EdgeEffect$Drawable.<init>(android.content.Context, int)/1/15
+void com.android.gallery3d.ui.EdgeEffect$Drawable.draw(com.android.gallery3d.glrenderer.GLCanvas)/8/36
+void com.android.gallery3d.ui.EdgeEffect$Drawable.setBounds(int, int, int, int)/4/6
+void com.android.gallery3d.ui.EdgeEffect.update()/3/204
+void com.android.gallery3d.ui.GLRootView$1.run()/4/6
+void com.android.gallery3d.ui.GLRootView$IdleRunner.enable()/1/14
+void com.android.gallery3d.ui.GLRootView$IdleRunner.run()/6/201
+void com.android.gallery3d.ui.GLRootView.access$100(com.android.gallery3d.ui.GLRootView)/1/4
+void com.android.gallery3d.ui.GLRootView.lockRenderThread()/3/6
+void com.android.gallery3d.ui.GLRootView.onDrawFrame(javax.microedition.khronos.opengles.GL10)/24/72
+void com.android.gallery3d.ui.GLRootView.onDrawFrameLocked(javax.microedition.khronos.opengles.GL10)/15/154
+void com.android.gallery3d.ui.GLRootView.requestLayoutContentPane()/1/55
+void com.android.gallery3d.ui.GLRootView.requestRender()/10/22
+void com.android.gallery3d.ui.GLRootView.rotateCanvas(int)/5/55
+void com.android.gallery3d.ui.GLRootView.superRequestRender()/6/4
+void com.android.gallery3d.ui.GLRootView.unlockRenderThread()/1/6
+void com.android.gallery3d.ui.GLView.detachFromRoot()/1/18
+void com.android.gallery3d.ui.GLView.invalidate()/13/10
+void com.android.gallery3d.ui.GLView.onVisibilityChanged(int)/1/24
+void com.android.gallery3d.ui.GLView.render(com.android.gallery3d.glrenderer.GLCanvas)/21/67
+void com.android.gallery3d.ui.GLView.renderBackground(com.android.gallery3d.glrenderer.GLCanvas)/3/27
+void com.android.gallery3d.ui.GLView.renderChild(com.android.gallery3d.glrenderer.GLCanvas, com.android.gallery3d.ui.GLView)/20/79
+void com.android.gallery3d.ui.GLView.setVisibility(int)/1/29
+void com.android.gallery3d.ui.MenuExecutor.resume()/1/13
+void com.android.gallery3d.ui.MenuExecutor.setMenuItemEnable(android.view.Menu, int, boolean)/1/10
+void com.android.gallery3d.ui.MenuExecutor.setMenuItemVisible(android.view.Menu, int, boolean)/4/10
+void com.android.gallery3d.ui.PhotoView$2.<init>(com.android.gallery3d.ui.PhotoView)/1/6
+void com.android.gallery3d.ui.PhotoView$2.invalidate()/4/6
+void com.android.gallery3d.ui.PhotoView$FullPicture.draw(com.android.gallery3d.glrenderer.GLCanvas, android.graphics.Rect)/3/46
+void com.android.gallery3d.ui.PhotoView$FullPicture.drawTileView(com.android.gallery3d.glrenderer.GLCanvas, android.graphics.Rect)/14/580
+void com.android.gallery3d.ui.PhotoView$FullPicture.updateSize()/10/80
+void com.android.gallery3d.ui.PhotoView$ScreenNailPicture.<init>(com.android.gallery3d.ui.PhotoView, int)/1/18
+void com.android.gallery3d.ui.PhotoView$ScreenNailPicture.draw(com.android.gallery3d.glrenderer.GLCanvas, android.graphics.Rect)/10/557
+void com.android.gallery3d.ui.PhotoView$ScreenNailPicture.reload()/1/122
+void com.android.gallery3d.ui.PhotoView$Size.<init>()/7/4
+void com.android.gallery3d.ui.PhotoView.checkFocusSwitching()/5/26
+void com.android.gallery3d.ui.PhotoView.render(com.android.gallery3d.glrenderer.GLCanvas)/8/178
+void com.android.gallery3d.ui.PhotoView.setPictureSize(int, boolean)/34/43
+void com.android.gallery3d.ui.PhotoView.setSize(int, int, int, boolean)/21/24
+void com.android.gallery3d.ui.PhotoView.updateAllPhotoPlaySize()/5/18
+void com.android.gallery3d.ui.PhotoView.updatePhotoPlaySize(int)/17/84
+void com.android.gallery3d.ui.PopupList$1.<init>(com.android.gallery3d.ui.PopupList)/1/6
+void com.android.gallery3d.ui.PopupList$Item.setTitle(java.lang.String)/1/20
+void com.android.gallery3d.ui.PositionController$Box.<init>(com.android.gallery3d.ui.PositionController, com.android.gallery3d.ui.PositionController$1)/1/4
+void com.android.gallery3d.ui.PositionController.advanceAnimation()/2/60
+void com.android.gallery3d.ui.PositionController.convertBoxToRect(int)/23/138
+void com.android.gallery3d.ui.PositionController.initBox(int, com.android.gallery3d.ui.PhotoView$Size)/1/57
+void com.android.gallery3d.ui.PositionController.layoutAndSetPosition()/2/15
+void com.android.gallery3d.ui.PositionController.redraw()/1/9
+void com.android.gallery3d.ui.PositionController.setImageSize(int, com.android.gallery3d.ui.PhotoView$Size, android.graphics.Rect, boolean)/26/61
+void com.android.gallery3d.ui.PositionController.snapAndRedraw()/1/49
+void com.android.gallery3d.ui.PositionController.updateScaleAndGapLimit()/1/48
+void com.android.gallery3d.ui.SlideshowView$SlideshowAnimation.<init>(com.android.gallery3d.ui.SlideshowView, int, int, java.util.Random)/1/51
+void com.android.gallery3d.ui.SlideshowView$SlideshowAnimation.apply(com.android.gallery3d.glrenderer.GLCanvas)/8/79
+void com.android.gallery3d.ui.SlideshowView.render(com.android.gallery3d.glrenderer.GLCanvas)/2/285
+void com.android.gallery3d.ui.SlotView$DefaultLayout.setVisibleRange(int, int)/1/47
+void com.android.gallery3d.ui.SlotView$RisingAnimation.apply(com.android.gallery3d.glrenderer.GLCanvas, int, android.graphics.Rect)/4/13
+void com.android.gallery3d.ui.SlotView.onScrollPositionChanged(int)/1/16
+void com.android.gallery3d.ui.SlotView.render(com.android.gallery3d.glrenderer.GLCanvas)/5/429
+void com.android.gallery3d.ui.SlotView.startRisingAnimation()/1/24
+void com.android.gallery3d.ui.SlotView.updateScrollPosition(int, boolean)/21/33
+void com.android.gallery3d.ui.SynchronizedHandler.<init>(com.android.gallery3d.ui.GLRoot)/2/12
+void com.android.gallery3d.ui.SynchronizedHandler.dispatchMessage(android.os.Message)/1/21
+void com.android.gallery3d.ui.TileImageView$Tile.update(int, int, int)/2/10
+void com.android.gallery3d.ui.TileImageView$TileDecoder.<init>(com.android.gallery3d.ui.TileImageView, com.android.gallery3d.ui.TileImageView$1)/1/4
+void com.android.gallery3d.ui.TileImageView$TileDecoder.run()/1/131
+void com.android.gallery3d.ui.TileImageView$TileQueue.clean()/2/4
+void com.android.gallery3d.ui.TileImageView.activateTile(int, int, int)/1/33
+void com.android.gallery3d.ui.TileImageView.invalidateTiles()/1/44
+void com.android.gallery3d.ui.TileImageView.layoutTiles(int, int, float, int)/1/388
+void com.android.gallery3d.ui.TileImageView.queueForDecode(com.android.gallery3d.ui.TileImageView$Tile)/1/25
+void com.android.gallery3d.ui.TileImageView.recycleTile(com.android.gallery3d.ui.TileImageView$Tile)/2/41
+void com.android.gallery3d.ui.TileImageView.render(com.android.gallery3d.glrenderer.GLCanvas)/2/391
+void com.android.gallery3d.ui.TileImageView.uploadBackgroundTiles(com.android.gallery3d.glrenderer.GLCanvas)/1/33
+void com.android.gallery3d.ui.TiledScreenNail.disableDrawPlaceholder()/1/4
+void com.android.gallery3d.ui.TiledScreenNail.enableDrawPlaceholder()/7/4
+void com.android.gallery3d.util.GalleryUtils.assertNotInRenderThread()/1/28
+void com.android.gallery3d.util.GalleryUtils.setViewPointMatrix(float[], float, float, float)/2/36
+void com.android.gallery3d.util.IdentityCache$Entry.<init>(java.lang.Object, java.lang.Object, java.lang.ref.ReferenceQueue)/3/6
+void com.android.gallery3d.util.IdentityCache.cleanUpWeakMap()/20/27
+void com.android.gallery3d.util.IntArray.add(int)/192/35
+void com.android.gallery3d.util.JobLimiter.onFutureDone(com.android.gallery3d.util.Future)/5/15
+void com.android.gallery3d.util.RangeArray.put(int, java.lang.Object)/6/9
+void com.android.gallery3d.util.ThreadPool$Worker.<init>(com.android.gallery3d.util.ThreadPool, com.android.gallery3d.util.ThreadPool$Job, com.android.gallery3d.util.FutureListener)/2/10
+void com.android.gallery3d.util.ThreadPool$Worker.releaseResource(com.android.gallery3d.util.ThreadPool$ResourceCounter)/21/15
+void com.android.gallery3d.util.ThreadPool$Worker.run()/3/102
+void com.android.gallery3d.util.ThreadPool$Worker.setCancelListener(com.android.gallery3d.util.ThreadPool$CancelListener)/4/21
+void com.android.gallery3d.util.UpdateHelper.<init>()/9/7
+void com.mediatek.camera.mode.facebeauty.FaceBeautyMode$7.<init>(com.mediatek.camera.mode.facebeauty.FaceBeautyMode)/1/6
+void com.mediatek.camera.setting.SettingCtrl.onSettingChanged(com.mediatek.camera.platform.Parameters, int, java.lang.String, java.lang.String)/2/304
+void com.mediatek.camera.setting.SettingGenerator.updateSettingItem(com.mediatek.camera.setting.SettingItem, com.mediatek.camera.setting.preference.ListPreference)/1/184
+void com.mediatek.camera.setting.SettingItem.addOverrideRecord(java.lang.String, com.mediatek.camera.setting.SettingItem$Record)/1/6
+void com.mediatek.camera.setting.preference.CameraPreference.<init>(android.content.Context, android.util.AttributeSet, com.mediatek.camera.setting.preference.SharedPreferencesTransfer)/1/22
+void com.mediatek.camera.setting.rule.CommonRule.<init>(java.lang.String, java.lang.String, com.mediatek.camera.platform.ICameraDeviceManager, com.mediatek.camera.setting.SettingGenerator)/1/36
+void com.mediatek.gallery3d.adapter.ContainerPage$Motrack.restorePrevState()/1/102
+void com.mediatek.gallery3d.adapter.FeatureHelper.drawContainerOverLay(android.content.Context, com.android.gallery3d.glrenderer.GLCanvas, int, int, com.android.gallery3d.data.MediaItem)/14/110
+void com.mediatek.gallery3d.adapter.FeatureHelper.drawMicroThumbOverLay(android.content.Context, com.android.gallery3d.glrenderer.GLCanvas, int, int, com.android.gallery3d.data.MediaItem)/6/14
+void com.mediatek.gallery3d.adapter.FeatureHelper.drawSliderShowDrmIcon(android.content.Context, com.android.gallery3d.glrenderer.GLCanvas, int, int, int, int, com.mediatek.galleryframework.base.MediaData, float)/5/35
+void com.mediatek.gallery3d.adapter.FeatureHelper.renderMediaTypeOverlay(android.content.Context, com.android.gallery3d.glrenderer.GLCanvas, int, int, com.mediatek.galleryframework.base.MediaData)/7/237
+void com.mediatek.gallery3d.adapter.PanoramaSwitchBarView.doDraw(com.mediatek.galleryframework.gl.MGLCanvas, int, int)/1/26
+void com.mediatek.gallery3d.adapter.PlatformImpl$ThreadPoolBridge.submit(com.mediatek.galleryframework.base.Work)/1/11
+void com.mediatek.gallery3d.ext.DefaultActivityHooker.init(android.app.Activity, android.content.Intent)/1/5
+void com.mediatek.gallery3d.layout.FancyLayout.<init>()/1/16
+void com.mediatek.gallery3d.layout.FancyLayout.setVisibleRange(int, int)/1/39
+void com.mediatek.gallery3d.util.TraceHelper.traceBegin(java.lang.String)/73/6
+void com.mediatek.gallery3d.util.TraceHelper.traceCounterForLaunchPerf(int)/2/8
+void com.mediatek.gallery3d.util.TraceHelper.traceEnd()/69/6
+void com.mediatek.gallery3d.video.CTAExtension.<init>(android.app.Activity)/1/6
+void com.mediatek.gallery3d.video.MovieHooker.<init>()/1/4
+void com.mediatek.gallery3d.video.MoviePerfHelper.traceCounter(long, java.lang.String, int)/1/4
+void com.mediatek.galleryfeature.container.ContainerItem.<init>(android.content.Context, com.mediatek.galleryframework.base.MediaData)/1/8
+void com.mediatek.galleryfeature.dynamic.LayerManagerImpl.unbind()/1/61
+void com.mediatek.galleryfeature.dynamic.PhotoPlayEngine.fillEntry(int, com.mediatek.galleryfeature.dynamic.PlayList$Entry)/1/39
+void com.mediatek.galleryfeature.dynamic.PhotoPlayEngine.logMediaDataArray(java.lang.String, com.mediatek.galleryframework.base.MediaData[])/1/149
+void com.mediatek.galleryfeature.dynamic.PhotoPlayEngine.onFrameAvailable(com.mediatek.galleryframework.base.Player)/46/34
+void com.mediatek.galleryfeature.dynamic.PhotoPlayEngine.updateData(com.mediatek.galleryframework.base.MediaData[])/3/229
+void com.mediatek.galleryfeature.dynamic.PhotoPlayEngine.updateEntry(int, com.mediatek.galleryfeature.dynamic.PlayList$Entry)/4/18
+void com.mediatek.galleryfeature.dynamic.PlayList$Entry.<init>()/8/7
+void com.mediatek.galleryfeature.dynamic.PlayList.logEntrys(java.lang.String, com.mediatek.galleryfeature.dynamic.PlayList$Entry[])/1/101
+void com.mediatek.galleryfeature.dynamic.PlayList.update(com.mediatek.galleryframework.base.MediaData[])/9/132
+void com.mediatek.galleryfeature.dynamic.PlayThreads$Command.<init>(com.mediatek.galleryfeature.dynamic.PlayThreads, com.mediatek.galleryfeature.dynamic.PlayList$Entry, com.mediatek.galleryframework.base.Player$State)/3/13
+void com.mediatek.galleryfeature.dynamic.PlayThreads$WorkThread.gotoStatePlaying(com.mediatek.galleryfeature.dynamic.PlayThreads$Command)/1/182
+void com.mediatek.galleryfeature.dynamic.PlayThreads$WorkThread.run()/14/158
+void com.mediatek.galleryfeature.dynamic.PlayThreads.clearAllCmds()/2/34
+void com.mediatek.galleryfeature.dynamic.PlayThreads.logCmdsWaitToRun(java.lang.String)/7/119
+void com.mediatek.galleryfeature.dynamic.PlayThreads.submit(com.mediatek.galleryfeature.dynamic.PlayList$Entry, com.mediatek.galleryframework.base.Player$State)/20/225
+void com.mediatek.galleryfeature.dynamic.ThumbnailPlayEngine.innerUpdateData()/1/25
+void com.mediatek.galleryfeature.dynamic.ThumbnailPlayEngine.updateData(com.mediatek.galleryframework.base.MediaData[])/1/16
+void com.mediatek.galleryfeature.gif.GifItem.<init>(com.mediatek.galleryframework.base.MediaData, android.content.Context)/1/6
+void com.mediatek.galleryfeature.gif.GifMember.<init>(android.content.Context)/1/4
+void com.mediatek.galleryfeature.gif.GifPlayer$DecodeJob.onDoFinished(android.graphics.Bitmap)/4/36
+void com.mediatek.galleryfeature.gif.GifPlayer.onPlayFrame()/1/67
+void com.mediatek.galleryfeature.mav.AnimationEx.<init>(int, int, int, int, int)/1/29
+void com.mediatek.galleryfeature.mav.AnimationEx.initAnimation(int, int)/8/26
+void com.mediatek.galleryfeature.mav.MavItem.<init>(com.mediatek.galleryframework.base.MediaData)/4/9
+void com.mediatek.galleryfeature.mav.MavPlayer$1.setProgress(int)/2/8
+void com.mediatek.galleryfeature.mav.MavPlayer.access$200(com.mediatek.galleryfeature.mav.MavPlayer, int, int, java.lang.Object)/1/4
+void com.mediatek.galleryfeature.mav.MavPlayer.draw()/5/73
+void com.mediatek.galleryfeature.mav.MavSeekBar.setProgress(int)/1/90
+void com.mediatek.galleryfeature.mav.MavTexture.<init>(android.graphics.Bitmap)/1/5
+void com.mediatek.galleryfeature.panorama.PanoramaDrawer.beginRenderTarget(com.mediatek.galleryframework.gl.MGLCanvas, com.mediatek.galleryframework.gl.MRawTexture)/1/4
+void com.mediatek.galleryfeature.panorama.PanoramaDrawer.drawOnTexture(com.mediatek.galleryframework.gl.MGLCanvas, com.mediatek.galleryframework.gl.MRawTexture, float)/4/36
+void com.mediatek.galleryfeature.panorama.PanoramaDrawer.endRenderTarget(com.mediatek.galleryframework.gl.MGLCanvas)/2/4
+void com.mediatek.galleryfeature.panorama.PanoramaDrawer.prepareBuffers(com.mediatek.galleryframework.gl.MGLCanvas)/3/45
+void com.mediatek.galleryfeature.panorama.PanoramaDrawer.prepareTexture()/5/29
+void com.mediatek.galleryfeature.panorama.PanoramaItem.<init>(com.mediatek.galleryframework.base.MediaData)/1/4
+void com.mediatek.galleryfeature.panorama.PanoramaLayer$2.onProgressChanged(android.widget.SeekBar, int, boolean)/2/20
+void com.mediatek.galleryfeature.panorama.PanoramaPlayer.newPlaceHolderTexture()/1/77
+void com.mediatek.galleryfeature.platform.PlatformHelper.submitJob(com.mediatek.galleryframework.base.Work)/1/10
+void com.mediatek.galleryfeature.pq.ImageDC.<init>(java.lang.String, int, java.lang.String)/16/14
+void com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$1$1.<init>(com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$1)/3/6
+void com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$VideoThumbnail.<init>()/1/33
+void com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$VideoThumbnail.draw(com.mediatek.galleryframework.gl.MGLCanvas, int, int)/4/302
+void com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$VideoThumbnail.genCononTexCoords(android.graphics.RectF, android.graphics.RectF, com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$VideoThumbnail$VideoFrameTexture)/7/103
+void com.mediatek.galleryfeature.video.ThumbnailVideoPlayer$VideoThumbnail.genExtTexMatForSubTile(android.graphics.RectF)/6/51
+void com.mediatek.galleryfeature.video.VideoItem.<init>(com.mediatek.galleryframework.base.MediaData)/1/4
+void com.mediatek.galleryfeature.video.VideoToVideoGenerator.onCancelRequested(com.mediatek.galleryframework.base.MediaData, int)/1/59
+void com.mediatek.galleryframework.base.ExtItem.<init>(com.mediatek.galleryframework.base.MediaData)/10/28
+void com.mediatek.galleryframework.base.GeneratorCoordinator.pause()/1/10
+void com.mediatek.galleryframework.base.MediaData.<init>()/6/33
+void com.mediatek.galleryframework.base.MediaMember.<init>(android.content.Context)/1/6
+void com.mediatek.galleryframework.base.Player$EventHandler.<init>(com.mediatek.galleryframework.base.Player, com.mediatek.galleryframework.base.Player, android.os.Looper)/3/8
+void com.mediatek.galleryframework.base.Player$EventHandler.handleMessage(android.os.Message)/5/96
+void com.mediatek.galleryframework.base.Player.<init>(android.content.Context, com.mediatek.galleryframework.base.MediaData, com.mediatek.galleryframework.base.Player$OutputType)/2/86
+void com.mediatek.galleryframework.base.Player.sendFrameAvailable()/1/17
+void com.mediatek.galleryframework.base.Player.sendNotify(int, int, java.lang.Object)/1/33
+void com.mediatek.galleryframework.base.Player.sendPlayFrameDelayed(int)/1/16
+void com.mediatek.galleryframework.gl.GLIdleExecuter$IdleRunner.enable()/1/18
+void com.mediatek.galleryframework.gl.GLIdleExecuter$IdleRunner.run()/8/111
+void com.mediatek.galleryframework.gl.GLIdleExecuter.addOnGLIdleCmd(com.mediatek.galleryframework.gl.GLIdleExecuter$GLIdleCmd)/1/38
+void com.mediatek.galleryframework.gl.GLIdleExecuter.onRenderComplete()/17/21
+void com.mediatek.galleryframework.gl.IntArray.<init>()/106/13
+void com.mediatek.galleryframework.gl.IntArray.add(int)/8/35
+void com.mediatek.galleryframework.gl.MBasicTexture.freeResource()/5/22
+void com.mediatek.galleryframework.gl.MBasicTexture.recycle()/4/4
+void com.mediatek.galleryframework.gl.MGLES20Canvas.checkError()/2/36
+void com.mediatek.galleryframework.gl.MGLES20Canvas.convertCoordinate(android.graphics.RectF, android.graphics.RectF, com.mediatek.galleryframework.gl.MBasicTexture)/18/103
+void com.mediatek.galleryframework.gl.MGLES20Canvas.copyTextureCoordinates(com.mediatek.galleryframework.gl.MBasicTexture, android.graphics.RectF)/10/30
+void com.mediatek.galleryframework.gl.MGLES20Canvas.deleteBuffer(int)/1/13
+void com.mediatek.galleryframework.gl.MGLES20Canvas.deleteRecycledResources()/8/56
+void com.mediatek.galleryframework.gl.MGLES20Canvas.draw(com.mediatek.galleryframework.gl.MGLES20Canvas$ShaderParameter[], int, int, float, float, float, float)/1/33
+void com.mediatek.galleryframework.gl.MGLES20Canvas.drawTexture(com.mediatek.galleryframework.gl.MBasicTexture, int, int, int, int)/1/38
+void com.mediatek.galleryframework.gl.MGLES20Canvas.endRenderTarget()/2/27
+void com.mediatek.galleryframework.gl.MGLES20Canvas.initializeTextureSize(com.mediatek.galleryframework.gl.MBasicTexture, int, int)/1/32
+void com.mediatek.galleryframework.gl.MGLES20Canvas.prepareTexture(com.mediatek.galleryframework.gl.MBasicTexture, int, com.mediatek.galleryframework.gl.MGLES20Canvas$ShaderParameter[])/2/83
+void com.mediatek.galleryframework.gl.MGLES20Canvas.reset()/118/79
+void com.mediatek.galleryframework.gl.MGLES20Canvas.restore()/1/39
+void com.mediatek.galleryframework.gl.MGLES20Canvas.save()/2/5
+void com.mediatek.galleryframework.gl.MGLES20Canvas.save(int)/7/101
+void com.mediatek.galleryframework.gl.MGLES20Canvas.scale(float, float, float)/1/8
+void com.mediatek.galleryframework.gl.MGLES20Canvas.setAlpha(float)/1/7
+void com.mediatek.galleryframework.gl.MGLES20Canvas.setRenderTarget(com.mediatek.galleryframework.gl.MBasicTexture, com.mediatek.galleryframework.gl.MRawTexture)/1/96
+void com.mediatek.galleryframework.gl.MGLES20Canvas.setSize(int, int)/3/61
+void com.mediatek.galleryframework.gl.MGLES20Canvas.setTextureMatrix(android.graphics.RectF)/15/35
+void com.mediatek.galleryframework.gl.MGLES20Canvas.syncState(float[], int, float[], int, int, int, int, float)/2/42
+void com.mediatek.galleryframework.gl.MGLES20Canvas.translate(float, float)/3/77
+void com.mediatek.galleryframework.gl.MUploadedTexture.updateContent(com.mediatek.galleryframework.gl.MGLCanvas)/5/57

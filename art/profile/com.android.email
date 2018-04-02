@@ -1,0 +1,1649 @@
+22947/218/70918
+int com.android.mail.browse.ConversationCursor.getCount()/207/59
+int com.android.mail.browse.ConversationItemView.access$000()/17/3
+com.android.mail.browse.ConversationItemViewModel com.android.mail.browse.ConversationItemViewModel.forConversationIdOrNull(java.lang.String, long)/25/25
+void com.android.mail.browse.ConversationItemView.calculateCoordinates()/15/329
+android.os.Parcelable android.support.v4.widget.DrawerLayout.onSaveInstanceState()/1/34
+boolean com.android.mail.ui.AnimatedAdapter.isPositionDeleting(long)/7/11
+int com.android.mail.ui.AnimatedAdapter.getCount()/22/33
+void com.android.mail.utils.Utils.traceBeginSection(java.lang.String)/121/10
+int android.support.v4.text.BidiFormatter.getExitDir(java.lang.String)/1/11
+int android.support.v4.widget.SwipeRefreshLayout.getChildDrawingOrder(int, int)/4/19
+boolean com.android.mail.providers.Folder.shouldShowRecipients()/25/7
+void com.android.mail.browse.SendersView$1.onObjectReleased(java.lang.Object)/18/6
+java.lang.String com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.getInnerUri()/44/15
+int com.android.mail.browse.ConversationItemView.formatBadgeText(android.text.Spannable, java.lang.String)/14/44
+android.os.Bundle com.android.email.provider.EmailConversationCursor.respond(android.os.Bundle)/177/164
+android.support.v4.text.BidiFormatter com.android.mail.ui.AnimatedAdapter.getBidiFormatter()/12/3
+boolean android.support.v4.text.TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal.defaultIsRtl()/41/3
+java.lang.String com.android.mail.browse.ConversationItemViewModel.getFirstDisplayableSenderEmail(com.android.mail.providers.Account)/6/46
+int com.android.mail.providers.ParticipantInfo.hashCode()/114/36
+void com.android.mail.bitmap.CheckableContactFlipDrawable$CheckmarkDrawable.setAlphaAnimatorValue(float)/4/14
+void com.android.mail.utils.Utils.traceEndSection()/111/10
+java.lang.String android.support.v4.text.BidiFormatter.unicodeWrap(java.lang.String, android.support.v4.text.TextDirectionHeuristicCompat, boolean)/53/83
+void com.android.mail.ui.FolderListFragment.onStop()/1/4
+int com.android.mail.content.ThreadSafeCursorWrapper.getPosition()/252/13
+boolean com.google.common.collect.Iterators$13.hasNext()/10/8
+boolean com.android.mail.utils.LogUtils.isLoggable(java.lang.String, int)/1520/7
+int com.android.mail.utils.FolderUri.hashCode()/344/9
+int android.support.v4.view.ViewCompat$JbMr1ViewCompatImpl.getLayoutDirection(android.view.View)/252/5
+com.android.mail.browse.ConversationItemViewCoordinates$CoordinatesCache com.android.mail.ui.AnimatedAdapter.getCoordinatesCache()/5/3
+void com.android.mail.browse.ConversationItemView.createSnippet()/18/142
+void com.android.mail.browse.ConversationItemView.layoutParticipantText(android.text.SpannableStringBuilder)/36/164
+com.android.mail.ui.AccountController com.android.mail.ui.MailActivity.getAccountController()/8/3
+void com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.pauseCaching()/23/45
+int com.android.mail.browse.ConversationItemViewModel.getLayoutHashCode()/26/44
+int com.android.mail.browse.ConversationItemView$ConversationItemFolderDisplayer.measureFolders(com.android.mail.browse.ConversationItemViewCoordinates)/20/31
+java.lang.String android.support.v4.text.BidiFormatter.markBefore(java.lang.String, android.support.v4.text.TextDirectionHeuristicCompat)/9/44
+java.lang.String com.android.mail.browse.ConversationItemViewModel$SenderAvatarModel.getEmailAddress()/4/3
+android.animation.TimeInterpolator com.android.mail.ui.ActionableToastBar.createPathInterpolator()/1/15
+android.app.LoaderManager com.android.mail.browse.ConversationViewAdapter.access$900(com.android.mail.browse.ConversationViewAdapter)/2/3
+android.app.Notification$Builder android.support.v4.app.NotificationCompatApi21$Builder.getBuilder()/1/3
+android.content.ContentProviderOperation com.android.mail.browse.ConversationCursor$ConversationOperation.execute(android.net.Uri)/2/504
+android.content.ContentProviderResult[] com.android.email.provider.EmailProvider.applyBatch(java.util.ArrayList)/5/208
+android.content.ContentResolver com.android.mail.browse.ConversationCursor$ConversationProvider.access$2400(com.android.mail.browse.ConversationCursor$ConversationProvider)/2/3
+android.content.ContentValues com.android.email.service.AttachmentService$ServiceCallback.getAttachmentUpdateValues(com.android.emailcommon.provider.EmailContent$Attachment, int, int)/12/32
+android.content.Context android.support.v4.content.Loader.getContext()/1/3
+android.content.Context android.support.v7.internal.view.SupportMenuInflater.access$100(android.support.v7.internal.view.SupportMenuInflater)/9/3
+android.content.Context android.support.v7.internal.view.menu.MenuBuilder.getContext()/3/3
+android.content.Context android.support.v7.internal.widget.ToolbarWidgetWrapper.getContext()/1/7
+android.content.Context com.android.email.EmailNotificationController.access$000(com.android.email.EmailNotificationController)/3/3
+android.content.Context com.android.ex.photo.PhotoViewActivity.getContext()/3/1
+android.content.Context com.android.mail.preferences.VersionedPrefs.getContext()/1/3
+android.content.Context com.android.mail.ui.AbstractConversationViewFragment.getContext()/1/3
+android.content.Context com.android.mail.ui.AbstractMailActivity.getActivityContext()/50/1
+android.content.Intent com.android.mail.utils.Utils.setIntentDataAndTypeAndNormalize(android.content.Intent, android.net.Uri, java.lang.String)/3/13
+android.content.Loader com.android.mail.browse.MessageFooterView.onCreateLoader(int, android.os.Bundle)/2/18
+android.content.Loader com.android.mail.ui.ContactLoaderCallbacks.onCreateLoader(int, android.os.Bundle)/3/10
+android.content.SharedPreferences com.android.mail.preferences.VersionedPrefs.getSharedPreferences()/55/3
+android.content.SharedPreferences$Editor com.android.mail.preferences.VersionedPrefs.getEditor()/10/3
+android.database.Cursor com.android.email.provider.AttachmentProvider.query(android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String)/6/219
+android.database.Cursor com.android.email.provider.EmailProvider.getUiFolderCursorRowFromMailboxCursorRow(android.database.MatrixCursor, int, android.database.Cursor, int, int)/83/48
+android.database.Cursor com.android.email.provider.EmailProvider.getVirtualMailboxMessagesCursor(android.database.sqlite.SQLiteDatabase, java.lang.String[], long, boolean, java.lang.String)/1/260
+android.database.Cursor com.android.email.provider.EmailProvider.query(android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String)/6/1736
+android.database.DataSetObservable com.android.mail.ui.AbstractActivityController.access$2600(com.android.mail.ui.AbstractActivityController)/1/3
+android.database.sqlite.SQLiteDatabase com.android.email.provider.EmailProvider.getDatabase(android.content.Context)/7/154
+android.graphics.Bitmap com.android.mail.browse.ConversationItemView.getStarBitmap()/10/14
+android.graphics.Bitmap com.android.mail.browse.MessageHeaderView.makeLetterTile(java.lang.String, java.lang.String)/3/37
+android.graphics.Bitmap com.android.mail.photomanager.LetterTileProvider.getLetterTile(com.android.mail.ui.ImageCanvas$Dimensions, java.lang.String, java.lang.String)/4/169
+android.graphics.Bitmap com.android.mail.ui.AttachmentTileGrid.get(com.android.mail.providers.Attachment)/2/25
+android.graphics.Bitmap com.android.mail.utils.BitmapUtil.frameBitmapInCircle(android.graphics.Bitmap)/6/81
+android.graphics.Bitmap com.android.mtkex.chips.MTKRecipientEditTextView.createUnselectedChip(com.android.mtkex.chips.RecipientEntry, android.text.TextPaint, boolean)/2/621
+android.graphics.Point com.android.ex.photo.util.ImageUtils.getImageBounds(com.android.ex.photo.util.ImageUtils$InputStreamFactory)/1/22
+android.graphics.drawable.Drawable android.support.v4.content.ContextCompatApi21.getDrawable(android.content.Context, int)/9/5
+android.graphics.drawable.Drawable android.support.v7.internal.view.menu.MenuItemImpl.getIcon()/6/31
+android.graphics.drawable.Drawable android.support.v7.internal.widget.TintTypedArray.getDrawable(int)/1/33
+android.net.Uri com.android.email.activity.setup.AccountSecurity.getUpdateSecurityUri(long, boolean)/10/52
+android.net.Uri com.android.email.activity.setup.MailboxSettings.access$200(com.android.email.activity.setup.MailboxSettings)/1/3
+android.net.Uri com.android.email.provider.EmailProvider.convertToEmailProviderUri(android.net.Uri, android.net.Uri, boolean)/4/34
+android.net.Uri com.android.email.provider.EmailProvider.getBaseNotificationUri(int)/9/44
+android.net.Uri com.android.email.provider.EmailProvider.getIncomingSettingsUri(long)/1/43
+android.net.Uri com.android.email.provider.EmailProvider.insert(android.net.Uri, android.content.ContentValues)/7/932
+android.net.Uri com.android.emailcommon.provider.EmailContent$Body.getBodyTextUriForMessageWithId(long)/10/25
+android.net.Uri com.android.emailcommon.provider.EmailContent$Message.save(android.content.Context)/1/197
+android.net.Uri com.android.emailcommon.provider.EmailContent.getUri()/7/17
+android.net.Uri com.android.emailcommon.provider.EmailContent.save(android.content.Context)/3/58
+android.net.Uri com.android.emailcommon.provider.EmailContent.uriWithLimit(android.net.Uri, int)/237/19
+android.net.Uri com.android.emailcommon.utility.Utility.buildLimitOneUri(android.net.Uri)/3/30
+android.net.Uri com.android.mail.providers.Attachment.parseOptionalUri(java.lang.String)/1/9
+android.net.Uri com.android.mail.providers.Attachment.parseOptionalUri(org.json.JSONObject, java.lang.String)/2/13
+android.net.Uri com.android.mail.providers.MailAppProvider.getAccountsUri()/10/32
+android.net.Uri com.android.mail.utils.FolderUri.buildComparisonUri(android.net.Uri)/102/31
+android.net.Uri com.android.mail.utils.Utils.getValidUri(java.lang.String)/79/18
+android.net.Uri com.android.mtkex.chips.Queries$Query.getContentFilterUri()/2/3
+android.os.Bundle android.support.v4.app.NotificationCompatKitKat.getExtras(android.app.Notification)/1/3
+android.os.Bundle com.android.email.activity.setup.AccountSettingsEditQuickResponsesFragment.createArgs(com.android.mail.providers.Account)/1/12
+android.os.Bundle com.android.email.provider.EmailConversationCursor.getExtras()/15/3
+android.os.Bundle com.android.emailcommon.VendorPolicyLoader.getPolicy(java.lang.String, android.os.Bundle)/1/51
+android.os.Bundle com.android.emailcommon.provider.Mailbox.createSyncBundle(long)/1/21
+android.os.Bundle com.android.mail.browse.ConversationCursor.getExtras()/2/14
+android.os.Bundle com.android.mail.browse.ConversationCursor.respond(android.os.Bundle)/1/14
+android.os.Bundle com.android.mail.content.ThreadSafeCursorWrapper.respond(android.os.Bundle)/8/58
+android.os.Handler com.android.email.provider.EmailProvider.getDelayedSyncHandler()/1/32
+android.os.Handler com.android.emailcommon.utility.Utility.getMainThreadHandler()/1/18
+android.os.Handler com.android.mail.ui.AbstractConversationViewFragment.getHandler()/21/3
+android.os.Handler com.android.mail.utils.DrawIdler.access$200(com.android.mail.utils.DrawIdler)/180/3
+android.os.Handler com.android.mail.utils.Throttle.access$200(com.android.mail.utils.Throttle)/5/3
+android.os.ParcelFileDescriptor com.android.email.provider.EmailProvider.openFile(android.net.Uri, java.lang.String)/10/166
+android.os.Parcelable$Creator android.support.v4.os.ParcelableCompat.newCreator(android.support.v4.os.ParcelableCompatCreatorCallbacks)/1/15
+android.os.Parcelable$Creator android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub.instantiate(android.support.v4.os.ParcelableCompatCreatorCallbacks)/2/6
+android.support.v4.app.FragmentTransaction android.support.v4.app.FragmentManagerImpl.beginTransaction()/1/6
+android.support.v4.app.NotificationManagerCompat android.support.v4.app.NotificationManagerCompat.from(android.content.Context)/28/6
+android.support.v4.text.BidiFormatter android.support.v4.text.BidiFormatter.access$300()/1/3
+android.support.v4.text.BidiFormatter com.android.mail.browse.MessageHeaderView.getBidiFormatter()/4/34
+android.support.v4.text.BidiFormatter com.android.mail.browse.SubjectAndFolderView.getBidiFormatter()/10/34
+android.support.v7.app.ActionBar android.support.v7.app.ActionBarActivityDelegate.getSupportActionBar()/5/17
+android.support.v7.app.ActionBarActivityDelegate android.support.v7.app.ActionBarActivity.getDelegate()/57/13
+android.support.v7.app.ActionBarDrawerToggle$Delegate android.support.v7.app.ActionBarActivityDelegate.getV7DrawerToggleDelegate()/1/7
+android.support.v7.internal.view.menu.MenuBuilder android.support.v7.internal.view.menu.MenuBuilder.getRootMenu()/2/1
+android.support.v7.internal.view.menu.MenuItemImpl android.support.v7.internal.view.menu.ActionMenuItemView.getItemData()/3/3
+android.support.v7.internal.view.menu.MenuItemImpl android.support.v7.internal.view.menu.MenuBuilder.createNewMenuItem(int, int, int, int, java.lang.CharSequence, int)/45/13
+android.support.v7.internal.view.menu.MenuPresenter$Callback android.support.v7.internal.view.menu.BaseMenuPresenter.getCallback()/1/3
+android.support.v7.internal.widget.TintManager android.support.v7.internal.widget.TintTypedArray.getTintManager()/1/16
+android.support.v7.internal.widget.TintTypedArray android.support.v7.internal.widget.TintTypedArray.obtainStyledAttributes(android.content.Context, android.util.AttributeSet, int[], int, int)/2/10
+android.support.v7.widget.ActionMenuView$LayoutParams android.support.v7.widget.ActionMenuView.generateLayoutParams(android.util.AttributeSet)/1/10
+android.support.v7.widget.GridLayout$Alignment android.support.v7.widget.GridLayout.createSwitchingAlignment(android.support.v7.widget.GridLayout$Alignment, android.support.v7.widget.GridLayout$Alignment)/1/6
+android.support.v7.widget.GridLayout$Assoc android.support.v7.widget.GridLayout$Assoc.of(java.lang.Class, java.lang.Class)/4/6
+android.support.v7.widget.GridLayout$Bounds android.support.v7.widget.GridLayout$Alignment.getBounds()/2/7
+android.support.v7.widget.GridLayout$Spec android.support.v7.widget.GridLayout$Spec.copyWriteSpan(android.support.v7.widget.GridLayout$Interval)/3/12
+android.support.v7.widget.GridLayout$Spec android.support.v7.widget.GridLayout.spec(int, int, android.support.v7.widget.GridLayout$Alignment, float)/2/18
+android.support.v7.widget.Toolbar$LayoutParams android.support.v7.widget.Toolbar.generateDefaultLayoutParams()/1/7
+android.text.style.ImageSpan com.android.mtkex.chips.MTKRecipientEditTextView.getMoreChip()/1/31
+android.view.MenuInflater android.support.v7.app.ActionBarActivityDelegate.getMenuInflater()/1/18
+android.view.MenuItem android.support.v7.internal.view.menu.MenuBuilder.addInternal(int, int, int, java.lang.CharSequence)/2/40
+android.view.MenuItem android.support.v7.internal.view.menu.MenuItemImpl.setAlphabeticShortcut(char)/5/18
+android.view.MenuItem android.support.v7.internal.view.menu.MenuItemImpl.setChecked(boolean)/24/16
+android.view.MenuItem android.support.v7.internal.view.menu.MenuItemImpl.setNumericShortcut(char)/7/14
+android.view.MenuItem android.support.v7.internal.view.menu.MenuItemImpl.setTitle(java.lang.CharSequence)/1/18
+android.view.MenuItem android.support.v7.internal.view.menu.MenuItemImpl.setVisible(boolean)/20/12
+android.view.View android.support.v4.app.FragmentActivity.onCreateView(java.lang.String, android.content.Context, android.util.AttributeSet)/260/26
+android.view.View android.support.v4.widget.ViewDragHelper.getCapturedView()/3/3
+android.view.View android.support.v7.app.ActionBarActivity.onCreateView(java.lang.String, android.content.Context, android.util.AttributeSet)/8/16
+android.view.View android.support.v7.app.ActionBarActivityDelegateBase.createView(java.lang.String, android.content.Context, android.util.AttributeSet)/62/228
+android.view.View android.support.v7.internal.view.menu.MenuItemImpl.getActionView()/10/24
+android.view.View android.support.v7.internal.widget.AbsSpinnerCompat$RecycleBin.get(int)/1/16
+android.view.View com.android.email.activity.UiUtilities.checkView(android.view.View)/1/11
+android.view.View com.android.mail.browse.ConversationContainer.addOverlayView(int, boolean)/4/88
+android.view.View com.android.mail.browse.ConversationContainer.getScrapView(int)/1/13
+android.view.View com.android.mail.browse.ConversationItemView.unwrap()/19/15
+android.view.View com.android.mail.browse.ConversationViewAdapter.getView(com.android.mail.browse.ConversationOverlayItem, android.view.View, android.view.ViewGroup, boolean)/5/18
+android.view.View com.android.mail.browse.MergedAdapter.getView(int, android.view.View, android.view.ViewGroup)/2/17
+android.view.View com.android.mail.compose.ComposeActivity$ComposeModeAdapter.getView(int, android.view.View, android.view.ViewGroup)/1/37
+android.view.View com.android.mail.compose.FromAddressSpinnerAdapter.getView(int, android.view.View, android.view.ViewGroup)/1/80
+android.view.View com.android.mail.drawer.AccountDrawerItem.getView(android.view.View, android.view.ViewGroup)/1/36
+android.view.View com.android.mail.drawer.BlankHeaderDrawerItem.getView(android.view.View, android.view.ViewGroup)/2/15
+android.view.View com.android.mail.drawer.FolderDrawerItem.getView(android.view.View, android.view.ViewGroup)/6/30
+android.view.View com.android.mail.drawer.HeaderDrawerItem.getView(android.view.View, android.view.ViewGroup)/11/29
+android.view.View com.android.mail.ui.AnimatedAdapter.createConversationItemView(com.android.mail.browse.SwipeableConversationItemView, android.content.Context, com.android.mail.providers.Conversation)/1/32
+android.view.View com.android.mail.ui.ConversationViewFragment.onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/4/193
+android.view.View com.android.mail.ui.ConversationViewProgressController.access$400(com.android.mail.ui.ConversationViewProgressController)/3/3
+android.view.View com.android.mail.ui.FolderListFragment$AccountsAdapter.getView(int, android.view.View, android.view.ViewGroup)/2/11
+android.view.View com.android.mail.ui.FolderListFragment$FolderAdapter.getView(int, android.view.View, android.view.ViewGroup)/37/117
+android.view.View com.android.mail.ui.FolderListFragment.onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/1/179
+android.view.View com.android.mail.ui.SwipeableItemView$SwipeableView.getView()/1/3
+android.view.View$OnClickListener com.android.mail.ui.ConversationSyncDisabledTipView.getTextAreaOnClickListener()/1/6
+android.view.View$OnClickListener com.android.mail.ui.ConversationTipView.getTextAreaOnClickListener()/1/2
+android.view.View$OnKeyListener com.android.mail.browse.ConversationViewAdapter.access$300(com.android.mail.browse.ConversationViewAdapter)/1/3
+android.view.View$OnKeyListener com.android.mail.browse.ConversationViewAdapter.getOnKeyListener()/5/3
+android.view.ViewGroup android.support.v7.internal.widget.ToolbarWidgetWrapper.getViewGroup()/23/3
+android.view.ViewGroup com.android.mail.browse.ConversationOverlayItem.getParentView()/1/3
+android.view.ViewGroup$LayoutParams android.support.v4.view.ViewPager.generateLayoutParams(android.util.AttributeSet)/1/10
+android.view.ViewGroup$LayoutParams android.support.v7.internal.widget.AbsSpinnerCompat.generateDefaultLayoutParams()/2/8
+android.view.ViewGroup$LayoutParams android.support.v7.widget.ActionMenuView.generateLayoutParams(android.util.AttributeSet)/1/5
+android.view.ViewGroup$LayoutParams com.android.mail.browse.ConversationContainer.generateLayoutParams(android.util.AttributeSet)/5/10
+android.view.inputmethod.InputConnection com.mediatek.email.ui.EmailAccountAutoCompleteTextView.onCreateInputConnection(android.view.inputmethod.EditorInfo)/1/15
+android.widget.EditText com.android.mail.compose.ComposeActivity.getBodyEditText()/1/3
+android.widget.Filter com.android.mtkex.chips.BaseRecipientAdapter.getFilter()/1/7
+android.widget.ListView com.android.mail.browse.SwipeableConversationItemView.getListView()/5/7
+android.widget.ListView com.android.mail.ui.FolderListFragment.access$1300(com.android.mail.ui.FolderListFragment)/13/3
+android.widget.MultiAutoCompleteTextView$Tokenizer com.android.mtkex.chips.MTKRecipientEditTextView.access$3500(com.android.mtkex.chips.MTKRecipientEditTextView)/1/3
+boolean android.support.v4.app.FragmentActivity$2.hasView()/1/18
+boolean android.support.v4.app.FragmentActivity.onCreatePanelMenu(int, android.view.Menu)/2/31
+boolean android.support.v4.app.FragmentActivity.onPreparePanel(int, android.view.View, android.view.Menu)/1/34
+boolean android.support.v4.content.Loader.takeContentChanged()/1/11
+boolean android.support.v4.text.BidiFormatter.getStereoReset()/27/10
+boolean android.support.v4.text.BidiFormatter.isRtlLocale(java.util.Locale)/1/10
+boolean android.support.v4.text.TextDirectionHeuristicsCompat$TextDirectionHeuristicImpl.doCheck(java.lang.CharSequence, int, int)/6/26
+boolean android.support.v4.view.ViewCompat$ICSViewCompatImpl.canScrollHorizontally(android.view.View, int)/2/5
+boolean android.support.v4.view.ViewCompat$JBViewCompatImpl.getFitsSystemWindows(android.view.View)/1/5
+boolean android.support.v4.view.ViewCompatICS.canScrollHorizontally(android.view.View, int)/20/5
+boolean android.support.v4.view.ViewCompatJB.getFitsSystemWindows(android.view.View)/49/5
+boolean android.support.v4.view.ViewPager.checkLayoutParams(android.view.ViewGroup$LayoutParams)/2/14
+boolean android.support.v4.view.ViewPager.isGutterDrag(float, float)/2/32
+boolean android.support.v4.view.ViewPager.onInterceptTouchEvent(android.view.MotionEvent)/3/430
+boolean android.support.v4.widget.CircleImageView.elevationSupported()/1/10
+boolean android.support.v4.widget.DrawerLayout.isDrawerOpen(android.view.View)/1/46
+boolean android.support.v4.widget.DrawerLayout.onInterceptTouchEvent(android.view.MotionEvent)/20/122
+boolean android.support.v4.widget.EdgeEffectCompatIcs.isFinished(java.lang.Object)/14/7
+boolean android.support.v4.widget.ScrollerCompat.computeScrollOffset()/1/9
+boolean android.support.v4.widget.SwipeRefreshLayout.access$000(android.support.v4.widget.SwipeRefreshLayout)/1/3
+boolean android.support.v4.widget.SwipeRefreshLayout.onInterceptTouchEvent(android.view.MotionEvent)/2/162
+boolean android.support.v4.widget.ViewDragHelper.checkNewEdgeDrag(float, float, int, int)/51/89
+boolean android.support.v4.widget.ViewDragHelper.continueSettling(boolean)/37/112
+boolean android.support.v4.widget.ViewDragHelper.isPointerDown(int)/12/11
+boolean android.support.v7.app.ActionBarActivity.superOnPrepareOptionsPanel(android.view.View, android.view.Menu)/1/5
+boolean android.support.v7.app.ActionBarActivityDelegateBase.access$202(android.support.v7.app.ActionBarActivityDelegateBase, boolean)/2/3
+boolean android.support.v7.app.ActionBarActivityDelegateBase.onKeyUp(int, android.view.KeyEvent)/1/36
+boolean android.support.v7.internal.VersionUtils.isAtLeastL()/1/10
+boolean android.support.v7.internal.app.ToolbarActionBar.access$200(android.support.v7.internal.app.ToolbarActionBar)/1/3
+boolean android.support.v7.internal.view.menu.ActionMenuItemView.prefersCondensedTitle()/2/2
+boolean android.support.v7.internal.view.menu.MenuItemImpl.isVisible()/10/39
+boolean android.support.v7.internal.view.menu.MenuItemImpl.showsTextAsAction()/30/11
+boolean android.support.v7.internal.widget.ActionBarContainer.onInterceptTouchEvent(android.view.MotionEvent)/3/14
+boolean android.support.v7.internal.widget.ActionBarOverlayLayout.applyInsets(android.view.View, android.graphics.Rect, boolean, boolean, boolean, boolean)/3/60
+boolean android.support.v7.internal.widget.TintManager.isInTintList(int)/7/44
+boolean android.support.v7.internal.widget.ViewUtils.isLayoutRtl(android.view.View)/3/10
+boolean android.support.v7.widget.ActionMenuPresenter.filterLeftoverView(android.view.ViewGroup, int)/2/15
+boolean android.support.v7.widget.ActionMenuPresenter.hideOverflowMenu()/2/34
+boolean android.support.v7.widget.ActionMenuPresenter.shouldIncludeItem(int, android.support.v7.internal.view.menu.MenuItemImpl)/13/5
+boolean android.support.v7.widget.ActionMenuView.checkLayoutParams(android.view.ViewGroup$LayoutParams)/7/10
+boolean android.support.v7.widget.GridLayout$Axis.hasWeights()/4/16
+boolean android.support.v7.widget.GridLayout$Axis.solve(android.support.v7.widget.GridLayout$Arc[], int[])/1/6
+boolean android.support.v7.widget.GridLayout$Spec.equals(java.lang.Object)/1/46
+boolean android.support.v7.widget.GridLayout.canStretch(int)/1/8
+boolean android.support.v7.widget.ListPopupWindow$DropDownListView.hasFocus()/1/14
+boolean android.support.v7.widget.Toolbar$ExpandedActionViewMenuPresenter.flagActionItems()/2/2
+boolean android.support.v7.widget.Toolbar.checkLayoutParams(android.view.ViewGroup$LayoutParams)/4/14
+boolean android.support.v7.widget.WindowCallbackWrapper.onCreatePanelMenu(int, android.view.Menu)/2/7
+boolean com.android.email.EmailNotificationController$3.handleMessage(android.os.Message)/1/79
+boolean com.android.email.activity.setup.EmailPreferenceActivity.onCreateOptionsMenu(android.view.Menu)/1/24
+boolean com.android.email.mail.store.ImapConnection.isCapable(int)/1/9
+boolean com.android.email.mail.store.ImapFolder.isOpen()/6/12
+boolean com.android.email.mail.store.ImapStore.getUseOAuth()/2/3
+boolean com.android.email.mail.store.ImapStore.isUserPrefixSet()/2/20
+boolean com.android.email.mail.store.imap.ImapList.isList()/2/2
+boolean com.android.email.mail.store.imap.ImapResponse.isStatusResponse(java.lang.String)/19/44
+boolean com.android.email.mail.store.imap.ImapString.isList()/3/2
+boolean com.android.email.mail.store.imap.ImapString.isNumber()/1/23
+boolean com.android.email.mail.transport.MailTransport.canTrustAllCertificates()/1/12
+boolean com.android.email.mail.transport.MailTransport.isOpen()/6/32
+boolean com.android.email.provider.EmailProvider$ApplyBatchNotification.equals(java.lang.Object)/18/62
+boolean com.android.email.provider.EmailProvider.applyingBatch()/683/26
+boolean com.android.email.provider.EmailProvider.isCombinedMailbox(long)/1/15
+boolean com.android.email.provider.EmailProvider.isUpdatingMailboxSyncOption(android.database.sqlite.SQLiteDatabase, android.content.ContentValues, java.lang.String)/13/77
+boolean com.android.email.provider.EmailProvider.isVirtualMailbox(long)/87/13
+boolean com.android.email.provider.EmailProvider.setServicesEnabledSync(android.content.Context)/1/50
+boolean com.android.email.provider.EmailProvider.uiUpdateMessageLoadStatus(android.net.Uri, android.content.ContentValues)/1/175
+boolean com.android.emailcommon.Configuration.isTest()/3/3
+boolean com.android.emailcommon.mail.Message.isSet(com.android.emailcommon.mail.Flag)/3/9
+boolean com.android.emailcommon.provider.EmailContent.isSaved()/5/12
+boolean com.android.emailcommon.provider.HostAuth.equals(java.lang.Object)/1/91
+boolean com.android.emailcommon.utility.AsyncTask.isCancelled()/37/7
+boolean com.android.emailcommon.utility.EmailAsyncTask.access$100(com.android.emailcommon.utility.EmailAsyncTask)/3/3
+boolean com.android.emailcommon.utility.ExtendBase64$Decoder.process(byte[], int, int, boolean)/16/346
+boolean com.android.emailcommon.utility.Utilities.isExternalStorageMounted()/5/11
+boolean com.android.emailcommon.utility.Utility.fileExists(android.content.Context, android.net.Uri)/1/21
+boolean com.android.ex.photo.util.InputStreamBuffer.fill(int)/1/186
+boolean com.android.ex.photo.util.InputStreamBuffer.has(int)/3/68
+boolean com.android.ex.photo.util.Util.isTouchExplorationEnabled(android.view.accessibility.AccessibilityManager)/1/13
+boolean com.android.mail.ConversationListContext.isLocalSearch()/5/3
+boolean com.android.mail.ConversationListContext.isSearchResult(com.android.mail.ConversationListContext)/1/18
+boolean com.android.mail.FormattedDateBuilder.isCurrentYear(long)/3/25
+boolean com.android.mail.bitmap.ContactDrawable.isEnglishLetterOrDigit(char)/7/28
+boolean com.android.mail.bitmap.ContactRequest.equals(java.lang.Object)/28/43
+boolean com.android.mail.bitmap.FlipDrawable.getSideShown()/14/35
+boolean com.android.mail.bitmap.FlipDrawable.isFlipping()/5/7
+boolean com.android.mail.browse.AttachmentActionHandler$OptionHandler.shouldShowExtraOption1(java.lang.String, java.lang.String)/1/2
+boolean com.android.mail.browse.AttachmentActionHandler.isProgressDialogVisible()/12/20
+boolean com.android.mail.browse.AttachmentProgressDialogFragment.isShowingDialogForAttachment(com.android.mail.providers.Attachment)/3/26
+boolean com.android.mail.browse.ConversationContainer.access$300(com.android.mail.browse.ConversationContainer, android.view.View, int, android.view.ViewGroup$LayoutParams, boolean)/4/5
+boolean com.android.mail.browse.ConversationContainer.checkLayoutParams(android.view.ViewGroup$LayoutParams)/6/3
+boolean com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.access$302(com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper, boolean)/1/3
+boolean com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.isDataUpdated()/2/3
+boolean com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.resumeCaching()/20/64
+boolean com.android.mail.browse.ConversationCursor.access$800(com.android.mail.browse.ConversationCursor)/1/3
+boolean com.android.mail.browse.ConversationCursor.access$900(com.android.mail.browse.ConversationCursor)/3/3
+boolean com.android.mail.browse.ConversationCursor.isClosed()/4/16
+boolean com.android.mail.browse.ConversationCursor.isCursorReadyToShow(com.android.mail.browse.ConversationCursor)/8/36
+boolean com.android.mail.browse.ConversationCursor.isRefreshReady()/1/3
+boolean com.android.mail.browse.ConversationCursor.refresh()/1/47
+boolean com.android.mail.browse.ConversationItemView$ConversationItemFolderDisplayer.hasVisibleFolders()/3/8
+boolean com.android.mail.browse.ConversationItemView.canChildBeDismissed()/1/3
+boolean com.android.mail.browse.ConversationItemView.isTouchInStar(float, float)/1/33
+boolean com.android.mail.browse.ConversationItemView.isTouchInStarTargetX(boolean, float)/1/38
+boolean com.android.mail.browse.ConversationOverlayItem.isMeasurementValid()/26/8
+boolean com.android.mail.browse.ConversationOverlayItem.setHeight(int)/6/31
+boolean com.android.mail.browse.ConversationPagerAdapter.isNeedSingletonMode()/20/24
+boolean com.android.mail.browse.ConversationPagerAdapter.isPagingDisabled(android.database.Cursor)/14/14
+boolean com.android.mail.browse.ConversationPagerAdapter.isSingletonMode()/1/3
+boolean com.android.mail.browse.ConversationViewAdapter$MessageFooterItem.isContiguous()/21/2
+boolean com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem.canPushSnapHeader()/1/2
+boolean com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem.isContiguous()/2/10
+boolean com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem.isExpanded()/84/3
+boolean com.android.mail.browse.ConversationViewAdapter.isPreviousItemSuperCollapsed(com.android.mail.browse.ConversationOverlayItem)/1/35
+boolean com.android.mail.browse.ConversationWebView.isHandlingTouch()/3/3
+boolean com.android.mail.browse.ConversationWebView.onTouchEvent(android.view.MotionEvent)/3/58
+boolean com.android.mail.browse.MergedAdapter.isEnabled(int)/1/17
+boolean com.android.mail.browse.MessageAttachmentBar.onClick(int, android.view.View)/1/686
+boolean com.android.mail.browse.MessageHeaderView$RecipientListsBuilder.shouldAppendRecipients(java.lang.String[], int)/3/11
+boolean com.android.mail.browse.MessageHeaderView.access$100(com.android.mail.browse.MessageHeaderView)/19/3
+boolean com.android.mail.compose.CcBccView.isCcVisible()/1/12
+boolean com.android.mail.compose.ComposeActivity.access$2100(com.android.mail.compose.ComposeActivity)/1/3
+boolean com.android.mail.compose.ComposeActivity.isBlank()/2/110
+boolean com.android.mail.content.ThreadSafeCursorWrapper.moveToFirst()/2/6
+boolean com.android.mail.content.ThreadSafeCursorWrapper.moveToNext()/77/19
+boolean com.android.mail.content.ThreadSafeCursorWrapper.moveToPrevious()/9/19
+boolean com.android.mail.drawer.FolderDrawerItem.isHighlighted(com.android.mail.utils.FolderUri, int)/13/29
+boolean com.android.mail.drawer.HeaderDrawerItem.isHighlighted(com.android.mail.utils.FolderUri, int)/1/2
+boolean com.android.mail.photomanager.LetterTileProvider.isEnglishLetterOrDigit(char)/5/28
+boolean com.android.mail.preferences.MailPrefs.getConfirmDelete()/5/12
+boolean com.android.mail.preferences.MailPrefs.getConfirmSend()/3/12
+boolean com.android.mail.preferences.MailPrefs.getDefaultReplyAll()/13/12
+boolean com.android.mail.preferences.MailPrefs.getIsAutoBccMyselfEnabled()/1/12
+boolean com.android.mail.preferences.MailPrefs.getShowSenderImages()/24/12
+boolean com.android.mail.preferences.MailPrefs.isConversationPhotoTeaserAlreadyShown()/5/12
+boolean com.android.mail.providers.Account.equals(java.lang.Object)/2/375
+boolean com.android.mail.providers.Attachment.isDownloadFinishedOrFailed()/1/13
+boolean com.android.mail.providers.Attachment.shouldShowProgress()/3/28
+boolean com.android.mail.providers.Conversation.isMostlyDead()/3/10
+boolean com.android.mail.providers.Folder.equals(java.lang.Object)/3/19
+boolean com.android.mail.providers.Folder.isInitialized()/1/32
+boolean com.android.mail.providers.Folder.isRoot(com.android.mail.providers.Folder)/1/16
+boolean com.android.mail.providers.Folder.isSearch()/1/7
+boolean com.android.mail.providers.Folder.isSyncable()/6/18
+boolean com.android.mail.providers.Folder.isUnreadCountHidden()/98/24
+boolean com.android.mail.providers.Message.isFlaggedCalendarInvite()/4/13
+boolean com.android.mail.providers.Message.shouldShowImagePrompt()/2/34
+boolean com.android.mail.providers.Settings.equals(java.lang.Object)/2/190
+boolean com.android.mail.providers.Settings.isOverviewMode()/2/14
+boolean com.android.mail.providers.UIProvider$CursorStatus.isWaitingForResults(int)/3/8
+boolean com.android.mail.ui.AbstractActivityController.access$3100(com.android.mail.ui.AbstractActivityController, com.android.mail.content.ObjectCursor)/1/5
+boolean com.android.mail.ui.AbstractActivityController.access$4100(com.android.mail.ui.AbstractActivityController)/1/3
+boolean com.android.mail.ui.AbstractActivityController.isCurrentConversationJustPeeking()/1/2
+boolean com.android.mail.ui.AbstractActivityController.isDestroyed()/7/3
+boolean com.android.mail.ui.AbstractActivityController.isValidFragment(android.app.Fragment)/29/18
+boolean com.android.mail.ui.AbstractActivityController.onCreateOptionsMenu(android.view.Menu)/1/32
+boolean com.android.mail.ui.AbstractActivityController.setupEmptyIconView(com.android.mail.providers.Folder, boolean)/1/2
+boolean com.android.mail.ui.AbstractActivityController.shouldHideMenuItems()/4/3
+boolean com.android.mail.ui.AbstractConversationViewFragment.isUserVisible()/9/3
+boolean com.android.mail.ui.AbstractConversationViewFragment.shouldAlwaysShowImages()/1/16
+boolean com.android.mail.ui.ActionableToastBar.isAnimating()/1/3
+boolean com.android.mail.ui.ActionableToastBar.isEventInToastBar(android.view.MotionEvent)/1/65
+boolean com.android.mail.ui.AnimatedAdapter.hasFadeLeaveBehinds()/13/12
+boolean com.android.mail.ui.AnimatedAdapter.hasLeaveBehinds()/14/12
+boolean com.android.mail.ui.AnimatedAdapter.hasStableIds()/2/2
+boolean com.android.mail.ui.AnimatedAdapter.isAnimating()/3/42
+boolean com.android.mail.ui.AnimatedAdapter.isPositionSwipeDeleting(long)/3/11
+boolean com.android.mail.ui.AnimatedAdapter.isPositionUndoing(long)/6/11
+boolean com.android.mail.ui.AnimatedAdapter.isPositionUndoingSwipe(long)/3/11
+boolean com.android.mail.ui.ConversationCheckedSet.containsKey(java.lang.Long)/11/14
+boolean com.android.mail.ui.ConversationCheckedSet.isEmpty()/4/14
+boolean com.android.mail.ui.ConversationPhotoTeaserView.shouldShowSenderImage()/1/7
+boolean com.android.mail.ui.ConversationTipView.commitLeaveBehindItem()/1/2
+boolean com.android.mail.ui.ConversationViewFragment.supportsMessageTransforms()/1/2
+boolean com.android.mail.ui.FolderItemView.areSameViews(com.android.mail.providers.Folder, com.android.mail.providers.Folder)/3/54
+boolean com.android.mail.ui.FolderListFragment$FolderAdapter.isCursorInvalid()/7/32
+boolean com.android.mail.ui.FolderListFragment.access$1400(com.android.mail.ui.FolderListFragment)/2/3
+boolean com.android.mail.ui.FolderListFragment.access$1402(com.android.mail.ui.FolderListFragment, boolean)/2/3
+boolean com.android.mail.ui.MailActivity.dispatchTouchEvent(android.view.MotionEvent)/13/10
+boolean com.android.mail.ui.MailActivity.isAccessibilityEnabled()/28/3
+boolean com.android.mail.ui.MailActivity.onPrepareOptionsMenu(android.view.Menu)/1/10
+boolean com.android.mail.ui.MailSwipeRefreshLayout.canChildScrollUp()/17/8
+boolean com.android.mail.ui.NestedFolderTeaserView.commitLeaveBehindItem()/2/2
+boolean com.android.mail.ui.OnePaneController.isConversationListVisible()/2/3
+boolean com.android.mail.ui.OnePaneController.isDrawerEnabled()/1/2
+boolean com.android.mail.ui.OnePaneController.shouldShowSearchBarByDefault(int)/2/2
+boolean com.android.mail.ui.SwipeHelper.onInterceptTouchEvent(android.view.MotionEvent)/1/258
+boolean com.android.mail.ui.SwipeableListView.isConversationSelected(com.android.mail.providers.Conversation)/5/22
+boolean com.android.mail.ui.SwipeableListView.onInterceptTouchEvent(android.view.MotionEvent)/2/31
+boolean com.android.mail.ui.SwipeableListView.onTouchEvent(android.view.MotionEvent)/2/22
+boolean com.android.mail.ui.ViewMode.isAdMode(int)/3/7
+boolean com.android.mail.ui.ViewMode.isConversationMode(int)/2/9
+boolean com.android.mail.ui.ViewMode.isSearchMode(int)/6/10
+boolean com.android.mail.utils.DrawIdler$IdleReader.onPreDraw()/70/27
+boolean com.android.mail.utils.FragmentStatePagerAdapter2.isViewFromObject(android.view.View, java.lang.Object)/78/12
+boolean com.android.mail.utils.KeyboardUtils.isKeycodeDirectionEnd(int, boolean)/1/16
+boolean com.android.mail.utils.LogUtils.buildPreventsDebugLogging()/67/2
+boolean com.android.mail.utils.LogUtils.isDebugLoggingEnabled(java.lang.String)/2/36
+boolean com.android.mail.utils.MimeType.isInstallable(java.lang.String)/2/7
+boolean com.android.mail.utils.MimeType.isViewable(android.content.Context, android.net.Uri, java.lang.String)/6/135
+boolean com.android.mail.utils.Throttle$MyTimerTask.access$400(com.android.mail.utils.Throttle$MyTimerTask)/2/3
+boolean com.android.mail.utils.Utils.executeConversationCursorCommand(android.database.Cursor, android.os.Bundle, java.lang.String)/6/17
+boolean com.android.mail.utils.Utils.isRunningJBMR1OrLater()/31/10
+boolean com.android.mail.utils.Utils.isRunningKitkatOrLater()/10/10
+boolean com.android.mail.utils.Utils.isVipMailbox(android.database.Cursor)/2/31
+boolean com.android.mail.utils.Utils.notifyCursorUIPositionChange(android.database.Cursor, int)/1/19
+boolean com.android.mail.utils.Utils.useTabletUI(android.content.res.Resources)/2/8
+boolean com.android.mail.utils.ViewUtils.isViewRtl(android.view.View)/2/10
+boolean com.android.mail.utils.VipNotificationUtils.handleVipNotification(android.content.Context, com.android.mail.providers.Account, com.android.mail.providers.Folder, android.database.Cursor, boolean, boolean, int, int, long, com.android.mail.photo.ContactFetcher)/1/17
+boolean com.android.mtkex.chips.MTKRecipientEditTextView.bringPointIntoView(int)/2/48
+boolean com.android.mtkex.chips.MTKRecipientEditTextView.isCompletedToken(java.lang.CharSequence)/2/66
+boolean com.android.mtkex.chips.MTKRecipientEditTextView.lastCharacterIsCommitCharacter(java.lang.CharSequence)/3/42
+boolean com.android.mtkex.chips.RecipientEntry.isValid()/1/3
+boolean com.android.org.chromium.android_webview.AwContents$AwViewMethodsImpl.onTouchEvent(android.view.MotionEvent)/1/167
+boolean com.android.org.chromium.android_webview.AwContents.isDestroyed()/115/125
+boolean com.android.org.chromium.android_webview.AwContents.nativeOnDraw(long, android.graphics.Canvas, boolean, int, int, int, int, int, int)/140/0
+boolean com.android.org.chromium.android_webview.OverScrollGlow.drawEdgeGlows(android.graphics.Canvas, int, int)/64/195
+boolean com.android.org.chromium.base.CommandLine.nativeHasSwitch(java.lang.String)/1/0
+boolean com.android.org.chromium.base.library_loader.LibraryLoader.nativeLibraryLoaded()/1/0
+boolean com.android.org.chromium.content.browser.BrowserStartupController.nativeIsPluginEnabled()/1/0
+boolean com.android.org.chromium.content.browser.ContentViewCore.nativeOnTouchEvent(long, android.view.MotionEvent, long, int, int, int, int, float, float, float, float, int, int, float, float, float, float, float, float, float, float, int, int, int, int, boolean)/43/0
+boolean com.android.org.chromium.content.browser.ContentViewCore.onTouchEventImpl(android.view.MotionEvent, boolean)/6/274
+boolean com.android.webview.chromium.WebViewChromiumFactoryProvider.isBuildDebuggable()/1/14
+boolean com.google.android.mail.common.base.CharMatcher$11.matches(char)/5/12
+boolean com.google.common.collect.AbstractIndexedListIterator.hasNext()/45/10
+boolean com.google.common.collect.ImmutableSet$ArrayImmutableSet.isPartialView()/1/2
+boolean com.google.common.collect.RegularImmutableMap.isPartialView()/2/2
+boolean com.google.common.collect.RegularImmutableSet.contains(java.lang.Object)/2/32
+boolean com.mediatek.email.ui.EmailAccountAutoCompleteTextView.access$300(com.mediatek.email.ui.EmailAccountAutoCompleteTextView)/1/3
+boolean com.mediatek.mail.parselink.LinkParserTask.isEmailAddressDomain(java.lang.String, java.lang.String, int)/2/36
+boolean com.mediatek.mail.vip.VipMemberCache.hasVipMembers()/8/19
+boolean com.mediatek.mail.vip.VipMemberCache.isVIP(java.lang.String)/1/30
+boolean com.mediatek.mail.vip.VipPreferences.getVipNotification()/16/10
+boolean com.mediatek.mail.vip.VipPreferences.getVipVebarate()/1/10
+boolean org.apache.james.mime4j.decoder.DecoderUtil.isAllAscii(java.io.InputStream)/1/20
+boolean org.owasp.html.CssTokens$Lexer.isHexEncoded(int)/1/25
+boolean org.owasp.html.CssTokens.access$1000(int)/1/5
+boolean org.owasp.html.CssTokens.isIdentPart(int)/74/24
+boolean org.owasp.html.CssTokens.isLineTerminator(char)/9/14
+boolean org.owasp.html.HtmlInputSplitter.isIdentStart(char)/22/20
+boolean org.owasp.html.HtmlStreamRenderer.isValidHtmlName(java.lang.String)/3/82
+boolean org.owasp.html.HtmlTextEscapingMode.isTagFollowedByLiteralContent(java.lang.String)/7/16
+boolean org.owasp.html.HtmlTextEscapingMode.isVoidElement(java.lang.String)/2/12
+byte android.support.v4.text.BidiFormatter$DirectionalityEstimator.getCachedDirectionality(char)/64/14
+byte com.beetstra.jutf7.ModifiedUTF7Charset.shift()/7/3
+byte com.beetstra.jutf7.ModifiedUTF7Charset.unshift()/1/3
+byte[] com.android.emailcommon.utility.Utility.encode(java.nio.charset.Charset, java.lang.String)/2/22
+byte[] com.android.mail.browse.ConversationCursor.getCachedBlob(int)/1/9
+byte[] com.android.mtkex.chips.RecipientEntry.getPhotoBytes()/1/8
+char android.support.v7.internal.view.SupportMenuInflater$MenuState.getShortcut(java.lang.String)/44/9
+com.android.bitmap.BitmapCache com.android.mail.ui.AnimatedAdapter.getSendersImagesCache()/1/3
+com.android.bitmap.BitmapCache com.android.mail.ui.MailActivity.getSenderImageCache()/1/3
+com.android.bitmap.Poolable com.android.bitmap.UnrefedPooledCache.get(java.lang.Object, boolean)/2/45
+com.android.bitmap.ReusableBitmap com.android.bitmap.UnrefedBitmapCache.get(com.android.bitmap.RequestKey, boolean)/2/24
+com.android.bitmap.ReusableBitmap com.android.bitmap.UnrefedBitmapCache.put(com.android.bitmap.RequestKey, com.android.bitmap.ReusableBitmap)/2/30
+com.android.bitmap.ReusableBitmap$NullReusableBitmap com.android.bitmap.ReusableBitmap$NullReusableBitmap.getInstance()/17/14
+com.android.common.content.ProjectionMap com.android.email.provider.EmailProvider.getAccountListMap(android.content.Context)/8/321
+com.android.common.content.ProjectionMap com.android.email.provider.EmailProvider.getAttachmentMap()/11/93
+com.android.common.content.ProjectionMap com.android.email.provider.EmailProvider.getMessageListMap()/6/187
+com.android.common.content.ProjectionMap com.android.email.provider.EmailProvider.getMessageViewMap()/2/331
+com.android.common.content.ProjectionMap$Builder com.android.common.content.ProjectionMap.builder()/1/6
+com.android.email.EmailNotificationController com.android.email.EmailNotificationController.getInstance(android.content.Context)/4/23
+com.android.email.NotificationControllerCreator com.android.email.NotificationControllerCreatorHolder.getNotificationControllerCreator()/4/3
+com.android.email.activity.setup.AccountSetupBasicsFragment com.android.email.activity.setup.AccountSetupBasicsFragment.newInstance()/1/6
+com.android.email.mail.store.imap.ImapString com.android.email.mail.store.imap.ImapResponseParser.parseBareString()/1/127
+com.android.emailcommon.VendorPolicyLoader com.android.emailcommon.VendorPolicyLoader.getInstance(android.content.Context)/5/14
+com.android.emailcommon.internet.MimeHeader com.android.emailcommon.internet.MimeMessage.getMimeHeaders()/1/14
+com.android.emailcommon.mail.Address com.android.mail.browse.MessageHeaderView.getAddress(java.lang.String)/22/7
+com.android.emailcommon.mail.Flag[] com.android.email.mail.store.ImapFolder.getPermanentFlags()/1/3
+com.android.emailcommon.mail.Folder com.android.email.mail.store.ImapStore.getFolder(java.lang.String)/3/6
+com.android.emailcommon.provider.Account com.android.emailcommon.provider.Account.restoreAccountWithId(android.content.Context, long, android.database.ContentObserver)/7/16
+com.android.emailcommon.provider.EmailContent com.android.emailcommon.provider.EmailContent.restoreContentWithId(android.content.Context, java.lang.Class, android.net.Uri, java.lang.String[], long)/21/11
+com.android.emailcommon.provider.EmailContent com.android.emailcommon.provider.EmailContent.restoreContentWithId(android.content.Context, java.lang.Class, android.net.Uri, java.lang.String[], long, android.database.ContentObserver)/195/56
+com.android.emailcommon.provider.EmailContent$Attachment com.android.emailcommon.provider.EmailContent$Attachment.restoreAttachmentWithId(android.content.Context, long)/1/15
+com.android.emailcommon.provider.EmailContent$Attachment[] com.android.emailcommon.provider.EmailContent$Attachment.restoreAttachmentsWithMessageId(android.content.Context, long)/6/53
+com.android.emailcommon.provider.EmailContent$Body com.android.emailcommon.provider.EmailContent$Body.restoreBodyWithCursor(android.content.Context, android.database.Cursor)/1/28
+com.android.emailcommon.provider.EmailContent$Message com.android.emailcommon.provider.EmailContent$Message.restoreMessageWithId(android.content.Context, long)/2/15
+com.android.emailcommon.provider.HostAuth com.android.emailcommon.provider.Account.getOrCreateHostAuthSend(android.content.Context)/3/31
+com.android.emailcommon.provider.HostAuth com.android.emailcommon.provider.HostAuth.restoreHostAuthWithId(android.content.Context, long)/5/15
+com.android.emailcommon.provider.Mailbox com.android.emailcommon.provider.Mailbox.restoreMailboxForPath(android.content.Context, long, java.lang.String)/4/95
+com.android.emailcommon.service.IEmailService com.android.emailcommon.service.EmailServiceProxy.access$000(com.android.emailcommon.service.EmailServiceProxy)/1/3
+com.android.emailcommon.service.SearchParams com.android.mail.ConversationListContext.getSearchParams()/1/3
+com.android.emailcommon.utility.AsyncTask com.android.emailcommon.utility.AsyncTask.executeOnExecutor(java.util.concurrent.Executor, java.lang.Object[])/1/66
+com.android.ex.photo.util.ImageUtils$InputStreamFactory com.android.ex.photo.util.ImageUtils.createInputStreamFactory(android.content.ContentResolver, android.net.Uri)/1/24
+com.android.mail.ContactInfo com.android.mail.ui.ContactLoaderCallbacks.getContactInfo(java.lang.String)/2/19
+com.android.mail.ConversationListContext com.android.mail.ui.AbstractActivityController.getCurrentListContext()/5/3
+com.android.mail.analytics.Tracker com.android.mail.analytics.Analytics.getInstance()/9/22
+com.android.mail.bitmap.ColorPicker com.android.mail.bitmap.ContactDrawable.getTileColorPicker()/2/16
+com.android.mail.bitmap.ContactDrawable com.android.mail.bitmap.CheckableContactFlipDrawable.getContactDrawable()/3/3
+com.android.mail.bitmap.ContactResolver com.android.mail.ui.MailActivity.getContactResolver(android.content.ContentResolver, com.android.bitmap.BitmapCache)/3/6
+com.android.mail.bitmap.ContactResolver$ContactResolverTask com.android.mail.bitmap.ContactResolver.getContactResolverTask(java.util.LinkedHashSet)/2/10
+com.android.mail.browse.AttachmentProgressDialogFragment com.android.mail.browse.AttachmentProgressDialogFragment.newInstance(com.android.mail.providers.Attachment)/3/20
+com.android.mail.browse.ConversationAccountController com.android.mail.browse.ConversationViewAdapter.access$100(com.android.mail.browse.ConversationViewAdapter)/2/3
+com.android.mail.browse.ConversationContainer$OverlayPosition[] com.android.mail.ui.ConversationViewFragment.access$900(int[], int[])/41/5
+com.android.mail.browse.ConversationCursor com.android.mail.browse.ConversationPagerAdapter.getCursor()/6/28
+com.android.mail.browse.ConversationCursor com.android.mail.ui.AbstractActivityController.getConversationListCursor()/76/3
+com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper com.android.mail.browse.ConversationCursor$RefreshTask.doInBackground(java.lang.Void[])/2/11
+com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper$CacheLoaderTask com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.access$202(com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper, com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper$CacheLoaderTask)/1/3
+com.android.mail.browse.ConversationItemViewCoordinates com.android.mail.browse.ConversationItemViewCoordinates$CoordinatesCache.getCoordinates(int)/1/9
+com.android.mail.browse.ConversationItemViewCoordinates$Config com.android.mail.browse.ConversationItemViewCoordinates$Config.setUseFullMargins(boolean)/2/3
+com.android.mail.browse.ConversationItemViewCoordinates$Config com.android.mail.browse.ConversationItemViewCoordinates$Config.showColorBlock()/1/4
+com.android.mail.browse.ConversationItemViewCoordinates$Config com.android.mail.browse.ConversationItemViewCoordinates$Config.showReplyState()/2/4
+com.android.mail.browse.ConversationItemViewCoordinates$Config com.android.mail.browse.ConversationItemViewCoordinates$Config.withGadget(int)/5/3
+com.android.mail.browse.ConversationItemViewModel com.android.mail.browse.ConversationItemViewModel.forConversation(java.lang.String, com.android.mail.providers.Conversation)/6/57
+com.android.mail.browse.ConversationItemViewModel com.android.mail.browse.ConversationItemViewModel.forConversationId(java.lang.String, long)/8/33
+com.android.mail.browse.ConversationMessage com.android.mail.browse.ConversationMessage$1.createFromCursor(android.database.Cursor)/1/7
+com.android.mail.browse.ConversationOverlayItem com.android.mail.browse.ConversationViewAdapter.getItem(int)/2/9
+com.android.mail.browse.ConversationViewAdapter com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem.getAdapter()/6/3
+com.android.mail.browse.ConversationViewAdapter$ConversationFooterItem com.android.mail.browse.ConversationViewAdapter.getFooterItem()/2/64
+com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem com.android.mail.browse.ConversationViewAdapter$ConversationFooterItem.getLastMessageHeaderItem()/13/3
+com.android.mail.browse.InlineAttachmentViewIntentBuilder com.android.email.EmailApplication$2.createInlineAttachmentViewIntentBuilder(com.android.mail.providers.Account, long)/2/6
+com.android.mail.browse.InlineAttachmentViewIntentBuilderCreator com.android.mail.browse.InlineAttachmentViewIntentBuilderCreatorHolder.getInlineAttachmentViewIntentCreator()/1/3
+com.android.mail.browse.MergedAdapter$LocalAdapterPosition com.android.mail.browse.MergedAdapter.getAdapterOffsetForItem(int)/1/40
+com.android.mail.browse.MessageCursor com.android.mail.ui.AbstractConversationViewFragment.access$200(com.android.mail.ui.AbstractConversationViewFragment)/2/3
+com.android.mail.compose.HtmlifyBeginResult com.android.mail.compose.ComposeActivity.onHtmlifyBegin(android.text.Spanned)/2/7
+com.android.mail.content.ObjectCursor com.android.mail.content.ObjectCursorLoader.getObjectCursor(android.database.Cursor)/1/8
+com.android.mail.content.ObjectCursor com.android.mail.content.ObjectCursorLoader.loadInBackground()/6/253
+com.android.mail.content.ObjectCursor com.android.mail.ui.AbstractConversationViewFragment$MessageLoader.getObjectCursor(android.database.Cursor)/1/6
+com.android.mail.drawer.DrawerItem com.android.mail.drawer.DrawerItem.ofBlankHeader(com.android.mail.ui.ControllableActivity)/1/6
+com.android.mail.drawer.DrawerItem com.android.mail.ui.FolderListFragment$FooterAdapter.getItem(int)/4/9
+com.android.mail.photo.ContactFetcher com.android.mail.MailIntentService.getContactFetcher()/12/2
+com.android.mail.providers.Account com.android.mail.providers.Account$1.createFromParcel(android.os.Parcel, java.lang.ClassLoader)/1/9
+com.android.mail.providers.Account com.android.mail.ui.AbstractActivityController.getAccount()/2/3
+com.android.mail.providers.Account com.android.mail.ui.AbstractConversationViewFragment.getAccount()/42/3
+com.android.mail.providers.Account com.android.mail.ui.AccountFeedbackActivity.getAccount()/1/3
+com.android.mail.providers.Account[] com.android.mail.ui.AbstractActivityController.getAllAccounts()/11/3
+com.android.mail.providers.Account[] com.android.mail.ui.FolderListFragment.getAllAccounts()/1/15
+com.android.mail.providers.Conversation com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.getConversation()/11/25
+com.android.mail.providers.Conversation com.android.mail.browse.ConversationMessage.getConversation()/4/13
+com.android.mail.providers.Conversation com.android.mail.browse.ConversationPagerAdapter.getConversation(int)/1/72
+com.android.mail.providers.Conversation com.android.mail.browse.ConversationViewAdapter$ConversationHeaderItem.getConversation()/2/3
+com.android.mail.providers.Conversation com.android.mail.ui.AbstractActivityController.getCurrentConversation()/2/3
+com.android.mail.providers.ConversationInfo com.android.mail.providers.Conversation.readConversationInfo(android.database.Cursor)/21/54
+com.android.mail.providers.ConversationInfo com.android.mail.providers.ConversationInfo$1.createFromParcel(android.os.Parcel)/1/7
+com.android.mail.providers.Folder com.android.email.provider.EmailProvider.getFolder(android.content.Context, long)/13/61
+com.android.mail.providers.Folder com.android.mail.providers.Folder$1.createFromCursor(android.database.Cursor)/13/6
+com.android.mail.providers.Folder com.android.mail.providers.FolderWatcher.getDefaultInbox(com.android.mail.providers.Account)/11/25
+com.android.mail.providers.Folder com.android.mail.ui.AbstractActivityController.getFolder()/2/3
+com.android.mail.providers.Folder com.android.mail.ui.FolderListFragment.access$2100(com.android.mail.ui.FolderListFragment)/1/3
+com.android.mail.providers.FolderList com.android.mail.providers.Conversation.readRawFolders(android.database.Cursor)/20/55
+com.android.mail.providers.FolderWatcher$UnreadCountChangedListener com.android.mail.providers.FolderWatcher.access$300(com.android.mail.providers.FolderWatcher)/1/3
+com.android.mail.providers.SearchRecentSuggestionsProvider com.android.mail.ui.MailActivity.getSuggestionsProvider()/1/6
+com.android.mail.ui.ActivityController com.android.email2.ui.ControllerFactoryEmail.forActivity(com.android.mail.ui.MailActivity, com.android.mail.ui.ViewMode, boolean)/1/14
+com.android.mail.ui.AnimatedAdapter com.android.mail.ui.ConversationListFragment.getAnimatedAdapter()/1/3
+com.android.mail.ui.AnimatedAdapter com.android.mail.ui.SwipeableListView.getAnimatedAdapter()/3/7
+com.android.mail.ui.ConversationListHelper com.android.mail.ui.MailActivity.getConversationListHelper()/1/3
+com.android.mail.ui.ConversationTipView$ImageAttrSet com.android.mail.ui.ConversationPhotoTeaserView.getStartIconAttr()/3/13
+com.android.mail.ui.ConversationTipView$ImageAttrSet com.android.mail.ui.ConversationTipView.getStartIconAttr()/4/2
+com.android.mail.ui.ConversationUpdater com.android.mail.ui.MailActivity.getConversationUpdater()/3/3
+com.android.mail.ui.ConversationViewFragment$ConversationWebViewClient com.android.mail.ui.ConversationViewFragment.createConversationWebViewClient()/2/8
+com.android.mail.ui.FolderController com.android.mail.ui.MailActivity.getFolderController()/5/3
+com.android.mail.ui.FolderListFragment$AccountsAdapter com.android.mail.ui.FolderListFragment.access$1200(com.android.mail.ui.FolderListFragment)/2/3
+com.android.mail.ui.FolderListFragment$AccountsAdapter com.android.mail.ui.FolderListFragment.newAccountsAdapter()/1/6
+com.android.mail.ui.FolderSelector com.android.mail.ui.MailActivity.getFolderSelector()/1/3
+com.android.mail.ui.KeyboardNavigationController com.android.mail.ui.MailActivity.getKeyboardNavigationController()/4/3
+com.android.mail.ui.SwipeableListView com.android.mail.browse.ConversationItemView.getListView()/3/28
+com.android.mail.ui.SwipeableListView com.android.mail.ui.ConversationListFragment.getListView()/1/3
+com.android.mail.ui.ViewMode com.android.mail.ui.MailActivity.getViewMode()/5/3
+com.android.mail.ui.WaitFragment com.android.mail.compose.ComposeActivity.getWaitFragment()/1/13
+com.android.mail.ui.WaitFragment com.android.mail.ui.AbstractActivityController.getWaitFragment()/1/21
+com.android.mail.utils.EmailConnectivityManager com.android.mail.ui.AbstractActivityController.getConnMgr()/1/3
+com.android.mail.utils.NotificationUtils$NotificationMap com.android.mail.utils.NotificationUtils.getNotificationMap(android.content.Context)/3/27
+com.android.mail.utils.Throttle$MyTimerTask com.android.mail.utils.Throttle.access$302(com.android.mail.utils.Throttle, com.android.mail.utils.Throttle$MyTimerTask)/5/3
+com.android.mail.utils.VeiledAddressMatcher com.android.mail.ui.AbstractActivityController.getVeiledAddressMatcher()/1/3
+com.android.mail.utils.VeiledAddressMatcher com.android.mail.utils.VeiledAddressMatcher.newInstance(android.content.res.Resources)/1/29
+com.android.mtkex.chips.MTKRecipientEditTextView$PROCESSING_MODE com.android.mtkex.chips.MTKRecipientEditTextView.access$3700(com.android.mtkex.chips.MTKRecipientEditTextView)/3/3
+com.android.mtkex.chips.RecipientEntry com.android.mtkex.chips.MTKRecipientEditTextView.createTokenizedEntry(java.lang.String)/1/209
+com.android.mtkex.chips.RecipientEntry com.android.mtkex.chips.MTKRecipientEditTextView.createValidatedEntry(com.android.mtkex.chips.RecipientEntry)/1/84
+com.android.mtkex.chips.RecipientEntry com.android.mtkex.chips.recipientchip.SimpleRecipientChip.getEntry()/1/3
+com.android.mtkex.chips.RecipientEntry com.android.mtkex.chips.recipientchip.VisibleRecipientChip.getEntry()/1/7
+com.android.mtkex.chips.recipientchip.DrawableRecipientChip com.android.mtkex.chips.MTKRecipientEditTextView.access$700(com.android.mtkex.chips.MTKRecipientEditTextView)/2/3
+com.android.mtkex.chips.recipientchip.DrawableRecipientChip com.android.mtkex.chips.MTKRecipientEditTextView.getLastChip()/1/16
+com.google.android.mail.common.base.CharEscaper com.google.android.mail.common.base.CharEscaperBuilder.toEscaper()/1/10
+com.google.android.mail.common.base.CharMatcher com.google.android.mail.common.base.CharMatcher.anyOf(java.lang.CharSequence)/4/62
+com.google.android.mail.common.base.CharMatcher com.google.android.mail.common.base.CharMatcher.is(char)/2/6
+com.google.android.mail.common.base.CharMatcher com.google.android.mail.common.base.Platform.precomputeCharMatcher(com.google.android.mail.common.base.CharMatcher)/1/5
+com.google.android.mail.common.base.Splitter com.google.android.mail.common.base.Splitter.on(com.google.android.mail.common.base.CharMatcher)/1/14
+com.google.android.mail.common.base.StringUtil$UnicodeSetBuilder com.google.android.mail.common.base.StringUtil$UnicodeSetBuilder.addCodePoint(int)/1/10
+com.google.android.mail.common.html.parser.HTML$Attribute com.google.android.mail.common.html.parser.HTML4.lookupAttribute(java.lang.String)/1/13
+com.google.android.mail.common.html.parser.HTML$Element com.google.android.mail.common.html.parser.HTML4$1.lookupElement(java.lang.String)/1/5
+com.google.android.mail.common.html.parser.HTML$Element com.google.android.mail.common.html.parser.HTML4.addElement(java.lang.String, java.lang.String, com.google.android.mail.common.html.parser.HTML$Element$Flow)/1/6
+com.google.android.mail.common.html.parser.HtmlDocument$EndTag com.google.android.mail.common.html.parser.HtmlDocument.createEndTag(com.google.android.mail.common.html.parser.HTML$Element, java.lang.String)/1/7
+com.google.android.mail.common.html.parser.HtmlDocument$Tag com.google.android.mail.common.html.parser.HtmlDocument.createTag(com.google.android.mail.common.html.parser.HTML$Element, java.util.List, java.lang.String, java.lang.String)/1/12
+com.google.android.mail.common.html.parser.HtmlDocument$TagAttribute com.google.android.mail.common.html.parser.HtmlDocument.createTagAttribute(com.google.android.mail.common.html.parser.HTML$Attribute, java.lang.String, java.lang.String)/3/15
+com.google.android.mail.common.html.parser.HtmlDocument$Text com.google.android.mail.common.html.parser.HtmlDocument.createEscapedText(java.lang.String, java.lang.String)/1/7
+com.google.common.collect.ArrayListMultimap com.google.common.collect.ArrayListMultimap.create()/4/6
+com.google.common.collect.ImmutableCollection$Builder com.google.common.collect.ImmutableSet$Builder.add(java.lang.Object)/15/5
+com.google.common.collect.ImmutableList com.google.common.collect.ImmutableList.asList()/2/1
+com.google.common.collect.ImmutableList com.google.common.collect.ImmutableList.copyOf(java.util.Collection)/4/26
+com.google.common.collect.ImmutableList com.google.common.collect.ImmutableList.of(java.lang.Object)/1/6
+com.google.common.collect.ImmutableList com.google.common.collect.ImmutableList.of(java.lang.Object, java.lang.Object)/1/14
+com.google.common.collect.ImmutableList$Builder com.google.common.collect.ImmutableList.builder()/9/6
+com.google.common.collect.ImmutableMap com.android.mail.SenderInfoLoader.loadContactPhotosWithObserver(android.content.ContentResolver, java.util.Set, boolean)/2/13
+com.google.common.collect.ImmutableMap com.android.mail.SenderInfoLoader.loadInBackground()/1/30
+com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap$Builder.fromEntryList(java.util.List)/1/52
+com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of()/2/3
+com.google.common.collect.ImmutableMap org.owasp.html.HtmlPolicyBuilder.compilePolicies()/18/604
+com.google.common.collect.ImmutableSet com.google.common.collect.ImmutableSet.copyFromCollection(java.util.Collection)/1/34
+com.google.common.collect.ImmutableSet com.google.common.collect.ImmutableSet.of()/1/3
+com.google.common.collect.ImmutableSet$Builder com.google.common.collect.ImmutableSet.builder()/10/6
+com.google.common.collect.RegularImmutableMap$LinkedEntry com.google.common.collect.RegularImmutableMap$NonTerminalEntry.next()/10/3
+com.google.common.collect.RegularImmutableMap$LinkedEntry com.google.common.collect.RegularImmutableMap$TerminalEntry.next()/9/2
+com.google.common.collect.RegularImmutableMap$LinkedEntry[] com.google.common.collect.RegularImmutableMap.createEntryArray(int)/6/3
+com.google.common.collect.UnmodifiableIterator com.google.common.collect.Iterators.singletonIterator(java.lang.Object)/35/6
+com.google.common.collect.UnmodifiableIterator com.google.common.collect.RegularImmutableList.iterator()/1/11
+com.mediatek.email.ext.ISendNotification com.mediatek.email.extension.OPExtensionFactory.getSendingNotifyExtension(android.content.Context)/3/67
+com.mediatek.email.ext.IServerProviderExt com.mediatek.email.extension.OPExtensionFactory.getProviderExtension(android.content.Context)/1/67
+com.mediatek.email.outofoffice.OofGetWaitingFragment com.mediatek.email.outofoffice.OofGetWaitingFragment.newInstance(long, android.app.Fragment)/1/10
+com.mediatek.email.ui.EmailAccountAutoCompleteTextView com.android.email.activity.setup.AccountSetupBasicsFragment.access$100(com.android.email.activity.setup.AccountSetupBasicsFragment)/2/3
+com.mediatek.mail.vip.VipPreferences com.mediatek.mail.vip.VipPreferences.get(android.content.Context)/18/14
+float android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl.getX(android.view.MotionEvent, int)/4/5
+float android.support.v4.view.MotionEventCompatEclair.getX(android.view.MotionEvent, int)/1/5
+float android.support.v4.widget.ViewDragHelper$1.getInterpolation(float)/3/10
+float com.android.mail.browse.ConversationItemView.getMinAllowScrollDistance()/3/4
+float com.android.mail.browse.ConversationWebView.getInitialScale()/1/26
+int android.support.v4.app.NotificationCompat$Action.getIcon()/1/3
+int android.support.v4.text.BidiFormatter.getEntryDir(java.lang.String)/2/11
+int android.support.v4.text.TextDirectionHeuristicsCompat.isRtlTextOrFormat(int)/18/40
+int android.support.v4.text.TextUtilsCompat.getLayoutDirectionFromLocale(java.util.Locale)/6/49
+int android.support.v4.util.ContainerHelpers.idealIntArraySize(int)/1/9
+int android.support.v4.util.SimpleArrayMap.indexOfKey(java.lang.Object)/5/16
+int android.support.v4.view.GravityCompat$GravityCompatImplJellybeanMr1.getAbsoluteGravity(int, int)/112/5
+int android.support.v4.view.MarginLayoutParamsCompat$MarginLayoutParamsCompatImplJbMr1.getMarginEnd(android.view.ViewGroup$MarginLayoutParams)/1/5
+int android.support.v4.view.MarginLayoutParamsCompat.getMarginStart(android.view.ViewGroup$MarginLayoutParams)/1/7
+int android.support.v4.view.MarginLayoutParamsCompatJellybeanMr1.getMarginEnd(android.view.ViewGroup$MarginLayoutParams)/1/5
+int android.support.v4.view.MarginLayoutParamsCompatJellybeanMr1.getMarginStart(android.view.ViewGroup$MarginLayoutParams)/11/5
+int android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl.getPointerCount(android.view.MotionEvent)/1/5
+int android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl.getPointerId(android.view.MotionEvent, int)/1/5
+int android.support.v4.view.MotionEventCompat.getActionIndex(android.view.MotionEvent)/2/11
+int android.support.v4.view.MotionEventCompat.getActionMasked(android.view.MotionEvent)/5/7
+int android.support.v4.view.MotionEventCompat.getPointerCount(android.view.MotionEvent)/2/7
+int android.support.v4.view.MotionEventCompatEclair.getPointerCount(android.view.MotionEvent)/1/5
+int android.support.v4.view.ViewCompat$GBViewCompatImpl.getOverScrollMode(android.view.View)/28/5
+int android.support.v4.view.ViewCompat.getOverScrollMode(android.view.View)/1/7
+int android.support.v4.view.ViewCompat.resolveSizeAndState(int, int, int)/1/7
+int android.support.v4.view.ViewCompatHC.getMeasuredState(android.view.View)/21/5
+int android.support.v4.view.ViewCompatHC.resolveSizeAndState(int, int, int)/26/5
+int android.support.v4.view.ViewCompatJB.getMinimumHeight(android.view.View)/8/5
+int android.support.v4.view.ViewConfigurationCompatFroyo.getScaledPagingTouchSlop(android.view.ViewConfiguration)/1/5
+int android.support.v4.view.ViewGroupCompat$ViewGroupCompatJellybeanMR2Impl.getLayoutMode(android.view.ViewGroup)/1/5
+int android.support.v4.view.ViewGroupCompatJellybeanMR2.getLayoutMode(android.view.ViewGroup)/3/5
+int android.support.v4.view.ViewPager$1.compare(android.support.v4.view.ViewPager$ItemInfo, android.support.v4.view.ViewPager$ItemInfo)/3/6
+int android.support.v4.widget.DrawerLayout$DrawerLayoutCompatImplApi21.getTopInset(java.lang.Object)/1/5
+int android.support.v4.widget.DrawerLayout$ViewDragCallback.getViewHorizontalDragRange(android.view.View)/7/15
+int android.support.v4.widget.DrawerLayout.getDrawerViewAbsoluteGravity(android.view.View)/1/17
+int android.support.v4.widget.DrawerLayoutCompatApi21.getTopInset(java.lang.Object)/47/11
+int android.support.v4.widget.ScrollerCompat.getCurrX()/1/9
+int android.support.v4.widget.ScrollerCompatGingerbread.getCurrX(java.lang.Object)/1/7
+int android.support.v4.widget.ScrollerCompatGingerbread.getCurrY(java.lang.Object)/1/7
+int android.support.v4.widget.ScrollerCompatGingerbread.getFinalX(java.lang.Object)/6/7
+int android.support.v4.widget.ViewDragHelper.clampMag(int, int, int)/1/16
+int android.support.v4.widget.ViewDragHelper.getEdgeSize()/3/3
+int android.support.v4.widget.ViewDragHelper.getEdgesTouched(int, int)/6/54
+int android.support.v4.widget.ViewDragHelper.getViewDragState()/1/3
+int android.support.v7.internal.view.menu.MenuBuilder.getOrdering(int)/47/32
+int android.support.v7.internal.view.menu.MenuBuilder.size()/20/7
+int android.support.v7.internal.view.menu.MenuItemImpl.getItemId()/2/3
+int android.support.v7.internal.widget.AbsSpinnerCompat.getChildHeight(android.view.View)/1/5
+int android.support.v7.internal.widget.ActionBarBackgroundDrawable.getOpacity()/1/2
+int android.support.v7.internal.widget.AdapterViewCompat.getSelectedItemPosition()/1/3
+int android.support.v7.internal.widget.RtlSpacingHelper.getEnd()/4/10
+int android.support.v7.internal.widget.RtlSpacingHelper.getLeft()/1/3
+int android.support.v7.internal.widget.RtlSpacingHelper.getRight()/1/3
+int android.support.v7.internal.widget.RtlSpacingHelper.getStart()/4/10
+int android.support.v7.internal.widget.TintManager$ColorFilterLruCache.generateCacheKey(int, android.graphics.PorterDuff$Mode)/1/12
+int android.support.v7.internal.widget.TintTypedArray.getDimensionPixelSize(int, int)/1/7
+int android.support.v7.internal.widget.TintTypedArray.length()/1/7
+int android.support.v7.widget.GridLayout$3.getAlignmentValue(android.view.View, int, int)/1/2
+int android.support.v7.widget.GridLayout$3.getGravityOffset(android.view.View, int)/1/2
+int android.support.v7.widget.GridLayout$7$1.size(boolean)/3/11
+int android.support.v7.widget.GridLayout$7.getAlignmentValue(android.view.View, int, int)/6/20
+int android.support.v7.widget.GridLayout$8.getSizeInCell(android.view.View, int, int)/1/1
+int android.support.v7.widget.GridLayout$Axis.getMaxIndex()/7/20
+int android.support.v7.widget.GridLayout$Interval.hashCode()/6/9
+int android.support.v7.widget.GridLayout$Spec.getFlexibility()/6/17
+int android.support.v7.widget.GridLayout$Spec.hashCode()/2/17
+int android.support.v7.widget.GridLayout.adjust(int, int)/1/15
+int android.support.v7.widget.GridLayout.getDefaultMargin(android.view.View, android.support.v7.widget.GridLayout$LayoutParams, boolean, boolean)/10/61
+int android.support.v7.widget.LinearLayoutCompat.getVirtualChildCount()/6/5
+int android.support.v7.widget.Toolbar.getChildTop(android.view.View, int)/4/108
+int android.support.v7.widget.Toolbar.getChildVerticalGravity(int)/9/24
+int android.support.v7.widget.Toolbar.getContentInsetEnd()/1/7
+int com.android.email.EmailNotificationController.access$100(com.android.email.EmailNotificationController)/1/3
+int com.android.email.EmailNotificationController.getLoginFailedNotificationId(long)/2/5
+int com.android.email.FixedLengthInputStream.getLength()/1/3
+int com.android.email.LegacyConversions.inferMailboxTypeFromName(android.content.Context, java.lang.String)/3/142
+int com.android.email.PeekableInputStream.peek()/245/16
+int com.android.email.PeekableInputStream.read()/1/17
+int com.android.email.PeekableInputStream.read(byte[], int, int)/5/37
+int com.android.email.mail.store.ImapFolder.getMessageCount()/1/3
+int com.android.email.mail.store.imap.ImapResponseParser.readByte()/2/20
+int com.android.email.mail.transport.MailTransport.getPort()/1/5
+int com.android.email.provider.EmailProvider$ApplyBatchNotification.hashCode()/47/27
+int com.android.email.provider.EmailProvider$SyncRequestMessage.hashCode()/1/30
+int com.android.email.provider.EmailProvider.delete(android.net.Uri, java.lang.String, java.lang.String[])/2/850
+int com.android.email.provider.EmailProvider.findMatch(android.net.Uri, java.lang.String)/440/79
+int com.android.email.provider.EmailProvider.getCapabilities(android.content.Context, com.android.emailcommon.provider.Account)/13/202
+int com.android.email.provider.EmailProvider.getConversationListIcon(com.android.mail.preferences.MailPrefs)/1/10
+int com.android.email.provider.EmailProvider.getVirtualMailboxType(long)/4/5
+int com.android.email.provider.EmailProvider.getVirtualMailboxTypeById(long)/2/13
+int com.android.email.provider.EmailProvider.update(android.net.Uri, android.content.ContentValues, java.lang.String, java.lang.String[])/1/1826
+int com.android.email.service.AttachmentService.getAttachmentPriority(com.android.emailcommon.provider.EmailContent$Attachment)/1/15
+int com.android.email.service.ImapService.synchronizeMailboxSynchronous(android.content.Context, com.android.emailcommon.provider.Account, com.android.emailcommon.provider.Mailbox, boolean, boolean)/1/82
+int com.android.emailcommon.TrafficFlags.getSmtpFlags(android.content.Context, com.android.emailcommon.provider.Account)/1/6
+int com.android.emailcommon.TrafficFlags.getSyncFlags(android.content.Context, com.android.emailcommon.provider.Account)/1/6
+int com.android.emailcommon.provider.EmailContent.update(android.content.Context, android.content.ContentValues)/3/26
+int com.android.emailcommon.provider.HostAuth.hashCode()/2/32
+int com.android.emailcommon.provider.Mailbox.getUnreadCountByMailboxType(android.content.Context, int)/1/31
+int com.android.emailcommon.service.OofParams.getOofState()/1/3
+int com.android.emailcommon.utility.ExtendBase64$Decoder.maxOutputSize(int)/2/7
+int com.android.ex.photo.util.InputStreamBuffer.leastPowerOf2(int)/2/20
+int com.android.mail.bitmap.AbstractAvatarDrawable.getOpacity()/50/2
+int com.android.mail.bitmap.ColorPicker$PaletteColorPicker.pickColor(java.lang.String)/59/21
+int com.android.mail.bitmap.ContactRequest$ContactRequestHolder.hashCode()/23/28
+int com.android.mail.bitmap.ContactRequest.hashCode()/52/13
+int com.android.mail.browse.ConversationBottomSpace.getDefaultSize2(int, int)/38/36
+int com.android.mail.browse.ConversationContainer.getOverlayBottom(int)/1/11
+int com.android.mail.browse.ConversationContainer.measureOverlay(android.view.View)/1/8
+int com.android.mail.browse.ConversationContainer.webPxToScreenPx(int)/52/6
+int com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.access$000(com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper)/7/3
+int com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.access$002(com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper, int)/8/3
+int com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.getPosition(long)/11/21
+int com.android.mail.browse.ConversationCursor.access$1600()/1/3
+int com.android.mail.browse.ConversationCursor.apply(java.util.Collection)/1/7
+int com.android.mail.browse.ConversationCursor.getColumnIndexOrThrow(java.lang.String)/12/7
+int com.android.mail.browse.ConversationCursor.getInt(int)/3/20
+int com.android.mail.browse.ConversationFooterView.measureHeight()/1/28
+int com.android.mail.browse.ConversationItemView.makeExactSpecForSize(int)/19/7
+int com.android.mail.browse.ConversationItemViewCoordinates$Config.access$000(com.android.mail.browse.ConversationItemViewCoordinates$Config)/2/5
+int com.android.mail.browse.ConversationItemViewCoordinates$Config.getCacheKey()/18/71
+int com.android.mail.browse.ConversationItemViewCoordinates.getSendersLength(android.content.Context, boolean)/1/22
+int com.android.mail.browse.ConversationItemViewModel.getHashCode(java.lang.CharSequence, java.lang.Object, java.util.List, boolean, boolean, int, int)/4/49
+int com.android.mail.browse.ConversationOverlayItem.getGravity()/7/3
+int com.android.mail.browse.ConversationOverlayItem.getHeight()/77/3
+int com.android.mail.browse.ConversationOverlayItem.getPosition()/3/3
+int com.android.mail.browse.ConversationPagerAdapter.getCount()/3/90
+int com.android.mail.browse.ConversationPagerAdapter.getItemPosition(java.lang.Object)/1/29
+int com.android.mail.browse.ConversationViewAdapter$ConversationHeaderItem.getType()/20/2
+int com.android.mail.browse.ConversationViewAdapter$MessageFooterItem.getGravity()/3/3
+int com.android.mail.browse.ConversationViewAdapter$MessageFooterItem.getHeight()/3/15
+int com.android.mail.browse.ConversationViewAdapter$MessageFooterItem.getType()/2/2
+int com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem.getType()/2/2
+int com.android.mail.browse.ConversationViewAdapter.addItem(com.android.mail.browse.ConversationOverlayItem)/5/15
+int com.android.mail.browse.ConversationViewAdapter.getCount()/87/7
+int com.android.mail.browse.ConversationWebView.getViewportWidth()/43/3
+int com.android.mail.browse.MailWebView.computeHorizontalScrollExtent()/18/5
+int com.android.mail.browse.MailWebView.computeHorizontalScrollOffset()/17/5
+int com.android.mail.browse.MailWebView.computeHorizontalScrollRange()/32/5
+int com.android.mail.browse.MailWebView.computeVerticalScrollExtent()/5/5
+int com.android.mail.browse.MailWebView.computeVerticalScrollOffset()/7/5
+int com.android.mail.browse.MailWebView.computeVerticalScrollRange()/6/5
+int com.android.mail.browse.MergedAdapter$LocalAdapterPosition.access$000(com.android.mail.browse.MergedAdapter$LocalAdapterPosition)/21/3
+int com.android.mail.browse.MergedAdapter.getItemViewType(int)/1/51
+int com.android.mail.browse.MessageCursor.getStatus()/2/51
+int com.android.mail.browse.MessageHeaderView.measureHeight()/3/46
+int com.android.mail.browse.ScrollIndicatorsView.computeHorizontalScrollExtent()/2/7
+int com.android.mail.browse.ScrollIndicatorsView.computeHorizontalScrollOffset()/1/7
+int com.android.mail.browse.ScrollIndicatorsView.computeHorizontalScrollRange()/1/7
+int com.android.mail.browse.ScrollIndicatorsView.computeVerticalScrollExtent()/1/7
+int com.android.mail.browse.ScrollIndicatorsView.computeVerticalScrollRange()/1/7
+int com.android.mail.browse.SubjectAndFolderView.getMaxChipWidth()/10/3
+int com.android.mail.compose.ComposeActivity.getSignatureStartPosition(java.lang.String, java.lang.String)/1/66
+int com.android.mail.compose.QuotedTextView.getQuotedTextOffset(java.lang.String)/1/10
+int com.android.mail.content.ThreadSafeCursorWrapper.getInt(int)/37/15
+int com.android.mail.drawer.BlankHeaderDrawerItem.getType()/3/2
+int com.android.mail.drawer.DrawerItem.getViewTypeCount()/6/3
+int com.android.mail.drawer.FolderDrawerItem.getType()/33/2
+int com.android.mail.drawer.FooterItem.getTextResourceId()/2/3
+int com.android.mail.drawer.HeaderDrawerItem.getType()/5/2
+int com.android.mail.photomanager.LetterTileProvider.getFontSize(float)/5/12
+int com.android.mail.preferences.MailPrefs.getAutoAdvanceMode()/3/12
+int com.android.mail.preferences.VersionedPrefs.getCurrentVersion()/2/10
+int com.android.mail.providers.Conversation.numDrafts()/1/5
+int com.android.mail.providers.ConversationInfo.hashCode()/2/46
+int com.android.mail.providers.Folder.hashCode()/6/13
+int com.android.mail.providers.FolderWatcher.getUnreadCount(com.android.mail.providers.Account)/2/11
+int com.android.mail.providers.Settings.getAutoAdvanceSetting()/3/14
+int com.android.mail.providers.Settings.hashCode()/2/190
+int com.android.mail.text.FolderSpan.getWidth(android.graphics.Paint)/7/33
+int com.android.mail.ui.ActionBarController.getMode()/1/13
+int com.android.mail.ui.ActionBarController.getOptionsMenuId()/3/52
+int com.android.mail.ui.AnimatedAdapter.getCheckboxSetting()/11/13
+int com.android.mail.ui.AnimatedAdapter.getSpecialViewsPos(int)/16/9
+int com.android.mail.ui.AttachmentTile.getThumbnailWidth()/2/7
+int com.android.mail.ui.ConversationTipView.getChildLayout()/3/4
+int com.android.mail.ui.ConversationViewFragment.access$1000(com.android.mail.ui.ConversationViewFragment)/8/3
+int com.android.mail.ui.FolderListFragment$AccountsAdapter.getCount()/391/7
+int com.android.mail.ui.FolderListFragment$FolderAdapter.getCount()/54/7
+int com.android.mail.ui.FolderListFragment$FolderAdapter.getItemViewType(int)/6/11
+int com.android.mail.ui.FolderListFragment$FolderAdapter.getViewTypeCount()/1/5
+int com.android.mail.ui.FolderListFragment$FooterAdapter.getCount()/12/7
+int com.android.mail.ui.FolderListFragment.access$1100(com.android.mail.ui.FolderListFragment)/16/3
+int com.android.mail.ui.SwipeableListView.getSelectedConversationPosDebug()/7/38
+int com.android.mail.ui.ViewMode.getMode()/7/54
+int com.android.mail.utils.EmailConnectivityManager.getActiveNetworkType(android.net.ConnectivityManager)/1/13
+int com.android.mail.utils.LogUtils.d(java.lang.String, java.lang.Throwable, java.lang.String, java.lang.Object[])/5/43
+int com.android.mail.utils.MatrixCursorWithCachedColumns.getColumnIndex(java.lang.String)/95/17
+int com.android.mail.utils.NotificationUtils$NotificationMap.size()/3/7
+int com.android.mail.utils.Utils.getFolderUnreadDisplayCount(com.android.mail.providers.Folder)/5/46
+int com.android.mail.utils.Utils.getMaxUnreadCount(android.content.Context)/2/13
+int com.android.mail.utils.Utils.measureViewHeight(android.view.View, android.view.ViewGroup)/107/57
+int com.android.mail.utils.ViewUtils.getPaddingStart(android.view.View)/2/16
+int com.android.mtkex.chips.BaseRecipientAdapter.getQueryType()/4/3
+int com.android.org.chromium.content.app.ContentMain.nativeStart()/8/0
+int com.beetstra.jutf7.Base64Util.getSextet(byte)/4/11
+int com.google.android.mail.common.html.parser.HTML$Element.hashCode()/2/7
+int com.google.android.mail.common.html.parser.HtmlTree$PlainTextPrinter.getTextLength()/2/7
+int com.google.common.base.Preconditions.checkElementIndex(int, int, java.lang.String)/1/15
+int com.google.common.base.Preconditions.checkPositionIndex(int, int, java.lang.String)/9/15
+int com.google.common.collect.Hashing.smear(int)/2/13
+int com.google.common.collect.ImmutableSet$ArrayImmutableSet.size()/1/4
+int com.google.common.collect.ImmutableSet.chooseTableSize(int)/22/25
+int com.google.common.collect.MapMaker.getInitialCapacity()/1/11
+int com.google.common.collect.Maps.capacity(int)/9/26
+int com.google.common.collect.RegularImmutableMap.chooseTableSize(int)/6/27
+int com.google.common.collect.RegularImmutableSet.hashCode()/2/3
+int com.google.common.collect.SingletonImmutableList.hashCode()/4/9
+int com.google.common.collect.SingletonImmutableList.size()/1/2
+int com.google.common.primitives.Ints.saturatedCast(long)/43/23
+int com.mediatek.email.ui.DropdownAccountsArrayAdapter.getCount()/2/7
+int com.mediatek.email.ui.EmailAccountAutoCompleteTextView$EmailHistoryTokenizer.findTokenStart(java.lang.CharSequence, int)/2/2
+int org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.Writer)/3/15
+int org.apache.james.mime4j.CloseShieldInputStream.read(byte[])/1/10
+int org.apache.james.mime4j.EOLConvertingInputStream.read()/1597/60
+int org.apache.james.mime4j.field.datetime.parser.DateTimeParser.zone()/1/96
+int org.apache.james.mime4j.field.datetime.parser.DateTimeParserTokenManager.jjStopAtPos(int, int)/3/7
+int org.owasp.html.CssTokens$TokenIterator.endOffset()/1/13
+int org.owasp.html.CssTokens$TokenIterator.startOffset()/4/11
+int org.owasp.html.StylingPolicy.hashCode()/3/7
+int org.owasp.html.TagBalancingHtmlStreamEventReceiver$ElementContainmentRelationships.elementGroupBits(org.owasp.html.TagBalancingHtmlStreamEventReceiver$ElementContainmentRelationships$ElementGroup)/2/7
+int org.owasp.html.TagBalancingHtmlStreamEventReceiver$ElementContainmentRelationships.elementGroupBits(org.owasp.html.TagBalancingHtmlStreamEventReceiver$ElementContainmentRelationships$ElementGroup, org.owasp.html.TagBalancingHtmlStreamEventReceiver$ElementContainmentRelationships$ElementGroup)/2/15
+int[] android.support.v4.view.ViewPager.access$400()/1/3
+int[] com.android.mail.browse.ConversationContainer.access$200()/6/3
+int[] com.android.mail.browse.ConversationItemView.onCreateDrawableState(int)/37/16
+int[] com.android.mail.browse.StarView.onCreateDrawableState(int)/28/16
+int[] org.owasp.html.CssTokens.access$000(org.owasp.html.CssTokens)/31/3
+int[] org.owasp.html.CssTokens.access$300()/11/3
+int[] org.owasp.html.CssTokens.access$400(int[], int, int)/1/5
+int[] org.owasp.html.CssTokens.access$600(int[], int)/1/5
+int[] org.owasp.html.CssTokens.expandIfNecessary(int[], int, int)/44/26
+int[] org.owasp.html.CssTokens.truncateOrShare(int[], int)/3/16
+java.io.File com.android.emailcommon.TempDirectory.getTempDirectory()/1/15
+java.io.InputStream com.android.email.mail.transport.MailTransport.getInputStream()/2/3
+java.io.OutputStream com.android.email.mail.transport.MailTransport.getOutputStream()/3/3
+java.lang.CharSequence android.support.v4.app.NotificationCompat$Builder.limitCharSequenceLength(java.lang.CharSequence)/1/17
+java.lang.CharSequence android.support.v7.internal.text.AllCapsTransformationMethod.getTransformation(java.lang.CharSequence, android.view.View)/25/15
+java.lang.CharSequence android.support.v7.internal.view.menu.MenuItemImpl.getTitleCondensed()/5/26
+java.lang.CharSequence android.support.v7.internal.widget.TintTypedArray.getText(int)/1/7
+java.lang.CharSequence android.support.v7.widget.Toolbar.getTitle()/2/3
+java.lang.CharSequence com.android.mail.FormattedDateBuilder.formatFullDateTime(long)/2/25
+java.lang.CharSequence com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem.getTimestampShort()/1/6
+java.lang.CharSequence com.android.mail.browse.MessageHeaderView.getHeaderTitle()/1/74
+java.lang.CharSequence com.android.mtkex.chips.MTKRecipientEditTextView.ellipsizeText(java.lang.CharSequence, android.text.TextPaint, float)/1/50
+java.lang.Class com.android.ex.photo.adapters.PhotoPagerAdapter.getPhotoViewFragmentClass()/1/3
+java.lang.Integer com.android.mail.content.ThreadSafeCursorWrapper$1.initialValue()/9/6
+java.lang.Integer com.android.mail.ui.FolderListFragment$LoadVipFolderMessageCountTask.doInBackground(java.lang.Long[])/3/19
+java.lang.Long com.android.emailcommon.utility.Utility$3.get(android.database.Cursor, int)/18/9
+java.lang.Long com.android.emailcommon.utility.Utility.getFirstRowLong(android.content.Context, android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String, int, java.lang.Long)/9/18
+java.lang.Object android.support.v4.app.FragmentTransitionCompat21.cloneTransition(java.lang.Object)/1/9
+java.lang.Object android.support.v4.util.SparseArrayCompat.get(int, java.lang.Object)/2/24
+java.lang.Object android.support.v4.view.AccessibilityDelegateCompatIcs.newAccessibilityDelegateDefaultImpl()/1/6
+java.lang.Object android.support.v4.view.AccessibilityDelegateCompatJellyBean.newAccessibilityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean)/2/6
+java.lang.Object android.support.v4.widget.ScrollerCompatGingerbread.createScroller(android.content.Context, android.view.animation.Interpolator)/1/14
+java.lang.Object com.android.bitmap.UnrefedBitmapCache.get(java.lang.Object, boolean)/2/7
+java.lang.Object com.android.emailcommon.service.ServiceProxy$ProxyConnection$1.doInBackground(java.lang.Object[])/1/7
+java.lang.Object com.android.emailcommon.utility.AsyncTask.postResult(java.lang.Object)/13/21
+java.lang.Object com.android.emailcommon.utility.EmailAsyncTask$1.doInBackground(java.lang.Object[])/1/7
+java.lang.Object com.android.emailcommon.utility.EmailAsyncTask$InnerTask.doInBackground(java.lang.Object[])/1/7
+java.lang.Object com.android.emailcommon.utility.Utility$3.get(android.database.Cursor, int)/1/5
+java.lang.Object com.android.emailcommon.utility.Utility$5.get(android.database.Cursor, int)/1/5
+java.lang.Object com.android.emailcommon.utility.Utility.getFirstRowColumn(android.content.Context, android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String, int, java.lang.Object, com.android.emailcommon.utility.Utility$CursorGetter)/66/42
+java.lang.Object com.android.mail.bitmap.ContactResolver$ContactResolverTask.doInBackground(java.lang.Object[])/2/7
+java.lang.Object com.android.mail.browse.ConversationCursor.access$700(com.android.mail.browse.ConversationCursor)/1/3
+java.lang.Object com.android.mail.browse.ConversationCursor.getCachedValue(java.lang.String, int)/74/27
+java.lang.Object com.android.mail.compose.ComposeActivity.access$800(com.android.mail.compose.ComposeActivity)/2/3
+java.lang.Object com.android.mail.providers.Settings.getNonNull(java.lang.Object, java.lang.Object)/22/5
+java.lang.Object com.android.mail.ui.FolderListFragment$AccountsAdapter.getItem(int)/13/17
+java.lang.Object com.android.mail.ui.FolderListFragment$FolderAdapter.getItem(int)/127/17
+java.lang.Object com.android.mail.ui.FolderListFragment$LoadVipFolderMessageCountTask.doInBackground(java.lang.Object[])/1/7
+java.lang.Object com.android.mail.utils.DequeMap.peek(java.lang.Object)/2/17
+java.lang.Object com.android.mail.utils.DequeMap.poll(java.lang.Object)/6/17
+java.lang.Object com.android.mail.utils.FragmentStatePagerAdapter2.instantiateItem(android.view.ViewGroup, int)/3/152
+java.lang.Object com.android.mail.utils.ObjectCache.get()/31/22
+java.lang.Object com.android.mail.utils.Utils.cleanUpString(java.lang.String, boolean)/1/24
+java.lang.Object com.android.mtkex.chips.MTKRecipientEditTextView$PreloadPhotoTask.doInBackground(java.lang.Object[])/2/7
+java.lang.Object com.google.android.mail.common.base.Preconditions.checkNotNull(java.lang.Object)/1/9
+java.lang.Object com.google.android.mail.common.base.Preconditions.checkNotNull(java.lang.Object, java.lang.Object)/40/13
+java.lang.Object com.google.common.base.Preconditions.checkNotNull(java.lang.Object, java.lang.Object)/67/13
+java.lang.Object com.google.common.collect.AbstractIndexedListIterator.next()/2/23
+java.lang.Object com.google.common.collect.EmptyImmutableMap.get(java.lang.Object)/3/2
+java.lang.Object com.google.common.collect.ImmutableEntry.getKey()/156/3
+java.lang.Object com.google.common.collect.ImmutableEntry.getValue()/26/3
+java.lang.Object com.google.common.collect.Iterators$11.get(int)/10/5
+java.lang.Object com.google.common.collect.Iterators$12.get(int)/3/8
+java.lang.Object com.google.common.collect.Iterators$13.next()/4/16
+java.lang.Object com.google.common.collect.SingletonImmutableMap.get(java.lang.Object)/1/13
+java.lang.Object[] com.android.emailcommon.provider.Mailbox.getHashes()/17/174
+java.lang.Runnable com.android.mail.utils.Throttle.access$500(com.android.mail.utils.Throttle)/1/3
+java.lang.String android.support.v4.app.RemoteInput.getResultKey()/1/3
+java.lang.String android.support.v4.text.BidiFormatter.markAfter(java.lang.String, android.support.v4.text.TextDirectionHeuristicCompat)/5/44
+java.lang.String android.support.v4.text.ICUCompat.addLikelySubtags(java.lang.String)/1/7
+java.lang.String android.support.v4.text.ICUCompatIcs.addLikelySubtags(java.lang.String)/1/35
+java.lang.String com.android.email.EmailNotificationController.access$500()/1/3
+java.lang.String com.android.email.Preferences.getDeviceUID()/2/40
+java.lang.String com.android.email.activity.setup.AccountSetupBasicsFragment.getEmail()/3/15
+java.lang.String com.android.email.mail.store.ImapConnection.getLoginPhrase()/2/193
+java.lang.String com.android.email.mail.store.ImapConnection.sendCommand(java.lang.String, boolean)/11/27
+java.lang.String com.android.email.mail.store.ImapConnection.sendCommandInternal(java.lang.String, boolean)/10/66
+java.lang.String com.android.email.mail.store.ImapStore.getImapId(android.content.Context, java.lang.String, java.lang.String, java.lang.String)/2/151
+java.lang.String com.android.email.mail.store.ImapStore.getUsername()/1/3
+java.lang.String com.android.email.mail.store.imap.ImapMemoryLiteral.toString()/2/20
+java.lang.String com.android.email.mail.store.imap.ImapResponse.toString()/12/44
+java.lang.String com.android.email.mail.store.imap.ImapSimpleString.getString()/70/3
+java.lang.String com.android.email.mail.store.imap.ImapSimpleString.toString()/147/28
+java.lang.String com.android.email.mail.store.imap.ImapUtility.imapQuoted(java.lang.String)/4/42
+java.lang.String com.android.email.mail.transport.MailTransport.getHost()/3/5
+java.lang.String com.android.email.provider.EmailMessageCursor.getString(int)/5/39
+java.lang.String com.android.email.provider.EmailProvider.access$200()/3/3
+java.lang.String com.android.email.provider.EmailProvider.combinedMailboxId(int)/1/9
+java.lang.String com.android.email.provider.EmailProvider.genQueryAccountMailboxes(java.lang.String[])/2/23
+java.lang.String com.android.email.provider.EmailProvider.genQueryMailbox(java.lang.String[], java.lang.String)/1/183
+java.lang.String com.android.email.provider.EmailProvider.genQueryMailboxMessages(java.lang.String[], boolean, java.lang.String)/9/87
+java.lang.String com.android.email.provider.EmailProvider.getExternalUriString(java.lang.String, java.lang.String)/31/25
+java.lang.String com.android.email.provider.EmailProvider.getExternalUriStringEmail2(java.lang.String, java.lang.String)/19/25
+java.lang.String com.android.email.provider.EmailProvider.getVirtualMailboxAccountIdString(long)/1/9
+java.lang.String com.android.email.provider.EmailProvider.uiUriString(java.lang.String, long)/205/64
+java.lang.String com.android.email.provider.EmailProvider.uriWithColumn(java.lang.String, java.lang.String)/9/42
+java.lang.String com.android.email.provider.EmailProvider.whereWith(java.lang.String, java.lang.String)/7/33
+java.lang.String com.android.email.provider.EmailProvider.whereWithId(java.lang.String, java.lang.String)/328/35
+java.lang.String com.android.emailcommon.VendorPolicyLoader.getImapIdValues(java.lang.String, java.lang.String, java.lang.String)/2/33
+java.lang.String com.android.emailcommon.internet.MimeBodyPart.getMimeType()/1/10
+java.lang.String com.android.emailcommon.internet.MimeHeader.getFirstHeader(java.lang.String)/1/12
+java.lang.String com.android.emailcommon.internet.MimeMessage.getFirstHeader(java.lang.String)/1/9
+java.lang.String com.android.emailcommon.internet.MimeUtility.foldAndEncode2(java.lang.String, int)/1/11
+java.lang.String com.android.emailcommon.mail.Address.getFirstMailAddress(java.lang.String)/9/50
+java.lang.String com.android.emailcommon.mail.Address.toString(com.android.emailcommon.mail.Address[])/2/7
+java.lang.String com.android.emailcommon.provider.Account.getProtocol(android.content.Context)/6/11
+java.lang.String com.android.emailcommon.provider.Account.toString()/3/72
+java.lang.String com.android.emailcommon.provider.EmailContent$Body.readBodyFromProvider(android.content.Context, java.lang.String)/10/45
+java.lang.String com.android.emailcommon.utility.AsyncTask.access$300(com.android.emailcommon.utility.AsyncTask)/19/3
+java.lang.String com.android.emailcommon.utility.AttachmentUtilities.saveAttachment(android.content.Context, java.io.InputStream, com.android.emailcommon.provider.EmailContent$Attachment, boolean, boolean)/2/474
+java.lang.String com.android.emailcommon.utility.Utilities.getFilenameExtension(java.lang.String)/24/34
+java.lang.String com.android.emailcommon.utility.Utility.getFirstRowString(android.content.Context, android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String, int, java.lang.String)/4/18
+java.lang.String com.android.mail.ConversationListContext.toString()/1/130
+java.lang.String com.android.mail.SenderInfoLoader.contactInfoSortOrder()/7/11
+java.lang.String com.android.mail.bitmap.ContactRequest.getDisplayName()/9/14
+java.lang.String com.android.mail.bitmap.ContactRequest.getEmail()/21/3
+java.lang.String com.android.mail.bitmap.ContactRequest.normalizeEmail(java.lang.String)/35/15
+java.lang.String com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.getString(int)/21/18
+java.lang.String com.android.mail.browse.ConversationCursor.getString(int)/1/31
+java.lang.String com.android.mail.browse.ConversationCursor.toString()/9/135
+java.lang.String com.android.mail.browse.ConversationCursor.uriStringFromCachingUri(android.net.Uri)/1/13
+java.lang.String com.android.mail.browse.ConversationCursor.uriToCachingUriString(java.lang.String, java.lang.StringBuilder)/78/56
+java.lang.String com.android.mail.browse.ConversationPagerAdapter.toString()/1/100
+java.lang.String com.android.mail.browse.MessageCursor.getDebugDump()/1/183
+java.lang.String com.android.mail.browse.MessageHeaderView.getSenderName(com.android.emailcommon.mail.Address)/10/20
+java.lang.String com.android.mail.compose.ComposeActivity.buildFormattedSubject(android.content.res.Resources, java.lang.String, int)/1/68
+java.lang.String com.android.mail.compose.ComposeActivity.formatSenders(java.lang.String)/1/32
+java.lang.String com.android.mail.compose.QuotedTextView.getHtmlText(com.android.mail.providers.Message)/1/26
+java.lang.String com.android.mail.drawer.SettingsItem.toString()/1/3
+java.lang.String com.android.mail.preferences.AccountPreferences.buildSharedPrefsName(java.lang.String)/2/20
+java.lang.String com.android.mail.preferences.MailPrefs.getRemovalAction(boolean)/1/36
+java.lang.String com.android.mail.providers.Account.getSenderName()/16/3
+java.lang.String com.android.mail.providers.Account.getType()/1/3
+java.lang.String com.android.mail.providers.Attachment.stringify(java.lang.Object)/27/9
+java.lang.String com.android.mail.providers.Attachment.toJSONArray(java.util.Collection)/1/45
+java.lang.String com.android.mail.providers.Attachment.toString()/2/61
+java.lang.String com.android.mail.providers.Conversation.getSubjectForDisplay(android.content.Context, java.lang.String, java.lang.String)/13/49
+java.lang.String com.android.mail.providers.Folder.getTypeDescription()/2/194
+java.lang.String com.android.mail.providers.Folder.toString()/127/88
+java.lang.String com.android.mail.providers.Message.getBodyAsHtml()/1/59
+java.lang.String com.android.mail.providers.Message.getFrom()/5/3
+java.lang.String com.android.mail.providers.UIProvider$AutoAdvance.getAutoAdvanceStr(int)/1/26
+java.lang.String com.android.mail.ui.AbstractConversationViewFragment.access$100()/1/3
+java.lang.String com.android.mail.ui.AbstractConversationViewFragment.toString()/32/56
+java.lang.String com.android.mail.ui.AnimatedAdapter.toString()/32/114
+java.lang.String com.android.mail.ui.ConversationListFragment.toString()/5/101
+java.lang.String com.android.mail.ui.ConversationViewFragment.access$100()/5/3
+java.lang.String com.android.mail.ui.ConversationViewProgressController.access$200()/1/3
+java.lang.String com.android.mail.ui.HtmlConversationTemplates.endConversation(int, java.lang.String, java.lang.String, int, int, boolean, boolean, boolean, boolean)/2/231
+java.lang.String com.android.mail.ui.ViewMode.getModeString()/1/7
+java.lang.String com.android.mail.ui.ViewMode.toString()/4/32
+java.lang.String com.android.mail.utils.HtmlSanitizer$1.apply(java.lang.String, java.util.List)/1/3
+java.lang.String com.android.mail.utils.HtmlSanitizer$2.apply(java.lang.String, java.util.List)/6/79
+java.lang.String com.android.mail.utils.LogTag.getLogTag()/48/3
+java.lang.String com.android.mail.utils.LogUtils.sanitizeAccountName(java.lang.String)/4/35
+java.lang.String com.android.mail.utils.MimeType.getFilenameExtension(java.lang.String)/6/34
+java.lang.String com.android.mail.utils.MimeType.inferMimeType(java.lang.String, java.lang.String)/2/85
+java.lang.String com.android.mail.utils.Utils.getUnreadCountString(android.content.Context, int)/61/67
+java.lang.String com.android.mtkex.chips.RecipientEntry.toString()/2/40
+java.lang.String com.android.org.chromium.android_webview.AndroidProtocolHandler.nativeGetAndroidAssetPath()/1/0
+java.lang.String com.android.org.chromium.android_webview.AwContentsStatics.nativeGetUnreachableWebDataUrl()/1/0
+java.lang.String com.android.org.chromium.android_webview.AwSettings.nativeGetDefaultUserAgent()/1/0
+java.lang.String com.android.org.chromium.base.CommandLine.nativeGetSwitchValue(java.lang.String)/2/0
+java.lang.String com.android.org.chromium.base.library_loader.LibraryLoader.nativeGetVersionNumber()/1/0
+java.lang.String com.android.org.chromium.content.browser.webcontents.WebContentsImpl.nativeGetURL(long)/14/0
+java.lang.String com.google.android.mail.common.base.Strings.nullToEmpty(java.lang.String)/5/5
+java.lang.String com.google.android.mail.common.html.parser.HtmlParser$TagNameScanner.getTagName()/1/28
+java.lang.String org.apache.james.mime4j.codec.EncoderUtil.encodeAddressDisplayName(java.lang.String)/1/26
+java.lang.String org.apache.james.mime4j.codec.EncoderUtil.encodeIfNecessary(java.lang.String, org.apache.james.mime4j.codec.EncoderUtil$Usage, int)/1/11
+java.lang.String org.apache.james.mime4j.util.CharsetUtil$Charset.access$100(org.apache.james.mime4j.util.CharsetUtil$Charset)/1/3
+java.lang.String org.owasp.html.AttributePolicy$1.apply(java.lang.String, java.lang.String, java.lang.String)/2/1
+java.lang.String org.owasp.html.ElementPolicy$1.apply(java.lang.String, java.util.List)/13/1
+java.lang.String org.owasp.html.HtmlInputSplitter.canonicalName(int, int)/33/11
+java.lang.String org.owasp.html.HtmlLexer.canonicalName(java.lang.String)/1/14
+java.lang.String org.owasp.html.HtmlPolicyBuilder$AttributeBuilder$3.apply(java.lang.String, java.lang.String, java.lang.String)/2/19
+java.lang.String org.owasp.html.HtmlStreamRenderer.safeName(java.lang.String)/34/60
+java.lang.String org.owasp.html.Strings.toLowerCase(java.lang.String)/1/50
+java.lang.String org.owasp.html.StylingPolicy.sanitizeCssProperties(java.lang.String)/3/26
+java.lang.StringBuilder com.android.email.provider.EmailProvider.genSelect(com.android.common.content.ProjectionMap, java.lang.String[])/3/7
+java.lang.StringBuilder com.android.email.provider.EmailProvider.genSelect(com.android.common.content.ProjectionMap, java.lang.String[], android.content.ContentValues)/2/157
+java.lang.String[] com.android.emailcommon.provider.HostAuth.getLogin()/1/24
+java.lang.String[] com.android.mail.SenderInfoLoader.toStringArray(java.util.Collection)/1/13
+java.lang.String[] com.android.mail.providers.Message.getBccAddresses()/5/20
+java.lang.String[] com.android.mail.providers.Message.getCcAddresses()/1/20
+java.lang.String[] com.android.mail.providers.Message.getFromAddresses()/5/20
+java.lang.String[] com.android.mail.providers.Message.getReplyToAddresses()/1/20
+java.lang.String[] com.android.mail.providers.Message.getToAddresses()/6/20
+java.lang.String[] com.android.mtkex.chips.Queries$Query.getProjection()/1/3
+java.lang.Void com.android.emailcommon.utility.EmailAsyncTask$1.doInBackground(java.lang.Void[])/1/7
+java.lang.Void com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper$CacheLoaderTask.doInBackground(java.lang.Void[])/2/79
+java.net.Socket com.android.emailcommon.utility.SSLSocketFactoryWrapper.createSocket()/1/7
+java.nio.charset.CoderResult com.beetstra.jutf7.UTF7StyleCharsetDecoder.implFlush(java.nio.CharBuffer)/2/23
+java.util.ArrayList android.support.v7.internal.view.menu.MenuBuilder.getActionItems()/3/6
+java.util.ArrayList com.android.mail.compose.AttachmentsView.getAttachments()/1/3
+java.util.ArrayList com.android.mail.compose.ComposeActivity.access$2300(java.lang.String[])/1/5
+java.util.ArrayList com.android.mail.ui.FolderListFragment.access$1700(com.android.mail.ui.FolderListFragment)/1/3
+java.util.ArrayList com.google.common.collect.Lists.newArrayList(java.lang.Object[])/9/17
+java.util.ArrayList com.google.common.collect.Lists.newArrayListWithCapacity(int)/3/14
+java.util.ArrayList com.google.common.collect.Lists.newArrayListWithExpectedSize(int)/7/10
+java.util.Collection com.google.common.collect.Collections2.cast(java.lang.Iterable)/1/3
+java.util.Date org.apache.james.mime4j.field.datetime.DateTime.convertToDate(int, int, int, int, int, int, int)/1/51
+java.util.HashMap com.google.common.collect.Maps.newHashMap()/110/6
+java.util.HashMap com.google.common.collect.Maps.newHashMapWithExpectedSize(int)/1/10
+java.util.HashSet com.android.email.provider.EmailProvider.getApplyBatchNotifications()/8/21
+java.util.HashSet com.android.emailcommon.mail.Message.getFlagSet()/10/14
+java.util.HashSet com.google.common.collect.Sets.newHashSet()/11/6
+java.util.HashSet com.google.common.collect.Sets.newHashSetWithExpectedSize(int)/2/10
+java.util.LinkedHashMap com.google.common.collect.Maps.newLinkedHashMap(java.util.Map)/2/6
+java.util.LinkedList com.google.common.collect.Lists.newLinkedList()/14/6
+java.util.List com.android.email.mail.store.ImapConnection.executeSimpleCommand(java.lang.String)/2/6
+java.util.List com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.access$100(com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper)/2/3
+java.util.List com.android.mail.compose.FromAddressSpinner.getReplyFromAccounts()/1/3
+java.util.List com.android.mail.providers.Attachment.fromJSONArray(java.lang.String)/1/41
+java.util.List com.android.mail.ui.AttachmentTileGrid.getAttachments()/9/3
+java.util.List com.android.mail.ui.MaterialSearchSuggestionsList.access$200(com.android.mail.ui.MaterialSearchSuggestionsList)/1/3
+java.util.Map com.android.email.provider.RefreshStatusMonitor.access$100(com.android.email.provider.RefreshStatusMonitor)/1/3
+java.util.Map com.android.mail.providers.FolderWatcher.access$200(com.android.mail.providers.FolderWatcher)/1/3
+java.util.Map com.android.mail.providers.Settings.getValueMap(java.util.Map)/4/251
+java.util.Map com.android.mtkex.chips.BaseRecipientAdapter.getMatchingRecipients(java.util.Set)/2/2
+java.util.Set com.android.mail.preferences.MailPrefs.getSenderWhitelist()/3/15
+java.util.Set com.android.mail.utils.NotificationUtils$NotificationMap.keySet()/4/7
+java.util.TreeSet com.google.common.collect.Sets.newTreeSet()/7/6
+java.util.concurrent.atomic.AtomicBoolean com.android.emailcommon.utility.AsyncTask.access$200(com.android.emailcommon.utility.AsyncTask)/17/3
+javax.net.ssl.SSLSocketFactory com.android.emailcommon.utility.SSLUtils.getSSLSocketFactory(android.content.Context, com.android.emailcommon.provider.HostAuth, javax.net.ssl.KeyManager, boolean)/1/91
+long android.support.v7.internal.widget.AdapterViewCompat.getItemIdAtPosition(int)/1/16
+long com.android.email.provider.EmailProvider.getVirtualMailboxAccountId(long)/3/5
+long com.android.email.provider.EmailProvider.getVirtualMailboxId(long, int)/76/7
+long com.android.emailcommon.provider.Account.getId()/18/3
+long com.android.emailcommon.provider.Mailbox.findMailboxOfType(android.content.Context, long, int)/2/41
+long com.android.emailcommon.provider.Mailbox.getAccountIdForMailbox(android.content.Context, java.lang.String)/2/36
+long com.android.emailcommon.utility.IntentUtilities.getLongParamFromUri(android.net.Uri, java.lang.String, long)/1/17
+long com.android.mail.browse.MergedAdapter.getItemId(int)/4/2
+long com.android.mail.providers.Message.getId()/18/3
+long com.android.mail.ui.AnimatedAdapter.getItemId(int)/4/71
+long com.android.mail.ui.ConversationViewFragment.access$500(com.android.mail.ui.ConversationViewFragment)/1/3
+long com.android.mail.utils.Clock.getTime()/1/5
+long com.android.mtkex.chips.RecipientEntry.getDataId()/1/3
+long com.android.org.chromium.android_webview.AwContents.nativeGetAwDrawGLViewContext(long)/1/0
+long com.android.org.chromium.android_webview.AwContents.nativeInit(com.android.org.chromium.android_webview.AwBrowserContext)/2/0
+long com.android.org.chromium.android_webview.AwDevToolsServer.nativeInitRemoteDebugging()/1/0
+long com.android.org.chromium.android_webview.AwSettings.nativeInit(long)/1/0
+long com.android.org.chromium.content.browser.ContentViewCore.nativeGetNativeImeAdapter(long)/4/0
+long com.android.org.chromium.content.browser.WebContentsObserverAndroid.nativeInit(com.android.org.chromium.content_public.browser.WebContents)/5/0
+long com.android.org.chromium.ui.base.ViewAndroid.nativeInit(long)/1/0
+long com.android.org.chromium.ui.base.WindowAndroid.nativeInit(long)/1/0
+long com.android.webview.chromium.DrawGLFunctor.nativeCreateGLFunctor(long)/4/0
+long com.android.webview.chromium.GraphicsUtils.nativeGetDrawSWFunctionTable()/1/0
+long org.owasp.html.HtmlEntities.decodeEntityAt(java.lang.String, int, int)/2/572
+org.apache.james.mime4j.field.datetime.parser.Token org.apache.james.mime4j.field.datetime.parser.Token.newToken(int)/1/6
+org.json.JSONObject com.android.mail.providers.Attachment.toJSON()/8/120
+org.owasp.html.CssSchema org.owasp.html.StylingPolicy.access$000(org.owasp.html.StylingPolicy)/10/3
+org.owasp.html.CssSchema$Property org.owasp.html.CssSchema.forKey(java.lang.String)/3/50
+org.owasp.html.CssTokens org.owasp.html.CssTokens$Lexer.build()/5/132
+org.owasp.html.CssTokens$TokenIterator org.owasp.html.CssTokens.start()/1/9
+org.owasp.html.CssTokens$TokenType[] org.owasp.html.CssTokens.access$100(org.owasp.html.CssTokens)/19/3
+org.owasp.html.CssTokens$TokenType[] org.owasp.html.CssTokens.access$700()/2/3
+org.owasp.html.HtmlPolicyBuilder org.owasp.html.HtmlPolicyBuilder.allowElements(java.lang.String[])/2/7
+org.owasp.html.HtmlSanitizer$Policy org.owasp.html.PolicyFactory.apply(org.owasp.html.HtmlStreamEventReceiver)/1/10
+org.owasp.html.HtmlStreamRenderer org.owasp.html.HtmlStreamRenderer.create(java.lang.Appendable, org.owasp.html.Handler, org.owasp.html.Handler)/5/16
+org.owasp.html.HtmlTextEscapingMode org.owasp.html.HtmlTextEscapingMode.getModeForTag(java.lang.String)/27/14
+org.owasp.html.HtmlToken org.owasp.html.HtmlInputSplitter.produce()/44/92
+org.owasp.html.HtmlToken org.owasp.html.HtmlInputSplitter.reclassify(org.owasp.html.HtmlToken, org.owasp.html.HtmlTokenType)/1/9
+org.owasp.html.HtmlToken org.owasp.html.HtmlLexer.produce()/32/220
+org.owasp.html.HtmlToken org.owasp.html.HtmlToken.instance(int, int, org.owasp.html.HtmlTokenType)/230/6
+org.owasp.html.TagBalancingHtmlStreamEventReceiver$ElementContainmentInfo org.owasp.html.TagBalancingHtmlStreamEventReceiver$ElementContainmentRelationships.access$000()/9/3
+void android.support.v13.app.FragmentCompatICS.setMenuVisibility(android.app.Fragment, boolean)/2/4
+void android.support.v4.app.BackStackRecord.doAddOp(int, android.support.v4.app.Fragment, java.lang.String, int)/1/141
+void android.support.v4.app.Fragment.onViewStateRestored(android.os.Bundle)/1/4
+void android.support.v4.app.FragmentActivity.onSaveInstanceState(android.os.Bundle)/1/17
+void android.support.v4.app.FragmentManagerImpl.attachActivity(android.support.v4.app.FragmentActivity, android.support.v4.app.FragmentContainer, android.support.v4.app.Fragment)/3/19
+void android.support.v4.app.FragmentManagerImpl.moveToState(int, boolean)/8/5
+void android.support.v4.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(android.support.v4.content.Loader, java.lang.Object)/1/197
+void android.support.v4.app.NotificationCompat$Style.setBuilder(android.support.v4.app.NotificationCompat$Builder)/2/16
+void android.support.v4.app.NotificationManagerCompat.cancel(java.lang.String, int)/4/28
+void android.support.v4.app.NotificationManagerCompatEclair.cancelNotification(android.app.NotificationManager, java.lang.String, int)/2/4
+void android.support.v4.content.CursorLoader.setUri(android.net.Uri)/1/3
+void android.support.v4.content.ModernAsyncTask$3.done()/1/47
+void android.support.v4.graphics.drawable.DrawableCompatL.setHotspotBounds(android.graphics.drawable.Drawable, int, int, int, int)/8/4
+void android.support.v4.view.AccessibilityDelegateCompatIcs.sendAccessibilityEvent(java.lang.Object, android.view.View, int)/1/6
+void android.support.v4.view.MenuItemCompat.setShowAsAction(android.view.MenuItem, int)/1/16
+void android.support.v4.view.PagerAdapter.notifyDataSetChanged()/1/6
+void android.support.v4.view.ViewCompat$JbMr1ViewCompatImpl.setLayoutDirection(android.view.View, int)/1/4
+void android.support.v4.view.ViewCompatApi21.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener)/1/9
+void android.support.v4.view.ViewCompatHC.jumpDrawablesToCurrentState(android.view.View)/5/4
+void android.support.v4.view.ViewCompatICS.setAccessibilityDelegate(android.view.View, java.lang.Object)/2/6
+void android.support.v4.view.ViewCompatJB.postInvalidateOnAnimation(android.view.View)/2/4
+void android.support.v4.view.ViewCompatJB.postOnAnimation(android.view.View, java.lang.Runnable)/1/4
+void android.support.v4.view.ViewCompatJB.setImportantForAccessibility(android.view.View, int)/1/4
+void android.support.v4.view.ViewCompatJellybeanMr1.setLayoutDirection(android.view.View, int)/3/4
+void android.support.v4.view.ViewPager$PagerObserver.onChanged()/1/6
+void android.support.v4.view.ViewPager.addView(android.view.View, int, android.view.ViewGroup$LayoutParams)/2/49
+void android.support.v4.view.ViewPager.computeScroll()/26/67
+void android.support.v4.view.ViewPager.draw(android.graphics.Canvas)/1/175
+void android.support.v4.view.ViewPager.onDetachedFromWindow()/1/9
+void android.support.v4.view.ViewPager.onLayout(boolean, int, int, int, int)/1/430
+void android.support.v4.view.ViewPager.populate()/9/6
+void android.support.v4.view.ViewPager.recomputeScrollPosition(int, int, int, int)/3/145
+void android.support.v4.view.ViewPager.removeView(android.view.View)/2/12
+void android.support.v4.view.ViewPager.scrollToItem(int, boolean, int, boolean)/1/89
+void android.support.v4.view.ViewPager.setPageTransformer(boolean, android.support.v4.view.ViewPager$PageTransformer)/1/46
+void android.support.v4.widget.DrawerLayout$ViewDragCallback.onViewPositionChanged(android.view.View, int, int, int, int)/3/54
+void android.support.v4.widget.DrawerLayout$ViewDragCallback.removeCallbacks()/98/8
+void android.support.v4.widget.DrawerLayout.onDraw(android.graphics.Canvas)/2/37
+void android.support.v4.widget.DrawerLayout.requestLayout()/35/8
+void android.support.v4.widget.DrawerLayoutCompatApi21.applyMarginInsets(android.view.ViewGroup$MarginLayoutParams, java.lang.Object, int)/69/68
+void android.support.v4.widget.DrawerLayoutCompatApi21.configureApplyInsets(android.view.View)/1/18
+void android.support.v4.widget.EdgeEffectCompatIcs.finish(java.lang.Object)/1/6
+void android.support.v4.widget.MaterialProgressDrawable$Ring.setColorIndex(int)/1/3
+void android.support.v4.widget.MaterialProgressDrawable$Ring.setInsets(int, int)/1/40
+void android.support.v4.widget.MaterialProgressDrawable.setupAnimators()/2/31
+void android.support.v4.widget.ScrollerCompatGingerbread.abortAnimation(java.lang.Object)/1/6
+void android.support.v4.widget.SwipeRefreshLayout.onLayout(boolean, int, int, int, int)/3/100
+void android.support.v4.widget.SwipeRefreshLayout.setRefreshing(boolean, boolean)/3/29
+void android.support.v4.widget.SwipeRefreshLayout.setTargetOffsetTopAndBottom(int, boolean)/1/30
+void android.support.v4.widget.ViewDragHelper.cancel()/2/19
+void android.support.v4.widget.ViewDragHelper.clearMotionHistory()/12/45
+void android.support.v4.widget.ViewDragHelper.ensureMotionHistorySizeForId(int)/2/113
+void android.support.v4.widget.ViewDragHelper.saveInitialMotion(float, float, int)/1/37
+void android.support.v7.app.ActionBarActivity.onSupportContentChanged()/1/1
+void android.support.v7.app.ActionBarActivityDelegate.onCreate(android.os.Bundle)/1/71
+void android.support.v7.app.ActionBarDrawerToggle$DrawerArrowDrawableToggle.setPosition(float)/4/24
+void android.support.v7.app.ActionBarDrawerToggle.setHomeAsUpIndicator(android.graphics.drawable.Drawable)/3/27
+void android.support.v7.app.DrawerArrowDrawable.setProgress(float)/2/6
+void android.support.v7.app.DrawerArrowDrawable.setVerticalMirror(boolean)/2/3
+void android.support.v7.internal.app.WindowDecorActionBar.onWindowVisibilityChanged(int)/1/3
+void android.support.v7.internal.view.SupportMenuInflater$MenuState.setItem(android.view.MenuItem)/11/195
+void android.support.v7.internal.view.SupportMenuInflater.inflate(int, android.view.Menu)/4/57
+void android.support.v7.internal.view.menu.ActionMenuItemView.initialize(android.support.v7.internal.view.menu.MenuItemImpl, int)/25/61
+void android.support.v7.internal.view.menu.ActionMenuItemView.onMeasure(int, int)/28/112
+void android.support.v7.internal.view.menu.ActionMenuItemView.setItemInvoker(android.support.v7.internal.view.menu.MenuBuilder$ItemInvoker)/3/3
+void android.support.v7.internal.view.menu.ActionMenuItemView.setPopupCallback(android.support.v7.internal.view.menu.ActionMenuItemView$PopupCallback)/1/3
+void android.support.v7.internal.view.menu.ActionMenuItemView.updateTextButtonVisibility()/20/45
+void android.support.v7.internal.view.menu.MenuBuilder.onItemVisibleChanged(android.support.v7.internal.view.menu.MenuItemImpl)/2/7
+void android.support.v7.internal.view.menu.MenuBuilder.onItemsChanged(boolean)/171/18
+void android.support.v7.internal.view.menu.MenuBuilder.setShortcutsVisibleInner(boolean)/1/28
+void android.support.v7.internal.view.menu.MenuBuilder.startDispatchingItemsChanged()/3/14
+void android.support.v7.internal.view.menu.MenuBuilder.stopDispatchingItemsChanged()/8/11
+void android.support.v7.internal.view.menu.MenuItemImpl.setShowAsAction(int)/1/32
+void android.support.v7.internal.widget.ActionBarContainer.drawableStateChanged()/2/67
+void android.support.v7.internal.widget.ActionBarContainer.jumpDrawablesToCurrentState()/3/37
+void android.support.v7.internal.widget.ActionBarContainer.onMeasure(int, int)/1/120
+void android.support.v7.internal.widget.ActionBarContextView.onDetachedFromWindow()/2/18
+void android.support.v7.internal.widget.ActionBarOverlayLayout.haltActionBarHideOffsetAnimations()/1/29
+void android.support.v7.internal.widget.ActionBarOverlayLayout.onMeasure(int, int)/1/505
+void android.support.v7.internal.widget.ActionBarOverlayLayout.pullChildren()/3/47
+void android.support.v7.internal.widget.ActionBarOverlayLayout.setActionBarVisibilityCallback(android.support.v7.internal.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback)/2/28
+void android.support.v7.internal.widget.AdapterViewCompat.onDetachedFromWindow()/1/9
+void android.support.v7.internal.widget.AdapterViewCompat.selectionChanged()/1/55
+void android.support.v7.internal.widget.AdapterViewCompat.setFocusable(boolean)/1/39
+void android.support.v7.internal.widget.NativeActionModeAwareLayout.setActionModeForChildListener(android.support.v7.internal.widget.NativeActionModeAwareLayout$OnActionModeForChildListener)/1/3
+void android.support.v7.internal.widget.ResourcesWrapper.updateConfiguration(android.content.res.Configuration, android.util.DisplayMetrics)/1/13
+void android.support.v7.internal.widget.RtlSpacingHelper.setDirection(boolean)/1/70
+void android.support.v7.internal.widget.SpinnerCompat$DropDownAdapter.registerDataSetObserver(android.database.DataSetObserver)/1/10
+void android.support.v7.internal.widget.SpinnerCompat.onMeasure(int, int)/1/51
+void android.support.v7.internal.widget.TintManager.tintDrawable(int, android.graphics.drawable.Drawable)/1/96
+void android.support.v7.internal.widget.TintTypedArray.recycle()/1/6
+void android.support.v7.internal.widget.ToolbarWidgetWrapper.ensureSpinner()/1/33
+void android.support.v7.internal.widget.ToolbarWidgetWrapper.setDisplayOptions(int)/1/97
+void android.support.v7.internal.widget.ToolbarWidgetWrapper.setNavigationContentDescription(int)/1/16
+void android.support.v7.internal.widget.ToolbarWidgetWrapper.setWindowCallback(android.support.v7.internal.app.WindowCallback)/1/3
+void android.support.v7.internal.widget.ToolbarWidgetWrapper.updateNavigationIcon()/2/21
+void android.support.v7.internal.widget.ViewStubCompat.setVisibility(int)/2/38
+void android.support.v7.widget.ActionMenuPresenter.setExpandedActionViewsExclusive(boolean)/1/3
+void android.support.v7.widget.ActionMenuView.setPopupTheme(int)/1/23
+void android.support.v7.widget.GridLayout$7$1.include(int, int)/1/14
+void android.support.v7.widget.GridLayout$7$1.reset()/4/8
+void android.support.v7.widget.GridLayout$Axis.invalidateStructure()/4/30
+void android.support.v7.widget.GridLayout$Axis.layout(int)/1/7
+void android.support.v7.widget.GridLayout$Axis.setParentConstraints(int, int)/3/13
+void android.support.v7.widget.GridLayout$Bounds.include(int, int)/4/17
+void android.support.v7.widget.GridLayout$LayoutParams.reInitSuper(android.content.Context, android.util.AttributeSet)/1/55
+void android.support.v7.widget.GridLayout.invalidateValues()/1/19
+void android.support.v7.widget.GridLayout.onMeasure(int, int)/1/108
+void android.support.v7.widget.LinearLayoutCompat.onLayout(boolean, int, int, int, int)/1/13
+void android.support.v7.widget.ListPopupWindow.setModal(boolean)/1/8
+void android.support.v7.widget.Toolbar.ensureMenuView()/6/63
+void android.support.v7.widget.Toolbar.ensureNavButtonView()/2/38
+void android.support.v7.widget.Toolbar.measureChildConstrained(android.view.View, int, int, int, int, int)/14/80
+void android.support.v7.widget.Toolbar.onDetachedFromWindow()/1/9
+void android.support.v7.widget.Toolbar.setLogo(android.graphics.drawable.Drawable)/1/51
+void android.support.v7.widget.Toolbar.setNavigationOnClickListener(android.view.View$OnClickListener)/2/9
+void android.support.v7.widget.Toolbar.setSubtitle(java.lang.CharSequence)/1/103
+void android.support.v7.widget.Toolbar.setTitle(java.lang.CharSequence)/2/103
+void android.support.v7.widget.Toolbar.updateChildVisibilityForExpandedActionView(android.view.View)/2/27
+void com.android.common.content.ProjectionMap.access$000(com.android.common.content.ProjectionMap, java.lang.String, java.lang.String)/7/4
+void com.android.email.EmailConnectivityManager.unregister()/1/17
+void com.android.email.EmailIntentService.onHandleIntent(android.content.Intent)/1/38
+void com.android.email.EmailNotificationController.access$1200(android.content.Context, long)/2/4
+void com.android.email.EmailNotificationController.access$1400(android.content.Context, long)/1/4
+void com.android.email.EmailNotificationController.handleUpdateNotificationIntent(android.content.Context, android.content.Intent)/1/258
+void com.android.email.EmailNotificationController.refreshNotificationsForAccount(android.content.Context, long)/7/45
+void com.android.email.activity.setup.AccountSetupFragment.setNextButtonEnabled(boolean)/1/10
+void com.android.email.activity.setup.SetupDataFragment.setAmProtocol(java.lang.String)/1/3
+void com.android.email.mail.Store.updateMailbox(com.android.emailcommon.provider.Mailbox, long, java.lang.String, char, boolean, int)/5/33
+void com.android.email.mail.store.ImapConnection.createParser()/1/19
+void com.android.email.mail.store.ImapConnection.destroyResponses()/4/10
+void com.android.email.mail.store.ImapFolder.checkOpen()/1/40
+void com.android.email.mail.store.ImapStore.poolConnection(com.android.email.mail.store.ImapConnection)/1/11
+void com.android.email.mail.store.imap.ImapResponseParser.expect(char)/33/51
+void com.android.email.mail.store.imap.ImapResponseParser.setUpdateUICallback(com.android.emailcommon.mail.Folder$MessageRetrievalListener)/2/3
+void com.android.email.mail.store.imap.ImapSimpleString.destroy()/28/7
+void com.android.email.mail.transport.DiscourseLogger.addLine(java.lang.String)/46/22
+void com.android.email.mail.transport.DiscourseLogger.addReceivedByte(int)/1/89
+void com.android.email.mail.transport.DiscourseLogger.addReceivingLineToBuffer()/9/27
+void com.android.email.mail.transport.DiscourseLogger.initBuffer()/2/7
+void com.android.email.mail.transport.MailTransport.close()/1/29
+void com.android.email.provider.EmailConversationCursor.markContentsSeen()/1/47
+void com.android.email.provider.EmailProvider.addToMessageStateChange(android.database.sqlite.SQLiteDatabase, java.lang.String, int, int)/1/50
+void com.android.email.provider.EmailProvider.appendConversationInfoColumns(java.lang.StringBuilder)/12/32
+void com.android.email.provider.EmailProvider.clearApplyBatchNotifications()/8/14
+void com.android.email.provider.EmailProvider.decodeEmailAddresses(android.content.ContentValues)/5/116
+void com.android.email.provider.EmailProvider.notifiyVirtualMailbox(long, int)/3/66
+void com.android.email.provider.EmailProvider.notifyChange(android.net.Uri, android.database.ContentObserver, boolean)/61/31
+void com.android.email.provider.EmailProvider.notifyUI(android.net.Uri, java.lang.String)/15/22
+void com.android.email.provider.EmailProvider.notifyUI(android.net.Uri, long)/7/8
+void com.android.email.provider.EmailProvider.notifyUIFolder(java.lang.String, long)/5/100
+void com.android.email.provider.EmailProvider.notifyUIFolder(long, long)/1/8
+void com.android.email.provider.EmailProvider.notifyWidgets(long)/1/258
+void com.android.email.provider.EmailProvider.sendNotifierChange(android.net.Uri, java.lang.String, java.lang.String)/5/69
+void com.android.email.provider.EmailProvider.updateSyncStatus(android.os.Bundle)/1/89
+void com.android.email.provider.EmailProvider.writeBodyFile(android.content.Context, long, java.lang.String, java.lang.String)/1/84
+void com.android.email.service.AttachmentService.debugTrace(java.lang.String, java.lang.Object[])/2/1
+void com.android.email.service.AttachmentService.startDownload(com.android.emailcommon.service.EmailServiceProxy, com.android.email.service.AttachmentService$DownloadRequest)/1/60
+void com.android.email.service.EmailBroadcastProcessorService.processBroadcastIntent(android.content.Context, android.content.Intent)/2/31
+void com.android.email.service.EmailServiceStub.init(android.content.Context)/1/3
+void com.android.email.service.EmailServiceStub.loadAttachment(com.android.emailcommon.service.IEmailServiceCallback, long, long, boolean)/2/650
+void com.android.email.service.EmailServiceStub.updateFolderList(long)/3/396
+void com.android.email.service.ImapService.processPendingDataChange(android.content.Context, com.android.email.mail.Store, com.android.emailcommon.provider.Mailbox, boolean, boolean, boolean, boolean, com.android.emailcommon.provider.EmailContent$Message, com.android.emailcommon.provider.EmailContent$Message)/1/277
+void com.android.email.service.ImapService.processPendingDeletesSynchronous(android.content.Context, com.android.emailcommon.provider.Account, com.android.email.mail.Store, java.lang.String[])/1/163
+void com.android.email.service.ImapService.processPendingUpdatesSynchronous(android.content.Context, com.android.emailcommon.provider.Account, com.android.email.mail.Store, java.lang.String[])/1/267
+void com.android.email.service.ImapService.synchronizeMailboxGeneric(android.content.Context, com.android.emailcommon.provider.Account, com.android.email.mail.Store, com.android.emailcommon.provider.Mailbox, boolean, boolean)/14/1604
+void com.android.email.service.PopImapSyncAdapterService.sync(android.content.Context, long, android.os.Bundle, android.content.SyncResult, boolean, int)/1/456
+void com.android.emailcommon.Logging.v(java.lang.String, java.lang.String)/4/38
+void com.android.emailcommon.internet.MimeBodyPart.setBody(com.android.emailcommon.mail.Body)/1/94
+void com.android.emailcommon.internet.MimeMessage$MimeMessageBuilder.endMultipart()/1/6
+void com.android.emailcommon.internet.MimeMessage$MimeMessageBuilder.expect(java.lang.Class)/1/72
+void com.android.emailcommon.mail.Address.setAddress(java.lang.String)/2/21
+void com.android.emailcommon.mail.Message.setFlagDirectly(com.android.emailcommon.mail.Flag, boolean)/3/18
+void com.android.emailcommon.provider.EmailContent$Attachment.setContentUri(java.lang.String)/2/3
+void com.android.emailcommon.provider.EmailContent.restore(android.content.Context, android.database.Cursor)/5/4
+void com.android.emailcommon.provider.EmailContent.warnIfUiThread()/10/30
+void com.android.emailcommon.provider.HostAuth.restore(android.database.Cursor)/5/91
+void com.android.emailcommon.provider.Mailbox.restore(android.database.Cursor)/2/178
+void com.android.emailcommon.provider.Mailbox.updateMessageCount(android.content.Context, int)/1/25
+void com.android.emailcommon.utility.AsyncTask$InternalHandler.handleMessage(android.os.Message)/1/38
+void com.android.emailcommon.utility.AsyncTask$SerialExecutor.scheduleNext()/9/25
+void com.android.emailcommon.utility.AsyncTask.access$600(com.android.emailcommon.utility.AsyncTask, java.lang.Object)/1/4
+void com.android.emailcommon.utility.AsyncTask.finish(java.lang.Object)/2/18
+void com.android.emailcommon.utility.AsyncTask.onPreExecute()/55/1
+void com.android.emailcommon.utility.AsyncTask.postResultIfNotInvoked(java.lang.Object)/15/12
+void com.android.emailcommon.utility.AttachmentUtilities.deleteAllCachedAttachmentFiles(android.content.Context, long, long)/1/54
+void com.android.emailcommon.utility.EOLConvertingOutputStream.write(int)/125/19
+void com.android.emailcommon.utility.EmailAsyncTask$EmailSerialExecutor.scheduleNext()/1/25
+void com.android.emailcommon.utility.EmailAsyncTask$InnerTask.onPostExecute(java.lang.Object)/1/28
+void com.android.emailcommon.utility.EmailAsyncTask.unregisterSelf()/1/10
+void com.android.emailcommon.utility.IntentUtilities.setAccountId(android.net.Uri$Builder, long)/60/16
+void com.android.ex.photo.Intents$PhotoViewIntentBuilder.initialize()/1/8
+void com.android.ex.photo.PhotoViewController.onCreate(android.os.Bundle)/1/489
+void com.android.ex.photo.fragments.PhotoViewFragment.bindPhoto(android.graphics.drawable.Drawable)/1/26
+void com.android.ex.photo.loaders.PhotoBitmapLoader.deliverResult(com.android.ex.photo.loaders.PhotoBitmapLoaderInterface$BitmapResult)/1/45
+void com.android.ex.photo.util.Trace.endSection()/1/10
+void com.android.ex.photo.views.PhotoView.initialize()/1/162
+void com.android.ex.photo.views.PhotoView.onDraw(android.graphics.Canvas)/1/153
+void com.android.ex.photo.views.PhotoView.onMeasure(int, int)/1/30
+void com.android.ex.photo.views.ProgressBarWrapper.setVisibility(boolean)/1/23
+void com.android.mail.ContactInfo.<init>(android.net.Uri)/1/5
+void com.android.mail.ConversationListContext.setLocalSearch(boolean)/3/3
+void com.android.mail.MailIntentService.onHandleIntent(android.content.Intent)/7/252
+void com.android.mail.analytics.Analytics$StubTracker.sendEvent(java.lang.String, java.lang.String, java.lang.String, long)/1/1
+void com.android.mail.analytics.Analytics$StubTracker.sendMenuItemEvent(java.lang.String, int, java.lang.String, long)/3/1
+void com.android.mail.analytics.Analytics$StubTracker.sendView(java.lang.String)/2/1
+void com.android.mail.analytics.AnalyticsTimer.logDuration(java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String)/2/6
+void com.android.mail.bitmap.AbstractAvatarDrawable.drawCircle(android.graphics.Canvas, android.graphics.Rect, android.graphics.Paint)/2/21
+void com.android.mail.bitmap.AbstractAvatarDrawable.setBitmap(com.android.bitmap.ReusableBitmap)/21/19
+void com.android.mail.bitmap.AbstractAvatarDrawable.setBitmapCache(com.android.bitmap.BitmapCache)/15/3
+void com.android.mail.bitmap.AbstractAvatarDrawable.setContactResolver(com.android.mail.bitmap.ContactResolver)/2/3
+void com.android.mail.bitmap.AbstractAvatarDrawable.setDecodeDimensions(int, int)/4/5
+void com.android.mail.bitmap.CheckableContactFlipDrawable$CheckmarkDrawable.setScaleAnimatorValue(float)/7/14
+void com.android.mail.bitmap.CheckableContactFlipDrawable.reset(boolean)/2/41
+void com.android.mail.bitmap.ContactResolver.notifyBatchReady()/6/34
+void com.android.mail.bitmap.ContactResolver.remove(com.android.mail.bitmap.ContactRequest, com.android.mail.bitmap.ContactResolver$ContactDrawableInterface)/3/11
+void com.android.mail.bitmap.FlipDrawable.invalidateDrawable(android.graphics.drawable.Drawable)/1/4
+void com.android.mail.bitmap.FlipDrawable.onBoundsChange(android.graphics.Rect)/10/32
+void com.android.mail.bitmap.FlipDrawable.reset(boolean)/30/27
+void com.android.mail.browse.AttachmentActionHandler.initialize(android.app.FragmentManager)/1/3
+void com.android.mail.browse.AttachmentActionHandler.setAccount(java.lang.String)/1/3
+void com.android.mail.browse.AttachmentActionHandler.setAttachment(com.android.mail.providers.Attachment)/1/3
+void com.android.mail.browse.AttachmentProgressDialogFragment.onActivityCreated(android.os.Bundle)/1/15
+void com.android.mail.browse.AttachmentProgressDialogFragment.onCreate(android.os.Bundle)/2/18
+void com.android.mail.browse.AttachmentProgressDialogFragment.onDismiss(android.content.DialogInterface)/1/7
+void com.android.mail.browse.AttachmentProgressDialogFragment.setIndeterminate(boolean)/3/10
+void com.android.mail.browse.AttachmentProgressDialogFragment.setProgress(int)/2/10
+void com.android.mail.browse.ConversationBottomSpace.draw(android.graphics.Canvas)/5/1
+void com.android.mail.browse.ConversationBottomSpace.onMeasure(int, int)/7/20
+void com.android.mail.browse.ConversationContainer.invalidateSpacerGeometry()/6/4
+void com.android.mail.browse.ConversationContainer.layoutOverlay(android.view.View, int, int)/105/31
+void com.android.mail.browse.ConversationContainer.measureOverlayView(android.view.View)/128/57
+void com.android.mail.browse.ConversationContainer.positionAdditionalBottomBorder(boolean)/2/86
+void com.android.mail.browse.ConversationContainer.setAccountController(com.android.mail.browse.ConversationAccountController)/2/6
+void com.android.mail.browse.ConversationContainer.setAdditionalBottomBorderHeight(int)/42/14
+void com.android.mail.browse.ConversationContainer.setOverlayAdapter(com.android.mail.browse.ConversationViewAdapter)/1/28
+void com.android.mail.browse.ConversationCursor$ConversationProvider$1.run()/1/18
+void com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.access$1400(com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper)/1/4
+void com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.cacheConversation(com.android.mail.providers.Conversation)/2/19
+void com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.close()/3/10
+void com.android.mail.browse.ConversationCursor$UnderlyingCursorWrapper.onStateChanged(com.android.mail.utils.DrawIdler, int)/2/41
+void com.android.mail.browse.ConversationCursor.cacheValue(java.lang.String, java.lang.String, java.lang.Object)/2/151
+void com.android.mail.browse.ConversationCursor.handleNotificationActions()/5/11
+void com.android.mail.browse.ConversationCursor.load()/1/49
+void com.android.mail.browse.ConversationFooterView.bind(com.android.mail.browse.ConversationViewAdapter$ConversationFooterItem)/19/65
+void com.android.mail.browse.ConversationFooterView.onFinishInflate()/5/43
+void com.android.mail.browse.ConversationFooterView.rebind(com.android.mail.browse.ConversationViewAdapter$ConversationFooterItem)/1/25
+void com.android.mail.browse.ConversationFooterView.setConversationFooterCallbacks(com.android.mail.browse.ConversationFooterView$ConversationFooterCallbacks)/1/3
+void com.android.mail.browse.ConversationItemView$ConversationItemFolderDisplayer.loadConversationFolders(com.android.mail.providers.Conversation, com.android.mail.utils.FolderUri, int)/8/12
+void com.android.mail.browse.ConversationItemView.bind(com.android.mail.browse.ConversationItemViewModel, com.android.mail.ui.ControllableActivity, com.android.mail.browse.ConversationItemView$ConversationItemAreaClickListener, com.android.mail.ui.ConversationCheckedSet, com.android.mail.providers.Folder, int, boolean, boolean, boolean, com.android.mail.ui.AnimatedAdapter, int, android.graphics.Bitmap, boolean, boolean)/14/485
+void com.android.mail.browse.ConversationItemView.bind(com.android.mail.providers.Conversation, com.android.mail.ui.ControllableActivity, com.android.mail.ui.ConversationCheckedSet, com.android.mail.providers.Folder, int, boolean, boolean, boolean, com.android.mail.ui.AnimatedAdapter)/1/49
+void com.android.mail.browse.ConversationItemView.calculateTextsAndBitmaps()/2/240
+void com.android.mail.browse.ConversationItemView.drawSenders(android.graphics.Canvas)/9/20
+void com.android.mail.browse.ConversationItemView.drawSendersImage(android.graphics.Canvas)/1/54
+void com.android.mail.browse.ConversationItemView.drawSnippet(android.graphics.Canvas)/6/41
+void com.android.mail.browse.ConversationItemView.drawSubject(android.graphics.Canvas)/5/19
+void com.android.mail.browse.ConversationItemView.drawText(android.graphics.Canvas, java.lang.CharSequence, int, int, android.text.TextPaint)/1/14
+void com.android.mail.browse.ConversationItemView.getItemViewResources(android.content.Context)/3/397
+void com.android.mail.browse.ConversationItemView.invalidateDrawable(android.graphics.drawable.Drawable)/15/51
+void com.android.mail.browse.ConversationItemView.layoutViewExactly(android.view.View, int, int)/3/16
+void com.android.mail.browse.ConversationItemView.pauseTimer(java.lang.String)/9/10
+void com.android.mail.browse.ConversationItemView.setChecked(boolean)/3/6
+void com.android.mail.browse.ConversationItemView.setContentDescription()/1/50
+void com.android.mail.browse.ConversationItemView.setTranslationX(float)/4/49
+void com.android.mail.browse.ConversationItemView.startTimer(java.lang.String)/8/10
+void com.android.mail.browse.ConversationItemView.updateBackground()/6/14
+void com.android.mail.browse.ConversationItemViewModel$SenderAvatarModel.clear()/2/6
+void com.android.mail.browse.ConversationItemViewModel.onFolderUpdated(com.android.mail.providers.Folder)/2/32
+void com.android.mail.browse.ConversationListFooterView.onFinishInflate()/5/27
+void com.android.mail.browse.ConversationListFooterView.setFolder(com.android.mail.providers.Folder)/1/10
+void com.android.mail.browse.ConversationOverlayItem.markMeasurementValid()/13/4
+void com.android.mail.browse.ConversationOverlayItem.rebindView(android.view.View)/4/1
+void com.android.mail.browse.ConversationOverlayItem.setTop(int)/75/3
+void com.android.mail.browse.ConversationPagerAdapter$ListObserver.onChanged()/1/6
+void com.android.mail.browse.ConversationPagerAdapter.notifyDataSetChanged()/1/172
+void com.android.mail.browse.ConversationPagerAdapter.onPageScrolled(int, float, int)/2/1
+void com.android.mail.browse.ConversationPagerAdapter.setActivityController(com.android.mail.ui.ActivityController)/2/59
+void com.android.mail.browse.ConversationViewAdapter$ConversationFooterItem.rebindView(android.view.View)/1/9
+void com.android.mail.browse.ConversationViewAdapter$ConversationFooterItem.setLastMessageHeaderItem(com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem)/1/3
+void com.android.mail.browse.ConversationViewAdapter$ConversationHeaderItem.setConversation(com.android.mail.providers.Conversation)/1/3
+void com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem.ensureTimestamps()/27/47
+void com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem.rebindView(android.view.View)/1/9
+void com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem.setExpanded(boolean)/5/7
+void com.android.mail.browse.ConversationViewHeader.onFinishInflate()/1/36
+void com.android.mail.browse.ConversationViewHeader.setStarred(boolean)/5/36
+void com.android.mail.browse.ConversationWebView.onDraw(android.graphics.Canvas)/11/106
+void com.android.mail.browse.EmailCopyContextMenu.setAddress(java.lang.CharSequence)/27/3
+void com.android.mail.browse.EmlMessageViewFragment$FilenameLoadCallbacks.onLoaderReset(android.content.Loader)/1/1
+void com.android.mail.browse.MailWebView.invalidate()/6/23
+void com.android.mail.browse.MailWebView.setContentSizeChangeListener(com.android.mail.browse.MailWebView$ContentSizeChangeListener)/2/3
+void com.android.mail.browse.MergedAdapter$1.onChanged()/1/6
+void com.android.mail.browse.MessageAttachmentBar.onFinishInflate()/2/72
+void com.android.mail.browse.MessageAttachmentBar.setButtonVisible(android.view.View, boolean)/1/10
+void com.android.mail.browse.MessageAttachmentBar.updateProgress(boolean)/4/60
+void com.android.mail.browse.MessageAttachmentBar.updateSubtitleText()/7/86
+void com.android.mail.browse.MessageFooterView.bind(com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem, boolean)/2/174
+void com.android.mail.browse.MessageFooterView.onFinishInflate()/2/40
+void com.android.mail.browse.MessageFooterView.onLoadFinished(android.content.Loader, android.database.Cursor)/1/45
+void com.android.mail.browse.MessageHeaderContactBadge.assignContactFromEmail(java.lang.String, boolean)/10/10
+void com.android.mail.browse.MessageHeaderContactBadge.assignContactUri(android.net.Uri)/1/10
+void com.android.mail.browse.MessageHeaderContactBadge.setQuickContactBadge(android.widget.QuickContactBadge)/13/3
+void com.android.mail.browse.MessageHeaderView$3.onChange(boolean)/2/14
+void com.android.mail.browse.MessageHeaderView.bind(com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem, boolean)/1/18
+void com.android.mail.browse.MessageHeaderView.hideExpandedDetails()/10/23
+void com.android.mail.browse.MessageHeaderView.hideInvite()/2/12
+void com.android.mail.browse.MessageHeaderView.hideShowImagePrompt()/6/12
+void com.android.mail.browse.MessageHeaderView.hideSpamWarning()/7/12
+void com.android.mail.browse.MessageHeaderView.onMeasure(int, int)/12/18
+void com.android.mail.browse.MessageHeaderView.rebind(com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem)/1/24
+void com.android.mail.browse.MessageHeaderView.registerVipObserver()/1/33
+void com.android.mail.browse.MessageHeaderView.render(boolean)/24/345
+void com.android.mail.browse.MessageHeaderView.renderExpandedDetails(android.content.res.Resources, android.view.View, java.lang.String, java.util.Map, com.android.mail.providers.Account, com.android.mail.utils.VeiledAddressMatcher, java.lang.String[], java.lang.String[], java.lang.String[], java.lang.String[], java.lang.String[], java.lang.CharSequence, android.support.v4.text.BidiFormatter)/1/135
+void com.android.mail.browse.MessageHeaderView.setChildMarginEnd(android.view.View, int)/11/22
+void com.android.mail.browse.MessageHeaderView.setDateText()/2/69
+void com.android.mail.browse.MessageHeaderView.setExpanded(boolean)/1/13
+void com.android.mail.browse.MessageHeaderView.setMessageDetailsVisibility(int)/9/90
+void com.android.mail.browse.MessageHeaderView.setRecipientSummary()/9/64
+void com.android.mail.browse.MessageHeaderView.setReplyOrReplyAllVisible()/6/135
+void com.android.mail.browse.MessageHeaderView.setVeiledMatcher(com.android.mail.utils.VeiledAddressMatcher)/1/3
+void com.android.mail.browse.MessageHeaderView.showExpandedDetails()/1/32
+void com.android.mail.browse.MessageHeaderView.unregisterVipObserver()/83/30
+void com.android.mail.browse.MessageHeaderView.updateContactInfo()/7/153
+void com.android.mail.browse.MessageHeaderView.updateSenderVipIcon(boolean)/28/71
+void com.android.mail.browse.MessageViewDownloadRemain.initialize(android.app.FragmentManager)/1/3
+void com.android.mail.browse.MessageViewDownloadRemain.onFinishInflate()/4/45
+void com.android.mail.browse.ScrollIndicatorsView.onNotifierScroll(int)/11/4
+void com.android.mail.browse.SendersView.format(android.content.Context, com.android.mail.providers.ConversationInfo, java.lang.String, int, java.util.ArrayList, java.util.ArrayList, com.android.mail.browse.ConversationItemViewModel$SenderAvatarModel, com.android.mail.providers.Account, android.text.style.TextAppearanceSpan, android.text.style.CharacterStyle, boolean, boolean)/6/37
+void com.android.mail.browse.StarView.setStarred(boolean)/6/28
+void com.android.mail.browse.SubjectAndFolderView$ConversationFolderDisplayer.access$200(com.android.mail.browse.SubjectAndFolderView$ConversationFolderDisplayer, android.text.SpannableStringBuilder)/3/4
+void com.android.mail.browse.SubjectAndFolderView.onMeasure(int, int)/2/20
+void com.android.mail.browse.SubjectAndFolderView.setFolders(com.android.mail.browse.ConversationViewHeader$ConversationViewHeaderCallbacks, com.android.mail.providers.Account, com.android.mail.providers.Conversation)/6/100
+void com.android.mail.browse.SubjectAndFolderView.setSubject(java.lang.String)/1/21
+void com.android.mail.compose.AttachmentsView.setAttachmentPreviews(java.util.ArrayList)/2/6
+void com.android.mail.compose.BodyView.onSelectionChanged(int, int)/2/17
+void com.android.mail.compose.ComposeActivity$RecipientTextWatcher.onTextChanged(java.lang.CharSequence, int, int, int)/2/1
+void com.android.mail.compose.ComposeActivity.beforeTextChanged(java.lang.CharSequence, int, int, int)/2/1
+void com.android.mail.compose.ComposeActivity.findViews()/1/252
+void com.android.mail.compose.ComposeActivity.initLenghtFilter()/1/1
+void com.android.mail.compose.ComposeActivity.onTextChanged(java.lang.CharSequence, int, int, int)/1/1
+void com.android.mail.compose.ComposeActivity.sendOrSave(boolean, boolean)/1/108
+void com.android.mail.compose.FromAddressSpinner.setOnAccountChangedListener(com.android.mail.compose.FromAddressSpinner$OnAccountChangedListener)/2/3
+void com.android.mail.content.ObjectCursorLoader.deliverResult(com.android.mail.content.ObjectCursor)/28/39
+void com.android.mail.content.ObjectCursorLoader.onCanceled(com.android.mail.content.ObjectCursor)/9/12
+void com.android.mail.content.ObjectCursorLoader.onReset()/3/27
+void com.android.mail.content.ObjectCursorLoader.onStartLoading()/1/23
+void com.android.mail.content.ObjectCursorLoader.onStopLoading()/2/4
+void com.android.mail.content.ObjectCursorLoader.setUri(android.net.Uri)/3/13
+void com.android.mail.content.ThreadSafeCursorWrapper.moveToCurrent()/671/38
+void com.android.mail.graphics.PageMarginDrawable.draw(android.graphics.Canvas)/2/13
+void com.android.mail.perf.Timer.pause(java.lang.String)/28/1
+void com.android.mail.perf.Timer.start(java.lang.String)/3/1
+void com.android.mail.perf.Timer.stopTiming(java.lang.String)/1/1
+void com.android.mail.preferences.AccountPreferences.resetNumOfDismissesForAccountSyncOff()/4/27
+void com.android.mail.preferences.FolderPreferences.performUpgrade(int, int)/1/11
+void com.android.mail.preferences.MailPrefs.cacheActiveNotificationSet(java.util.Set)/1/14
+void com.android.mail.preferences.MailPrefs.resetNumOfDismissesForAutoSyncOff()/4/27
+void com.android.mail.providers.Folder.setIcon(com.android.mail.providers.Folder, android.widget.ImageView)/19/113
+void com.android.mail.providers.Folder.writeToParcel(android.os.Parcel, int)/3/145
+void com.android.mail.providers.FolderWatcher$UnreadLoads.onLoadFinished(android.content.Loader, com.android.mail.content.ObjectCursor)/12/71
+void com.android.mail.providers.FolderWatcher$UnreadLoads.onLoadFinished(android.content.Loader, java.lang.Object)/1/6
+void com.android.mail.providers.FolderWatcher$UnreadLoads.onLoaderReset(android.content.Loader)/1/1
+void com.android.mail.providers.MessageModification.putToAddresses(android.content.ContentValues, java.lang.String[])/1/12
+void com.android.mail.providers.Settings.<init>(android.database.Cursor)/1/318
+void com.android.mail.text.ChangeLabelsSpan.updateDrawState(android.text.TextPaint)/5/1
+void com.android.mail.text.LinkStyleSpan.updateDrawState(android.text.TextPaint)/1/10
+void com.android.mail.ui.AbstractActivityController$25.<init>(com.android.mail.ui.AbstractActivityController, java.lang.String, boolean)/1/6
+void com.android.mail.ui.AbstractActivityController$FolderLoads.onLoaderReset(android.content.Loader)/2/1
+void com.android.mail.ui.AbstractActivityController.commitAutoAdvanceOperation()/1/13
+void com.android.mail.ui.AbstractActivityController.informCursorVisiblity(boolean)/2/20
+void com.android.mail.ui.AbstractActivityController.onFolderChanged(com.android.mail.providers.Folder, boolean)/1/95
+void com.android.mail.ui.AbstractActivityController.onPrepareOptionsMenu(android.view.Menu)/1/37
+void com.android.mail.ui.AbstractActivityController.onTouchEvent(android.view.MotionEvent)/3/43
+void com.android.mail.ui.AbstractActivityController.perhapsShowFirstConversation()/3/32
+void com.android.mail.ui.AbstractConversationViewFragment$MessageLoader.deliverResult(java.lang.Object)/1/6
+void com.android.mail.ui.AbstractConversationViewFragment$MessageLoaderCallbacks.onLoadFinished(android.content.Loader, java.lang.Object)/1/6
+void com.android.mail.ui.AbstractConversationViewFragment.onCreateOptionsMenu(android.view.Menu, android.view.MenuInflater)/1/13
+void com.android.mail.ui.AbstractConversationViewFragment.parseArguments()/1/25
+void com.android.mail.ui.AbstractConversationWebViewClient.setActivity(android.app.Activity)/2/3
+void com.android.mail.ui.AbstractHtmlTemplates.append(java.lang.String, java.lang.Object[])/1/6
+void com.android.mail.ui.AbstractHtmlTemplates.reset()/11/20
+void com.android.mail.ui.AccountItemView.bind(android.content.Context, com.android.mail.providers.Account, boolean, com.android.bitmap.BitmapCache, com.android.mail.bitmap.ContactResolver)/43/223
+void com.android.mail.ui.ActionBarController.setConversationModeOptions(android.view.Menu)/9/495
+void com.android.mail.ui.ActionBarController.setCurrentConversation(com.android.mail.providers.Conversation)/1/3
+void com.android.mail.ui.ActionBarController.validateVolatileMenuOptionVisibility()/4/124
+void com.android.mail.ui.ActionableToastBar.hide(boolean, boolean)/7/61
+void com.android.mail.ui.ActionableToastBar.onDetachedFromWindow()/4/11
+void com.android.mail.ui.ActionableToastBar.onFinishInflate()/1/48
+void com.android.mail.ui.AnimatedAdapter.notifyDataSetChanged()/2/27
+void com.android.mail.ui.AnimatedAdapter.removeExpiredItems(java.util.HashSet, java.util.HashSet, java.lang.String)/1/69
+void com.android.mail.ui.AnimatedAdapter.setFolder(com.android.mail.providers.Folder)/1/3
+void com.android.mail.ui.AnimatedAdapter.setFooterVisibility(boolean)/1/10
+void com.android.mail.ui.AttachmentTile.setThumbnail(android.graphics.Bitmap)/2/240
+void com.android.mail.ui.AttachmentTileGrid.onMeasure(int, int)/1/4
+void com.android.mail.ui.ContactLoaderCallbacks.onLoadFinished(android.content.Loader, com.google.common.collect.ImmutableMap)/1/8
+void com.android.mail.ui.ContactLoaderCallbacks.onLoaderReset(android.content.Loader)/1/1
+void com.android.mail.ui.ContactLoaderCallbacks.registerObserver(android.database.DataSetObserver)/1/6
+void com.android.mail.ui.ConversationCheckedSet.addObserver(com.android.mail.ui.ConversationSetObserver)/8/13
+void com.android.mail.ui.ConversationCheckedSet.removeObserver(com.android.mail.ui.ConversationSetObserver)/9/13
+void com.android.mail.ui.ConversationListEmptyView.onFinishInflate()/1/26
+void com.android.mail.ui.ConversationListEmptyView.setVisibility(int)/3/14
+void com.android.mail.ui.ConversationListFragment.onDestroy()/2/4
+void com.android.mail.ui.ConversationListFragment.onViewModeChanged(int)/2/14
+void com.android.mail.ui.ConversationListFragment.setChoiceMode(int)/2/6
+void com.android.mail.ui.ConversationListFragment.viewConversation(int)/1/165
+void com.android.mail.ui.ConversationPositionTracker.initialize(com.android.mail.providers.Conversation)/1/9
+void com.android.mail.ui.ConversationPositionTracker.onCursorUpdated()/1/4
+void com.android.mail.ui.ConversationSyncDisabledTipView.setReasonSyncOff(int)/1/60
+void com.android.mail.ui.ConversationTipView.bindFragment(android.app.LoaderManager, android.os.Bundle)/1/1
+void com.android.mail.ui.ConversationTipView.bindIcon(android.widget.ImageView, com.android.mail.ui.ConversationTipView$ImageAttrSet)/3/33
+void com.android.mail.ui.ConversationViewFragment$MailJsBridge$1.go()/4/107
+void com.android.mail.ui.ConversationViewFragment$MailJsBridge$2.go()/1/97
+void com.android.mail.ui.ConversationViewFragment$MailJsBridge.onInlineAttachmentsParsed(java.lang.String[], java.lang.String[])/1/36
+void com.android.mail.ui.ConversationViewFragment$MailJsBridge.onWebContentGeometryChange(int[], int[])/13/36
+void com.android.mail.ui.ConversationViewFragment.onResume()/1/13
+void com.android.mail.ui.ConversationViewFragment.setMessageSpacerHeight(com.android.mail.browse.ConversationViewAdapter$MessageHeaderItem, int)/3/67
+void com.android.mail.ui.ConversationViewFragment.setupNewMessageBar()/1/21
+void com.android.mail.ui.ConversationViewProgressController.dismiss(java.lang.Runnable)/1/58
+void com.android.mail.ui.ConversationViewProgressController.showLoadingStatus(boolean)/1/88
+void com.android.mail.ui.ConversationsInOutboxTipView.onUpdate(com.android.mail.providers.Folder, com.android.mail.browse.ConversationCursor)/3/23
+void com.android.mail.ui.FolderDisplayer.initializeDrawableResources()/2/51
+void com.android.mail.ui.FolderDisplayer.reset()/1/6
+void com.android.mail.ui.FolderItemView.bind(com.android.mail.providers.Folder, com.android.mail.utils.FolderUri)/1/84
+void com.android.mail.ui.FolderItemView.onFinishInflate()/2/37
+void com.android.mail.ui.FolderItemView.setIcon(com.android.mail.providers.Folder)/1/13
+void com.android.mail.ui.FolderItemView.setUnreadCount(int)/26/27
+void com.android.mail.ui.FolderListFragment$DrawerStateListener.onDrawerSlide(android.view.View, float)/3/1
+void com.android.mail.ui.FolderListFragment$FolderAdapter.addFolderDivision(java.util.List, java.util.List, int)/1/36
+void com.android.mail.ui.FolderListFragment$FolderAdapter.setVipFolderCount(int)/5/3
+void com.android.mail.ui.FolderListFragment$FooterAdapter.update()/1/121
+void com.android.mail.ui.FolderListFragment.onLoadFinished(android.content.Loader, java.lang.Object)/1/6
+void com.android.mail.ui.FolderListFragment.onPause()/1/4
+void com.android.mail.ui.FolderListLayout.onLayout(boolean, int, int, int, int)/4/17
+void com.android.mail.ui.MaterialSearchActionView.beforeTextChanged(java.lang.CharSequence, int, int, int)/1/1
+void com.android.mail.ui.OnePaneController.appendToString(java.lang.StringBuilder)/13/11
+void com.android.mail.ui.OnePaneController.resetActionBarIcon()/1/1
+void com.android.mail.ui.OnePaneController.showConversationList(com.android.mail.ConversationListContext)/1/109
+void com.android.mail.ui.SwipeableListView.enableSwipe(boolean)/3/3
+void com.android.mail.ui.SwipeableListView.onScroll(android.widget.AbsListView, int, int, int)/29/1
+void com.android.mail.ui.SwipeableListView.onScrollStateChanged(android.widget.AbsListView, int)/1/41
+void com.android.mail.ui.SwipeableListView.setCheckedSet(com.android.mail.ui.ConversationCheckedSet)/1/3
+void com.android.mail.ui.ViewMode.enterConversationListMode()/1/5
+void com.android.mail.ui.ViewMode.removeListener(com.android.mail.ui.ViewMode$ModeChangeListener)/1/6
+void com.android.mail.utils.DequeMap.add(java.lang.Object, java.lang.Object)/10/23
+void com.android.mail.utils.DrawIdler$IdleReader.run()/1/7
+void com.android.mail.utils.DrawIdler.setState(int)/301/17
+void com.android.mail.utils.FragmentStatePagerAdapter2.finishUpdate(android.view.ViewGroup)/5/26
+void com.android.mail.utils.FragmentStatePagerAdapter2.setPrimaryItem(android.view.ViewGroup, int, java.lang.Object)/16/26
+void com.android.mail.utils.FragmentStatePagerAdapter2.startUpdate(android.view.ViewGroup)/15/1
+void com.android.mail.utils.InputSmoother.onInput(int)/25/63
+void com.android.mail.utils.MatrixCursorWithCachedColumns.<init>(java.lang.String[])/2/6
+void com.android.mail.utils.NotificationUtils.setNewEmailIndicator(android.content.Context, int, int, com.android.mail.providers.Account, com.android.mail.providers.Folder, boolean, com.android.mail.photo.ContactFetcher)/7/236
+void com.android.mail.utils.ObjectCache.release(java.lang.Object)/4/28
+void com.android.mail.utils.PDebug.End(java.lang.String)/36/34
+void com.android.mail.utils.PDebug.EndAndStart(java.lang.String, java.lang.String)/46/59
+void com.android.mail.utils.PDebug.Start(java.lang.String)/7/34
+void com.android.mail.utils.StyleUtils.stripUnderlinesAndLinkUrls(android.widget.TextView, android.view.View$OnClickListener)/4/10
+void com.android.mail.utils.StyleUtils.stripUnderlinesAndUrl(android.widget.TextView)/2/5
+void com.android.mail.utils.Throttle$MyTimerTask.run()/4/16
+void com.android.mail.utils.Throttle.onEvent()/4/29
+void com.android.mail.utils.Throttle.updateTimeout()/5/40
+void com.android.mail.utils.Utils.getStaticResources(android.content.Context)/21/82
+void com.android.mail.utils.Utils.setMenuItemPresent(android.view.Menu, int, boolean)/1/8
+void com.android.mail.utils.ViewUtils.setStatusBarColor(android.app.Activity, int)/1/26
+void com.android.mail.utils.ViewUtils.setTextAlignment(android.view.View, int)/3/10
+void com.android.mail.utils.VipNotificationUtils.cancelVipNotification(android.support.v4.app.NotificationManagerCompat, android.accounts.Account, com.android.mail.providers.Folder)/1/8
+void com.android.mtkex.chips.BaseRecipientAdapter.registerUpdateObserver(com.android.mtkex.chips.BaseRecipientAdapter$EntriesUpdatedObserver)/1/3
+void com.android.mtkex.chips.MTKRecipientEditTextView$2.<init>(com.android.mtkex.chips.MTKRecipientEditTextView)/1/6
+void com.android.mtkex.chips.MTKRecipientEditTextView$RecipientReplacementTask.processReplacements(java.util.List, java.util.List)/2/73
+void com.android.mtkex.chips.MTKRecipientEditTextView$RecipientTextWatcher.<init>(com.android.mtkex.chips.MTKRecipientEditTextView)/1/6
+void com.android.mtkex.chips.MTKRecipientEditTextView$RecipientTextWatcher.onTextChanged(java.lang.CharSequence, int, int, int)/2/557
+void com.android.mtkex.chips.MTKRecipientEditTextView.configFeatures(android.content.Context)/1/78
+void com.android.mtkex.chips.MTKRecipientEditTextView.onDetachedFromWindow()/3/20
+void com.android.mtkex.chips.MTKRecipientEditTextView.onSelectionChanged(int, int)/4/77
+void com.android.mtkex.chips.MTKRecipientEditTextView.performFiltering(java.lang.CharSequence, int)/2/62
+void com.android.mtkex.chips.MTKRecipientEditTextView.printDebugLog(java.lang.String, java.lang.String)/1/8
+void com.android.mtkex.chips.MTKRecipientEditTextView.recoverLayout()/3/77
+void com.android.mtkex.chips.MTKRecipientEditTextView.removeTextChangedListener(android.text.TextWatcher)/1/11
+void com.android.mtkex.chips.MTKRecipientEditTextView.sanitizeBetween()/1/132
+void com.android.mtkex.chips.MTKRecipientEditTextView.sanitizeEnd()/1/103
+void com.android.mtkex.chips.MTKRecipientEditTextView.setChipDimensions(android.content.Context, android.util.AttributeSet)/1/267
+void com.android.mtkex.chips.MTKRecipientEditTextView.setTokenizer(android.widget.MultiAutoCompleteTextView$Tokenizer)/1/8
+void com.android.mtkex.chips.MTKRecipientEditTextView.setValidator(android.widget.AutoCompleteTextView$Validator)/2/6
+void com.android.mtkex.chips.RecipientAlternatesAdapter.getMatchingRecipients(java.util.HashSet, android.content.Context, com.android.mtkex.chips.BaseRecipientAdapter, java.util.ArrayList, android.accounts.Account, com.android.mtkex.chips.RecipientAlternatesAdapter$RecipientMatchCallback)/1/11
+void com.android.mtkex.chips.recipientchip.SimpleRecipientChip.setOriginalText(java.lang.String)/2/16
+void com.android.org.chromium.android_webview.AwContents$3.<init>(com.android.org.chromium.android_webview.AwContents)/1/6
+void com.android.org.chromium.android_webview.AwContents$AwViewMethodsImpl.onDraw(android.graphics.Canvas)/3/154
+void com.android.org.chromium.android_webview.AwContents.computeScroll()/31/8
+void com.android.org.chromium.android_webview.AwContents.nativeDestroy(long)/3/0
+void com.android.org.chromium.android_webview.AwContents.nativeOnAttachedToWindow(long, int, int)/2/0
+void com.android.org.chromium.android_webview.AwContents.nativeOnDetachedFromWindow(long)/8/0
+void com.android.org.chromium.android_webview.AwContents.nativeOnSizeChanged(long, int, int, int, int)/4/0
+void com.android.org.chromium.android_webview.AwContents.nativeRequestNewHitTestDataAt(long, int, int)/3/0
+void com.android.org.chromium.android_webview.AwContents.nativeSetDipScale(long, float)/2/0
+void com.android.org.chromium.android_webview.AwContents.nativeSetExtraHeadersForUrl(long, java.lang.String, java.lang.String)/12/0
+void com.android.org.chromium.android_webview.AwContents.nativeSetIsPaused(long, boolean)/1/0
+void com.android.org.chromium.android_webview.AwContents.nativeSetJavaPeers(long, com.android.org.chromium.android_webview.AwContents, com.android.org.chromium.android_webview.AwWebContentsDelegate, com.android.org.chromium.android_webview.AwContentsClientBridge, com.android.org.chromium.android_webview.AwContentsIoThreadClient, com.android.org.chromium.components.navigation_interception.InterceptNavigationDelegate)/14/0
+void com.android.org.chromium.android_webview.AwContents.nativeSetViewVisibility(long, boolean)/1/0
+void com.android.org.chromium.android_webview.AwContents.nativeSetWindowVisibility(long, boolean)/1/0
+void com.android.org.chromium.android_webview.AwContents.setNewAwContents(long)/1/265
+void com.android.org.chromium.android_webview.AwContentsClientCallbackHelper$MyHandler.handleMessage(android.os.Message)/2/214
+void com.android.org.chromium.android_webview.AwLayoutSizer.onPageScaleChanged(float)/3/8
+void com.android.org.chromium.android_webview.AwSettings$EventHandler$2.run()/1/8
+void com.android.org.chromium.android_webview.AwSettings.nativePopulateWebPreferencesLocked(long, long)/58/0
+void com.android.org.chromium.android_webview.AwSettings.nativeUpdateEverythingLocked(long)/9/0
+void com.android.org.chromium.android_webview.AwSettings.nativeUpdateFormDataPreferencesLocked(long)/1/0
+void com.android.org.chromium.android_webview.AwSettings.nativeUpdateWebkitPreferencesLocked(long)/24/0
+void com.android.org.chromium.android_webview.OverScrollGlow.absorbGlow(int, int, int, int, int, int, float)/3/107
+void com.android.org.chromium.android_webview.OverScrollGlow.pullGlow(int, int, int, int, int, int)/9/173
+void com.android.org.chromium.base.JavaHandlerThread.nativeInitializeThread(long, long)/1/0
+void com.android.org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(long, long)/265/0
+void com.android.org.chromium.base.TraceEvent.nativeRegisterEnabledObserver()/1/0
+void com.android.org.chromium.base.library_loader.LibraryLoader.nativeInitCommandLine(java.lang.String[])/1/0
+void com.android.org.chromium.content.app.ContentMain.nativeInitApplicationContext(android.content.Context)/1/0
+void com.android.org.chromium.content.browser.ContentViewCore.nativeAddJavascriptInterface(long, java.lang.Object, java.lang.String, java.lang.Class)/9/0
+void com.android.org.chromium.content.browser.ContentViewCore.nativeDismissTextHandles(long)/3/0
+void com.android.org.chromium.content.browser.ContentViewCore.nativeSendOrientationChangeEvent(long, int)/1/0
+void com.android.org.chromium.content.browser.ContentViewCore.nativeSetDoubleTapSupportEnabled(long, boolean)/1/0
+void com.android.org.chromium.content.browser.ContentViewCore.nativeWasResized(long)/3/0
+void com.android.org.chromium.content.browser.WebContentsObserverAndroid.nativeDestroy(long)/2/0
+void com.android.org.chromium.content.browser.framehost.NavigationControllerImpl.nativeLoadUrl(long, java.lang.String, int, int, java.lang.String, int, int, java.lang.String, byte[], java.lang.String, java.lang.String, boolean, boolean)/43/0
+void com.android.org.chromium.content.browser.input.ImeAdapter.attach(long)/5/8
+void com.android.org.chromium.content.browser.input.ImeAdapter.nativeAttachImeAdapter(long)/2/0
+void com.android.org.chromium.content.browser.input.ImeAdapter.nativeResetImeAdapter(long)/3/0
+void com.android.org.chromium.content.browser.input.ImeAdapter.nativeUnselect(long)/1/0
+void com.android.org.chromium.content.browser.webcontents.WebContentsImpl.nativeOnHide(long)/6/0
+void com.android.org.chromium.content.browser.webcontents.WebContentsImpl.nativeOnShow(long)/1/0
+void com.android.org.chromium.ui.R.onResourcesLoaded(int)/1/1100
+void com.android.webview.chromium.WebViewChromium$InternalAccessAdapter.setMeasuredDimension(int, int)/10/8
+void com.android.webview.chromium.WebViewChromium$InternalAccessAdapter.super_scrollTo(int, int)/6/8
+void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean)/2/186
+void com.android.webview.chromium.WebViewChromium.loadUrl(java.lang.String)/6/8
+void com.android.webview.chromium.WebViewChromiumFactoryProvider.ensureChromiumStartedLocked(boolean)/434/116
+void com.beetstra.jutf7.UTF7StyleCharsetDecoder.implReset()/1/7
+void com.google.android.mail.common.base.Preconditions.checkArgument(boolean)/3/9
+void com.google.android.mail.common.html.parser.HtmlParser.addStartTag(com.google.android.mail.common.html.parser.HTML$Element, int, int, int, int, boolean, java.util.ArrayList)/1/206
+void com.google.android.mail.common.html.parser.HtmlTree$PlainTextPrinter$Separator.<init>(java.lang.String, int)/1/4
+void com.google.android.mail.common.html.parser.HtmlTree$PlainTextPrinter.flushSeparator()/1/58
+void com.google.android.mail.common.html.parser.HtmlTree$PlainTextPrinter.maybeAddQuoteMarks(boolean)/1/33
+void com.google.android.mail.common.html.parser.HtmlTree$PlainTextPrinter.setSeparator(com.google.android.mail.common.html.parser.HtmlTree$PlainTextPrinter$Separator)/1/15
+void com.google.android.mail.common.html.parser.HtmlTree.addNode(com.google.android.mail.common.html.parser.HtmlDocument$Node, int, int)/2/24
+void com.google.android.mail.common.html.parser.HtmlTreeBuilder$TableFixer.finish()/1/22
+void com.google.android.mail.common.html.parser.HtmlTreeBuilder$TableFixer.seeText(com.google.android.mail.common.html.parser.HtmlDocument$Text)/1/18
+void com.google.common.base.Preconditions.checkPositionIndexes(int, int, int)/5/17
+void com.google.common.base.Preconditions.checkState(boolean)/1/9
+void com.google.common.collect.AbstractBiMap.clear()/1/13
+void com.google.common.collect.AbstractBiMap.setDelegates(java.util.Map, java.util.Map)/1/54
+void com.google.common.collect.AbstractMapEntry.<init>()/1/4
+void com.mediatek.email.ui.DropdownAccountsArrayAdapter.init(android.content.Context, int, int, java.util.List)/1/21
+void com.mediatek.email.ui.EmailAccountAutoCompleteTextView$MyWatcher.beforeTextChanged(java.lang.CharSequence, int, int, int)/2/11
+void com.mediatek.mail.ui.utils.ChipsAddressTextView$ForwardValidator.setValidator(android.widget.AutoCompleteTextView$Validator)/1/3
+void com.mediatek.mail.ui.utils.ChipsAddressTextView.setGalSearchDelayer()/2/15
+void com.mediatek.mail.utils.ThrottleContentObserver.unregister()/1/37
+void com.mediatek.mail.vip.utils.ClosingMatrixCursor.<init>(java.lang.String[], android.database.Cursor)/1/6
+void com.mediatek.mail.vip.utils.ClosingMatrixCursor.close()/11/13
+void org.apache.james.mime4j.CloseShieldInputStream.checkIfClosed()/1/13
+void org.apache.james.mime4j.EOLConvertingInputStream.unreadByte(int)/40/12
+void org.apache.james.mime4j.MimeStreamParser.setContentHandler(org.apache.james.mime4j.ContentHandler)/1/3
+void org.apache.james.mime4j.decoder.Base64InputStream.decodeAndEnqueue(int)/1/91
+void org.owasp.html.ElementAndAttributePolicyBasedSanitizerPolicy.openTag(java.lang.String, java.util.List)/1/32
+void org.owasp.html.ElementAndAttributePolicyBasedSanitizerPolicy.text(java.lang.String)/1/10
+void org.owasp.html.ElementAndAttributePolicyBasedSanitizerPolicy.writeOpenTag(org.owasp.html.ElementAndAttributePolicies, java.lang.String, java.util.List)/13/35
+void org.owasp.html.Encoding.encodeHtmlOnto(java.lang.String, java.lang.Appendable)/5/107
+void org.owasp.html.HtmlPolicyBuilder.invalidateCompiledState()/6/4
+void org.owasp.html.HtmlStreamRenderer.closeTag(java.lang.String)/1/15
+void org.owasp.html.HtmlStreamRenderer.openDocument()/3/14
+void org.owasp.html.HtmlStreamRenderer.openTag(java.lang.String, java.util.List)/1/11
+void org.owasp.html.HtmlStreamRenderer.writeCloseTag(java.lang.String)/17/112
+void org.owasp.html.HtmlStreamRenderer.writeText(java.lang.String)/23/26
+void org.owasp.html.StylingPolicy$1.closeQuotedIdents()/23/15
+void org.owasp.html.StylingPolicy$1.emitToken(java.lang.String)/10/23
+void org.owasp.html.StylingPolicy$1.hash(java.lang.String)/1/19
+void org.owasp.html.StylingPolicy$1.quantity(java.lang.String)/10/32
+void org.owasp.html.StylingPolicy$1.startProperty(java.lang.String)/15/59
+void org.owasp.html.TagBalancingHtmlStreamEventReceiver.setNestingLimit(int)/2/17

@@ -1,0 +1,13 @@
+38/8/686
+android.content.ContentProviderResult[] com.android.exchange.adapter.ContactsSyncParser$ContactOperations.access$000(com.android.exchange.adapter.ContactsSyncParser$ContactOperations)/1/3
+android.net.Uri com.android.exchange.adapter.ContactsSyncParser.addCallerIsSyncAdapterParameter(android.net.Uri)/1/17
+boolean com.android.exchange.adapter.AbstractSyncParser.parse()/1/397
+boolean com.android.exchange.adapter.CalendarSyncParser.isValidEventValues(android.content.ContentValues)/1/125
+boolean com.android.exchange.adapter.Tags.isGlobalTag(int)/1/9
+int com.android.emailcommon.TrafficFlags.getSyncFlags(android.content.Context, com.android.emailcommon.provider.Account)/1/6
+long com.android.exchange.utility.CalendarUtilities.createCalendar(android.content.Context, android.content.ContentResolver, com.android.emailcommon.provider.Account, com.android.emailcommon.provider.Mailbox)/1/213
+org.apache.http.HttpEntity com.android.exchange.eas.EasSyncBase.getRequestEntity()/1/146
+void com.android.exchange.adapter.ContactsSyncParser$ContactOperations.addName(android.content.Entity, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)/1/110
+void com.android.exchange.adapter.Serializer.checkPendingTag(boolean)/25/159
+void com.android.exchange.eas.EasOperation.<init>(android.content.Context, com.android.emailcommon.provider.Account, com.android.exchange.service.EasServerConnection)/1/20
+void com.android.exchange.eas.EasSyncBase.<init>(android.content.Context, com.android.emailcommon.provider.Account, com.android.emailcommon.provider.Mailbox)/3/6
