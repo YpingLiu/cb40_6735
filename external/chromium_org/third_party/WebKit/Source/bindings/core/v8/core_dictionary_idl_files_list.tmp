@@ -1,0 +1,7 @@
+../../../core/css/FontFaceDescriptors.idl
+../../../core/dom/DOMPointInit.idl
+../../../core/dom/MutationObserverInit.idl
+../../../core/frame/ScrollOptions.idl
+../../../core/html/canvas/HitRegionOptions.idl
+../../../core/page/EventSourceInit.idl
+../../../core/testing/InternalDictionary.idl

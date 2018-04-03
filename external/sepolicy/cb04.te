@@ -1,0 +1,5 @@
+allow system_app sysfs:file { open write read};
+
+allow untrusted_app device:dir { read write open };
+allow untrusted_app usb_device:dir { read write open };
+allow untrusted_app untrusted_app:netlink_kobject_uevent_socket { create setattr read getattr bind };

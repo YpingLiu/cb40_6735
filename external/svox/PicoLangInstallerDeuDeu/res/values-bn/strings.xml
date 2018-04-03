@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources>
+    
+    <string name="app_name">স্পিচ সিনথেসিস ডাটা ইনস্টলার (DEU-DEU)</string>
+
+    
+    <string name="installing_message">ভয়েস ডাটা এসডি কার্ডে ইনস্টল করা হচ্ছে।</string>
+
+    
+    <string name="uninstall_message">ভয়েস ডাটা সফলভাবে ইনস্টল করা হয়েছে। আপনি এখন নিরাপদে এই ইনস্টলার সরাতে পারেন।</string>
+
+    
+    <string name="uninstall">আনইনস্টল করুন</string>
+
+    
+    <string name="retry_message">ভয়েস ডাটা ইনস্টল করতে ব্যর্থ হয়েছে। নিশ্চিত করুন আপনার এসডি কার্ড আপনার ডিভাইসে আছে এবং এতে কমপক্ষে ৬এমবি খালি জায়গা আছে। আপনার কার্ড যদি ইতিমধ্যে আপনার ডিভাইসে থাকে, তাহলে কার্ডটি খুলে আবার প্রবেশ করান।</string>
+
+    
+    <string name="retry">আবার চেষ্টা করুন</string>
+</resources>

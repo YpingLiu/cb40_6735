@@ -1,0 +1,181 @@
+/*
+* Copyright (C) 2014 MediaTek Inc.
+* Modification based on code covered by the mentioned copyright
+* and/or permission notice(s).
+*/
+/*
+ * $HeadURL: http://svn.apache.org/repos/asf/httpcomponents/httpclient/trunk/module-client/src/main/java/org/apache/http/impl/conn/tsccm/RefQueueWorker.java $
+ * $Revision: 673450 $
+ * $Date: 2008-07-02 10:35:05 -0700 (Wed, 02 Jul 2008) $
+ *
+ * ====================================================================
+ *
+ *  Licensed to the Apache Software Foundation (ASF) under one or more
+ *  contributor license agreements.  See the NOTICE file distributed with
+ *  this work for additional information regarding copyright ownership.
+ *  The ASF licenses this file to You under the Apache License, Version 2.0
+ *  (the "License"); you may not use this file except in compliance with
+ *  the License.  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ * ====================================================================
+ *
+ * This software consists of voluntary contributions made by many
+ * individuals on behalf of the Apache Software Foundation.  For more
+ * information on the Apache Software Foundation, please see
+ * <http://www.apache.org/>.
+ *
+ */
+
+package org.apache.http.impl.conn.tsccm;
+
+import java.lang.ref.Reference;
+import java.lang.ref.ReferenceQueue;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+
+
+/**
+ * A worker thread for processing queued references.
+ * {@link Reference Reference}s can be
+ * {@link ReferenceQueue queued}
+ * automatically by the garbage collector.
+ * If that feature is used, a daemon thread should be executing
+ * this worker. It will pick up the queued references and pass them
+ * on to a handler for appropriate processing.
+ *
+ * @deprecated Please use {@link java.net.URL#openConnection} instead.
+ *     Please visit <a href="http://android-developers.blogspot.com/2011/09/androids-http-clients.html">this webpage</a>
+ *     for further details.
+ */
+@Deprecated
+public class RefQueueWorker implements Runnable {
+
+    private final Log log = LogFactory.getLog(getClass());
+
+    /** The reference queue to monitor. */
+    protected final ReferenceQueue<?> refQueue;
+
+    /** The handler for the references found. */
+    protected final RefQueueHandler refHandler;
+
+    ///M: Fix race condition issue {@
+    private boolean mRunFlag = false;
+    private Object  mMutex = "RefQueueWorker";
+    /// @}
+
+    /**
+     * The thread executing this handler.
+     * This attribute is also used as a shutdown indicator.
+     */
+    protected volatile Thread workerThread;
+
+
+    /**
+     * Instantiates a new worker to listen for lost connections.
+     *
+     * @param queue     the queue on which to wait for references
+     * @param handler   the handler to pass the references to
+     */
+    public RefQueueWorker(ReferenceQueue<?> queue, RefQueueHandler handler) {
+        if (queue == null) {
+            throw new IllegalArgumentException("Queue must not be null.");
+        }
+        if (handler == null) {
+            throw new IllegalArgumentException("Handler must not be null.");
+        }
+
+        refQueue   = queue;
+        refHandler = handler;
+    }
+
+
+    /**
+     * The main loop of this worker.
+     * If initialization succeeds, this method will only return
+     * after {@link #shutdown shutdown()}. Only one thread can
+     * execute the main loop at any time.
+     */
+    public void run() {
+
+        if (this.workerThread == null) {
+            this.workerThread = Thread.currentThread();
+        }
+
+
+        ///M: Fix race condition issue {@
+        synchronized (mMutex) {
+            this.mRunFlag = true;
+            mMutex.notify();
+        }
+        /// @}
+
+        while (this.workerThread == Thread.currentThread()) {
+            try {
+                // remove the next reference and process it
+                Reference<?> ref = refQueue.remove();
+                refHandler.handleReference(ref);
+            } catch (InterruptedException e) {
+                //@@@ is logging really necessary? this here is the
+                //@@@ only reason for having a log in this class
+                if (log.isDebugEnabled()) {
+                    log.debug(this.toString() + " interrupted", e);
+                }
+            }
+        }
+    }
+
+
+    /**
+     * Shuts down this worker.
+     * It can be re-started afterwards by another call to {@link #run run()}.
+     */
+    public void shutdown() {
+        Thread wt = this.workerThread;
+        if (wt != null) {
+            this.workerThread = null; // indicate shutdown
+            wt.interrupt();
+        }
+    }
+
+
+    /**
+     * Obtains a description of this worker.
+     *
+     * @return  a descriptive string for this worker
+     */
+    @Override
+    public String toString() {
+        return "RefQueueWorker::" + this.workerThread;
+    }
+
+    ///M: Fix race condition issue {@
+    /**
+     * Wait for RefQueueWorker thread ready to run.
+     *
+     * @hide
+     */
+    public void waitWorkerStart() {
+        synchronized (mMutex) {
+            while (this.mRunFlag != true) {
+                try {
+                    //Add guard timer for avoid deadlock in some scenarios.
+                    mMutex.wait(3 * 1000);
+                } catch (InterruptedException e) {
+                    System.out.println("err:" + e);
+                }
+            }
+        }
+    }
+    /// @}
+
+} // class RefQueueWorker
+

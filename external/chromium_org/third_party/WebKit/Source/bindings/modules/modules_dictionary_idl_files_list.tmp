@@ -1,0 +1,8 @@
+../../modules/encoding/TextDecodeOptions.idl
+../../modules/encoding/TextDecoderOptions.idl
+../../modules/indexeddb/IDBIndexParameters.idl
+../../modules/notifications/NotificationOptions.idl
+../../modules/serviceworkers/QueryParams.idl
+../../modules/serviceworkers/RegistrationOptionList.idl
+../../modules/serviceworkers/ServiceWorkerClientQueryParams.idl
+../../modules/webmidi/MIDIOptions.idl

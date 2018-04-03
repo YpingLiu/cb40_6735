@@ -1,0 +1,44 @@
+#!/bin/sh
+
+#Clear build folder
+if test -d build
+then 
+    rm -rf build
+fi
+mkdir build
+
+#copy the slimed resource list to the data folder
+rm -f ../../data/brkitr/brkfiles.mk
+cp ./resfiles/brkitr/brkfiles.mk ../../data/brkitr
+
+rm -f ../../data/coll/colfiles.mk
+cp ./resfiles/coll/colfiles.mk ../../data/coll
+
+rm -f ../../data/curr/resfiles.mk
+cp ./resfiles/curr/resfiles.mk ../../data/curr
+
+rm -f ../../data/lang/resfiles.mk
+cp ./resfiles/lang/resfiles.mk ../../data/lang
+
+rm -f ../../data/locales/resfiles.mk
+cp ./resfiles/locales/resfiles.mk ../../data/locales
+
+rm -f ../../data/rbnf/rbnffiles.mk
+cp ./resfiles/rbnf/rbnffiles.mk ../../data/rbnf
+
+rm -f ../../data/region/resfiles.mk
+cp ./resfiles/region/resfiles.mk ../../data/region
+
+rm -f ../../data/zone/resfiles.mk
+cp ./resfiles/zone/resfiles.mk ../../data/zone
+
+#Start full build the ICU
+cd build
+pwd
+../../../runConfigureICU Linux
+make
+rm -f *.dat
+cp ./data/out/tmp/*.dat ..
+
+rm -rf build
+

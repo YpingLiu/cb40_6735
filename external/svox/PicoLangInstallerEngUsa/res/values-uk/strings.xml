@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources>
+    
+    <string name="app_name">Інсталятор даних синтезованої мови (ENG-USA)</string>
+
+    
+    <string name="installing_message">"Встановл. голос. даних на карту SD."</string>
+
+    
+    <string name="uninstall_message">"Голосові дані успішно встановлено. Тепер можна безпечно видалити цю програму встановлення."</string>
+
+    
+    <string name="uninstall">"Видалити"</string>
+
+    
+    <string name="retry_message">Не інстальовано дані голосу. Будь ласка, переконайтеся, що карта SD - в пристрої і має щонайменш 6 Мб вільного місця. Якщо карта вже у пристрої, будь ласка, спробуйте вийняти і знову вставити її.</string>
+
+    
+    <string name="retry">Повторити спробу</string>
+</resources>
