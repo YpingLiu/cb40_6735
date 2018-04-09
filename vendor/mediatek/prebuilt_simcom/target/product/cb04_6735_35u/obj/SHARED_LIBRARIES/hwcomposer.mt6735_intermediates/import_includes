@@ -1,0 +1,5 @@
+-I vendor/mediatek/proprietary/hardware/gralloc_extra/include
+-I system/core/libion/include
+-I system/core/libion/kernel-headers
+-I ./vendor/mediatek/proprietary/platform/mt6735/hardware/m4u/D1
+-I system/core/libsync/include

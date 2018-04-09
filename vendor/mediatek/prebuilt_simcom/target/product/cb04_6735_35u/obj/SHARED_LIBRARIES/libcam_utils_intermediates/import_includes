@@ -1,0 +1,5 @@
+-I system/media/camera/src/../include
+-I vendor/mediatek/proprietary/hardware/gralloc_extra/include
+-I system/core/libion/include
+-I system/core/libion/kernel-headers
+-I system/core/libsync/include

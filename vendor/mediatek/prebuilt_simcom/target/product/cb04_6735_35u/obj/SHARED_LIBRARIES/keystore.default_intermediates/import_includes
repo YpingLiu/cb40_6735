@@ -1,0 +1,2 @@
+-I system/security/keystore/include
+-I system/security/softkeymaster/include

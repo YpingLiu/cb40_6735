@@ -1,0 +1,1765 @@
+# 1 "out/target/product/cb04_6735_35u/obj/CGEN/apeditor/app_parse_db.c"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 1 "<command-line>" 2
+# 1 "out/target/product/cb04_6735_35u/obj/CGEN/apeditor/app_parse_db.c"
+# 1 "vendor/mediatek/proprietary/cgen/apeditor/tst_assert_header_file.h" 1
+# 127 "vendor/mediatek/proprietary/cgen/apeditor/tst_assert_header_file.h"
+typedef unsigned char kal_uint8;
+typedef char kal_int8;
+typedef char kal_char;
+
+typedef unsigned short kal_uint16;
+typedef short kal_int16;
+typedef unsigned short WCHAR;
+
+typedef unsigned int kal_uint32;
+typedef int kal_int32;
+
+typedef kal_uint8 kal_bool;
+typedef kal_int16 ARFCN;
+typedef kal_int8 BSIC;
+typedef kal_int16 Power;
+typedef kal_int16 Gain;
+typedef kal_uint8 TimingAdvance;
+
+typedef kal_int32 FS_HANDLE;
+
+typedef enum
+{
+ MOD_NIL = 0,
+ MOD_NVRAM,
+ MOD_TST,
+ MOD_TST_READER,
+ MOD_ATCI,
+ MOD_MM,
+ MOD_CC,
+ MOD_CISS,
+ MOD_SMS,
+ MOD_TIMER,
+ MOD_SYSTEM,
+ MOD_SYSDEBUG,
+ MOD_CUSTOM_BEGIN,
+ MOD_FT = 0,
+ LAST_MOD_ID = (MOD_SYSDEBUG + 16)
+}module_type;
+
+typedef enum
+{
+ INVALID_SAP = 0,
+ GMMREG_SAP,
+ MM_SMS_SAP,
+ MM_CC_SAP,
+ MM_SS_SAP,
+ SME_READER_SAP,
+ SME_TIMER_SAP,
+ DATA_MPAL_SAP,
+ L1_L1_SAP,
+ L1_MPAL_SAP,
+ MPAL_L1_SAP,
+ DRIVER_PS_SAP,
+ STACK_TIMER_SAP,
+ TST_FT_SAP = 200,
+ LAST_SAP_CODE = STACK_TIMER_SAP
+}sap_type;
+
+typedef enum
+{
+ MSG_ID_INVALID_TYPE = 0,
+ MSG_ID_MMCC_PROMPT_REJ,
+ MSG_ID_MMCC_PROMPT_RSP,
+ MSG_ID_MMCC_REL_REQ,
+ MSG_ID_MMCC_EST_REQ,
+ MSG_ID_MMCC_REEST_REQ,
+ MSG_ID_MMCC_DATA_REQ,
+ MSG_ID_MPHC_OPEN_TCH_LOOP_CNF,
+ MSG_ID_MPHC_EXTENDED_MEAS_IND,
+ MSG_ID_MPHC_BLOCK_QUALITY_IND,
+ MSG_ID_MPHC_SERV_IDLE_MEAS_IND,
+ MSG_ID_MPHC_SERV_DEDI_MEAS_IND,
+ MSG_ID_MPHC_NEIGHBOR_MEAS_IND,
+ MSG_ID_MPHC_NEIGHBOR_BSIC_IND,
+ MSG_ID_L1TASK_WAKEUP,
+ MSG_ID_TST_INJECT_STRING = 6000,
+ MSG_ID_TIMER_EXPIRY = 9000,
+ MSG_ID_FT = 9500,
+ MSG_ID_END = (9000+1000)
+}msg_type;
+
+typedef enum
+{
+ TRACE_FUNC,
+ TRACE_STATE,
+ TRACE_INFO,
+ TRACE_WARNING,
+ TRACE_ERROR,
+ TRACE_GROUP_1,
+ TRACE_GROUP_2,
+ TRACE_GROUP_3,
+ TRACE_GROUP_4,
+ TRACE_GROUP_5,
+ TRACE_GROUP_6,
+ TRACE_GROUP_7,
+ TRACE_GROUP_8,
+ TRACE_GROUP_9,
+ TRACE_GROUP_10
+}trace_class_enum;
+
+typedef enum
+{
+ TST_NULL_COMMAND,
+ TST_LOG_ON_OFF,
+ TST_SET_PRIM_MOD_FILTER,
+ TST_SET_PRIM_SAP_FILTER,
+ TST_SET_PS_TRC_FILTER,
+ TST_SET_L1_TRC_FILTER,
+ TST_INJECT_STRING_TO_MODULE,
+ TST_INJECT_AT_CMD,
+ TST_REBOOT_TARGET_CMD,
+ TST_SET_TRAP_FILTER,
+ TST_READ_GLOBAL_VARIABLE,
+ TST_WRITE_GLOBAL_VARIABLE,
+ TST_EM_MODE_CONFIG,
+ TST_SIM_FILE_INFO_REQ,
+ TST_SIM_READ_REQ,
+ TST_SIM_WRITE_REQ,
+ TST_FT_MODE_CONFIG,
+
+ TST_CTI_COMMAND_CMD = 0x38
+}tst_command_type;
+
+typedef struct
+{
+ kal_uint8 enable;
+}tst_em_mode_config_struct;
+
+typedef struct
+{
+ kal_uint8 file_idx;
+}tst_sim_file_info_req_struct;
+
+typedef struct
+{
+ kal_uint8 file_idx;
+ kal_uint16 para;
+ kal_uint16 length;
+}tst_sim_read_req_struct;
+
+typedef struct
+{
+ kal_uint8 file_idx;
+ kal_uint16 para;
+ kal_uint8 data[260];
+ kal_uint16 length;
+}tst_sim_write_req_struct;
+
+
+typedef struct
+{
+   kal_uint32 frame_number;
+   kal_uint32 time_stamp;
+   module_type src_mod_id;
+   module_type dest_mod_id;
+   sap_type sap_id;
+   msg_type msg_id;
+   kal_uint16 local_len;
+   kal_uint16 peer_len;
+}tst_log_prim_header_struct;
+
+typedef struct
+{
+   kal_uint32 frame_number;
+   kal_uint32 time_stamp;
+   module_type src_mod_id;
+   module_type dest_mod_id;
+   sap_type sap_id;
+   msg_type msg_id;
+   kal_uint16 local_len;
+   kal_uint16 peer_len;
+}tst_log_prim_header_struct_2g;
+
+typedef struct
+{
+   kal_uint32 frame_number;
+   kal_uint32 time_stamp;
+   kal_uint16 cfn;
+   kal_uint16 sfn;
+   module_type src_mod_id;
+   module_type dest_mod_id;
+   sap_type sap_id;
+   msg_type msg_id;
+   kal_uint16 local_len;
+   kal_uint16 peer_len;
+}tst_log_prim_header_struct_3g;
+
+typedef struct
+{
+   kal_uint32 frame_number;
+   kal_uint32 time_stamp;
+   kal_uint32 msg_index;
+   trace_class_enum trace_class;
+   kal_uint16 buf_length;
+}tst_index_trace_header_struct;
+
+typedef struct
+{
+   kal_uint32 frame_number;
+   kal_uint32 time_stamp;
+   module_type module_id;
+   kal_uint16 buf_length;
+}tst_prompt_trace_header_struct;
+
+typedef struct
+{
+   tst_command_type command_type;
+   kal_uint16 cmd_len;
+}tst_command_header_struct;
+
+
+typedef struct
+{
+   kal_bool is_logging;
+}tst_log_on_off_struct;
+
+typedef struct
+{
+   kal_uint8 mod_filter[(LAST_MOD_ID+7)/8];
+}tst_set_prim_mod_filter_struct;
+
+typedef struct
+{
+   kal_uint8 sap_filter[LAST_SAP_CODE+1];
+}tst_set_prim_sap_filter_struct;
+
+typedef struct
+{
+   kal_uint16 sap_filter[LAST_MOD_ID+1];
+}tst_set_ps_trc_filter_struct;
+
+typedef struct
+{
+   module_type dest_mod;
+   kal_uint8 index;
+   kal_uint8 tring[(128)];
+}tst_inject_string_to_module_struct;
+
+typedef struct
+{
+   kal_uint8 atcmd[(128)];
+}tst_inject_at_cmd_struct;
+
+typedef struct
+{
+ kal_uint16 sap_id;
+ kal_uint8 is_trap;
+}tst_set_trap_filter_struct;
+
+typedef struct
+{
+    kal_uint32 token;
+    kal_char data[1];
+}tst_read_global_variable_struct;
+
+typedef struct
+{
+    kal_uint16 size1;
+    kal_uint16 size2;
+}tst_write_global_variable_struct;
+
+typedef struct
+{
+ kal_uint8 ref_count;
+ kal_uint16 msg_len;
+}local_para_struct;
+
+typedef struct
+{
+ kal_uint16 token;
+ kal_uint16 id;
+}WM_FT_H;
+
+typedef struct
+{
+   kal_uint16 local_len;
+   kal_uint16 peer_len;
+}tst_inject_primitive_header_struct;
+
+typedef struct
+{
+ kal_uint8 enable;
+}tst_ft_mode_config_struct;
+
+
+typedef struct {
+   kal_uint32 frame_number;
+   kal_uint32 time_stamp;
+   kal_uint16 buf_length;
+}tst_sys_trace_header_struct;
+
+typedef struct {
+   kal_uint32 frame_number;
+   kal_uint32 time_stamp;
+   kal_uint16 buf_length;
+}tst_sys_trace_header_struct_2g;
+
+typedef struct {
+   kal_uint32 frame_number;
+   kal_uint32 time_stamp;
+   kal_uint16 cfn;
+   kal_uint16 sfn;
+   kal_uint16 buf_length;
+}tst_sys_trace_header_struct_3g;
+
+typedef struct {
+ kal_uint8* pData;
+}tst_cti_command_cmd_struct;
+
+typedef struct {
+ kal_uint32 buf_length;
+}tst_cti_response_header_struct;
+
+typedef struct
+{
+ kal_uint16 token;
+ kal_uint16 id;
+}FT_H;
+
+typedef enum
+{
+ MOD_CUSTOM1 = MOD_CUSTOM_BEGIN,
+ MOD_CUSTOM_END
+}custom_module_type;
+
+typedef kal_uint8 tst_null_command_struct;
+typedef kal_uint8 tst_set_l1_trc_filter_struct;
+typedef kal_uint8 tst_reboot_target_cmd_struct;
+# 2 "out/target/product/cb04_6735_35u/obj/CGEN/apeditor/app_parse_db.c" 2
+# 1 "vendor/mediatek/proprietary/custom/common/cgen/inc/ap_editor_data_item.h" 1
+# 40 "vendor/mediatek/proprietary/custom/common/cgen/inc/ap_editor_data_item.h"
+# 1 "vendor/mediatek/proprietary/custom/common/cgen/inc/NVRAM_Data_Type.h" 1
+# 156 "vendor/mediatek/proprietary/custom/common/cgen/inc/NVRAM_Data_Type.h"
+typedef unsigned int UINT32;
+typedef unsigned char UINT8;
+typedef unsigned short UINT16;
+typedef char INT8;
+# 41 "vendor/mediatek/proprietary/custom/common/cgen/inc/ap_editor_data_item.h" 2
+# 1 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 1
+# 1 "./vendor/mediatek/proprietary/custom/mt6735/cgen/cfgfileinc/CFG_Camera_File.h" 1
+# 125 "./vendor/mediatek/proprietary/custom/mt6735/cgen/cfgfileinc/CFG_Camera_File.h"
+# 1 "./vendor/mediatek/proprietary/custom/mt6735/cgen/cfgfileinc/CFG_Camera_File_Max_Size.h" 1
+# 126 "./vendor/mediatek/proprietary/custom/mt6735/cgen/cfgfileinc/CFG_Camera_File.h" 2
+
+typedef unsigned char UINT8;
+
+typedef struct
+{
+
+    UINT8 CameraData[(4096)];
+} NVRAM_SENSOR_DATA_STRUCT, *PNVRAM_SENSOR_DATA_STRUCT;
+typedef struct
+{
+ UINT8 CameraData[(163840)];
+} NVRAM_CAMERA_PARA_STRUCT, *PNVRAM_CAMERA_PARA_STRUCT;
+
+
+typedef struct
+{
+   UINT8 Data[(5120)];
+} NVRAM_CAMERA_DEFECT_STRUCT, *PNVRAM_CAMERA_DEFECT_STRUCT;
+
+
+
+
+
+typedef struct
+{
+    UINT8 CameraData[(90000)];
+} NVRAM_CAMERA_SHADING_STRUCT, *PNVRAM_CAMERA_SHADING_STRUCT;
+
+
+
+
+
+typedef struct
+{
+    UINT8 Data[(31744)];
+} NVRAM_CAMERA_3A_STRUCT, *PNVRAM_CAMERA_3A_STRUCT;
+
+
+
+
+
+typedef struct
+{
+    UINT8 Data[(163840)];
+} NVRAM_CAMERA_ISP_PARAM_STRUCT, *PNVRAM_CAMERA_ISP_PARAM_STRUCT;
+
+
+
+
+
+
+typedef struct
+{
+    UINT8 reserved[(16384)];
+} NVRAM_LENS_PARA_STRUCT, *PNVRAM_LENS_PARA_STRUCT;
+# 2 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/mt6735/cgen/cfgfileinc/CFG_Camera_File_Max_Size.h" 1
+# 3 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_ADC_File.h" 1
+# 101 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_ADC_File.h"
+typedef struct
+{
+    int Slop[9];
+    int Offset[9];
+    int cal;
+}AUXADC_CFG_Struct;
+# 4 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_AUDIO_File.h" 1
+# 162 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_AUDIO_File.h"
+typedef enum
+{
+    VOL_NORMAL = 0 ,
+    VOL_HEADSET ,
+    VOL_HANDFREE ,
+    MAX_VOL_CATE
+} volume_category_enum;
+
+typedef enum
+{
+    VOL_TYPE_TON = 0 ,
+    VOL_TYPE_KEY ,
+    VOL_TYPE_MIC ,
+    VOL_TYPE_FMR ,
+    VOL_TYPE_SPH ,
+    VOL_TYPE_SID ,
+    VOL_TYPE_MEDIA ,
+    MAX_VOL_TYPE
+} volume_type_enum;
+
+
+enum VolumeType {
+    VER1_VOL_TYPE_RING = 0,
+    VER1_VOL_TYPE_SIP,
+    VER1_VOL_TYPE_MIC,
+    VER1_VOL_TYPE_FM,
+    VER1_VOL_TYPE_SPH,
+    VER1_VOL_TYPE_SPH2,
+    VER1_VOL_TYPE_SID,
+    VER1_VOL_TYPE_MEDIA,
+    VER1_VOL_TYPE_MATV,
+    VER1_NUM_OF_VOL_TYPE
+};
+
+enum VolumeMode {
+    VOLUME_NORMAL_MODE = 0,
+    VOLUME_HEADSET_MODE,
+    VOLUME_SPEAKER_MODE,
+    VOLUME_HEADSET_SPEAKER_MODE,
+    NUM_OF_VOL_MODE
+};
+
+enum VOLUME_NORMAL_TYPE {
+    NORMAL_AUDIO_BUFFER = 0,
+    NORMAL_FM_RECORD_A,
+    NORMAL_FM_RECORD_D,
+    NORMAL_SIP_AUDIO_BUFFER,
+    NORMAL_RSERVED_2,
+    NORMAL_RSERVED_3,
+    NORMAL_VOLUME_TYPE_MAX
+};
+
+enum VOLUME_HEADSET_TYPE {
+    HEADSET_AUDIO_BUFFER = 0,
+    HEADSET_FM_RECORD_A,
+    HEADSET_FM_RECORD_D,
+    HEADSET_SIP_AUDIO_BUFFER,
+    HEADSET_RSERVED_2,
+    HEADSET_RSERVED_3,
+    HEADSET_VOLUME_TYPE_MAX
+};
+
+enum VOLUME_SPEAKER_TYPE {
+    SPEAKER_AMP = 0,
+    SPEAKER_FM_RECORD_A,
+    SPEAKER_FM_RECORD_D,
+    SPEAKER_SIP_AUDIO_BUFFER,
+    SPEAKER_RSERVED_2,
+    SPEAKER_RSERVED_3,
+    SPEAKER_VOLUME_TYPE_MAX
+};
+
+enum VOLUME_HEADSET_SPEAKER_TYPE {
+    HEADSET_SPEAKER_AUDIO_BUFFER = 0,
+    HEADSET_SPEAKER_AMP,
+    HEADSET_SPEAKER_IV_BUFFER,
+    HEADSET_SPEAKER_FM_RECORD_A,
+    HEADSET_SPEAKER_FM_RECORD_D,
+    HEADSET_SPEAKER_SIP_AUDIO_BUFFER,
+    HEADSET_SPEAKER_RSERVED_2,
+    HEADSET_SPEAKER_RSERVED_3,
+    HEADSET_SPEAKER_VOLUME_TYPE_MAX
+};
+
+
+enum VOLUME_EXTAMP_TYPE {
+    VOLUME_IV_BUFFER_EXTAMP = 0,
+    VOLUME_AUDIO_BUFFER_EXTAMP,
+    VOLUME_EXTAMP,
+    VOLUME_EXTAMP_RSERVED_1,
+    VOLUME_EXTAMP_RSERVED_2,
+    VOLUME_EXTAMP_RSERVED_3,
+    EXTAMP_VOLUME_TYPE_MAX
+};
+
+
+
+
+
+typedef struct _AUDIO_CUSTOM_EXTRA_PARAM_STRUCT
+{
+
+ unsigned short ABF_para[44 + 76];
+ unsigned short ABF_para_LoudSPK[44 + 76];
+ unsigned short ABF_para_VR[76];
+ unsigned short ABF_para_VOIP[76];
+ unsigned short ABF_para_VOIP_LoudSPK[76];
+} AUDIO_CUSTOM_EXTRA_PARAM_STRUCT;
+
+
+
+
+
+
+
+typedef struct _AUDIO_ANC_CUSTOM_PARAM_STRUCT
+{
+   unsigned short ANC_para[60];
+   unsigned short ANC_apply;
+   unsigned short ANC_log;
+   unsigned short ANC_log_downsample;
+   unsigned char ANC_dl_pga;
+} AUDIO_ANC_CUSTOM_PARAM_STRUCT;
+
+
+
+
+typedef struct _AUDIO_CUSTOM_MAGI_CONFERENCE_STRUCT
+{
+   unsigned short sph_voice_tracking_mode_para[16];
+   unsigned short sph_voice_tracking_mode_wb_para[16];
+} AUDIO_CUSTOM_MAGI_CONFERENCE_STRUCT;
+
+
+
+
+typedef struct _AUDIO_CUSTOM_HAC_PARAM_STRUCT
+{
+
+    unsigned short speech_hac_mode_nb_para[16];
+
+    unsigned short speech_hac_mode_wb_para[16];
+
+    short sph_hac_in_fir[45];
+
+    short sph_hac_out_fir[45];
+
+
+    short sph_hac_wb_in_fir[90];
+
+    short sph_hac_wb_out_fir[90];
+
+    unsigned char audiovolume_mic_hac[(15)];
+
+    unsigned char audiovolume_sph_hac[(15)];
+
+    unsigned char audiovolume_sid_hac[(15)];
+
+} AUDIO_CUSTOM_HAC_PARAM_STRUCT;
+
+
+
+
+typedef struct _AUDIO_CUSTOM_SPEECH_LPBK_PARAM_STRUCT
+{
+
+    unsigned short lpbk_speech_mode_nb_para[3][16];
+
+} AUDIO_CUSTOM_SPEECH_LPBK_PARAM_STRUCT;
+
+
+
+
+typedef struct _AUDIO_CUSTOM_PARAM_STRUCT
+{
+
+    unsigned char volume[MAX_VOL_CATE][MAX_VOL_TYPE];
+
+    unsigned short speech_common_para[(12)];
+    unsigned short speech_mode_para[(8)][(16)];
+    unsigned short speech_volume_para[4];
+
+    unsigned short debug_info[16];
+
+    short sph_in_fir[(6)][(45)];
+
+    short sph_out_fir[(6)][(45)];
+
+    unsigned short Digi_DL_Speech;
+
+    unsigned short Digi_Microphone;
+
+    unsigned short FM_Record_Volume;
+
+    unsigned short Bluetooth_Sync_Type;
+    unsigned short Bluetooth_Sync_Length;
+    unsigned short bt_pcm_in_vol;
+    unsigned short bt_pcm_out_vol;
+    unsigned short user_mode;
+
+    unsigned short uSupportVM;
+    unsigned short uAutoVM;
+
+    unsigned short uMicbiasVolt;
+
+} AUDIO_CUSTOM_PARAM_STRUCT;
+
+
+
+
+typedef struct _AUDIO_CUSTOM_WB_A2M_PARAM_STRUCT_
+{
+
+    unsigned short speech_mode_wb_para[(8)][(16)];
+
+    short sph_wb_fir[(6)][(90)];
+
+    short input_out_fir_flag;
+} AUDIO_CUSTOM_WB_A2M_PARAM_STRUCT;
+
+typedef struct _AUDIO_CUSTOM_WB_PARAM_STRUCT
+{
+
+    unsigned short speech_mode_wb_para[(8)][(16)];
+
+    short sph_wb_in_fir[(6)][(90)];
+
+    short sph_wb_out_fir[(6)][(90)];
+} AUDIO_CUSTOM_WB_PARAM_STRUCT;
+
+
+
+
+
+
+typedef struct _AUDIO_ACF_V5F_PARAM
+{
+    unsigned int bes_loudness_L_hpf_fc;
+    unsigned int bes_loudness_L_hpf_order;
+    unsigned int bes_loudness_L_lpf_fc;
+    unsigned int bes_loudness_L_lpf_order;
+    unsigned int bes_loudness_L_bpf_fc[8];
+    unsigned int bes_loudness_L_bpf_bw[8];
+    int bes_loudness_L_bpf_gain[8];
+    unsigned int bes_loudness_R_hpf_fc;
+    unsigned int bes_loudness_R_hpf_order;
+    unsigned int bes_loudness_R_lpf_fc;
+    unsigned int bes_loudness_R_lpf_order;
+    unsigned int bes_loudness_R_bpf_fc[8];
+    unsigned int bes_loudness_R_bpf_bw[8];
+    int bes_loudness_R_bpf_gain[8];
+
+}AUDIO_ACF_V5F_PARAM;
+
+typedef struct _AUDIO_ACF_V5VIBSPK_PARAM
+{
+    unsigned int bes_loudness_bpf_coeff[2][6][3];
+
+}AUDIO_ACF_V5VIBSPK_PARAM;
+
+
+typedef struct _AUDIO_ACF_CUSTOM_PARAM_STRUCT
+{
+
+    union{
+        AUDIO_ACF_V5F_PARAM V5F;
+        AUDIO_ACF_V5VIBSPK_PARAM V5ViVSPK;
+    }bes_loudness_f_param;
+    unsigned int bes_loudness_Sep_LR_Filter;
+    unsigned int bes_loudness_WS_Gain_Max;
+    unsigned int bes_loudness_WS_Gain_Min;
+    unsigned int bes_loudness_Filter_First;
+    unsigned int bes_loudness_Num_Bands;
+    unsigned int bes_loudness_Flt_Bank_Order;
+    unsigned int bes_loudness_Cross_Freq[7];
+    int DRC_Th[8][5];
+    int DRC_Gn[8][5];
+    int SB_Gn[8];
+    unsigned int SB_Mode[8];
+    unsigned int DRC_Delay;
+    unsigned int Att_Time[8][6];
+    unsigned int Rel_Time[8][6];
+    int Hyst_Th[8][6];
+    int Lim_Th;
+    int Lim_Gn;
+    unsigned int Lim_Const;
+    unsigned int Lim_Delay;
+    int SWIPRev;
+} AUDIO_ACF_CUSTOM_PARAM_STRUCT;
+# 540 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_AUDIO_File.h"
+typedef struct _AUDIO_EFFECT_CUSTOM_PARAM_STRUCT
+{
+
+    int bsrd_level;
+    unsigned int Distance1;
+    unsigned int Distance2;
+    int bsrd_band_select;
+
+
+    unsigned int bass_CutoffFreq;
+    int bass_IsVB;
+
+
+    short Normal_Gain_dB_level[(8)];
+    short Dance_Gain_dB_level[(8)];
+    short Bass_Gain_dB_level[(8)];
+    short Classical_Gain_dB_level[(8)];
+    short Treble_Gain_dB_level[(8)];
+    short Party_Gain_dB_level[(8)];
+    short Pop_Gain_dB_level[(8)];
+    short Rock_Gain_dB_level[(8)];
+
+
+    int LoudEnhancemode;
+
+
+    int Time_TD_FD;
+    int Time_TS_Ratio;
+
+} AUDIO_EFFECT_CUSTOM_PARAM_STRUCT;
+
+
+
+
+typedef struct _AUDIO_PARAM_MED_STRUCT
+{
+    short speech_input_FIR_coeffs[(8)][(45)];
+    short speech_output_FIR_coeffs[(8)][(6)][(45)];
+    short select_FIR_output_index[(8)];
+    short select_FIR_intput_index[(8)];
+    short speech_mode_para[(8)][(16)];
+} AUDIO_PARAM_MED_STRUCT;
+
+
+
+
+
+typedef struct _AUDIO_VOLUME_CUSTOM_STRUCT
+{
+    unsigned char audiovolume_ring[MAX_VOL_CATE][(7)];
+    unsigned char audiovolume_key[MAX_VOL_CATE][(7)];
+    unsigned char audiovolume_mic[MAX_VOL_CATE][(7)];
+    unsigned char audiovolume_fmr[MAX_VOL_CATE][(7)];
+    unsigned char audiovolume_sph[MAX_VOL_CATE][(7)];
+    unsigned char audiovolume_sid[MAX_VOL_CATE][(7)];
+    unsigned char audiovolume_media[MAX_VOL_CATE][(7)];
+    unsigned char audiovolume_matv[MAX_VOL_CATE][(7)];
+} AUDIO_VOLUME_CUSTOM_STRUCT;
+
+
+
+
+typedef struct _AUDIO_VER1_CUSTOM_VOLUME_STRUCT {
+    unsigned char audiovolume_ring[NUM_OF_VOL_MODE][(15)];
+    unsigned char audiovolume_sip[NUM_OF_VOL_MODE][(15)];
+    unsigned char audiovolume_mic[NUM_OF_VOL_MODE][(15)];
+    unsigned char audiovolume_fm[NUM_OF_VOL_MODE][(15)];
+    unsigned char audiovolume_sph[NUM_OF_VOL_MODE][(15)];
+    unsigned char audiovolume_sph2[NUM_OF_VOL_MODE][(15)];
+    unsigned char audiovolume_sid[NUM_OF_VOL_MODE][(15)];
+    unsigned char audiovolume_media[NUM_OF_VOL_MODE][(15)];
+    unsigned char audiovolume_matv[NUM_OF_VOL_MODE][(15)];
+
+    unsigned char normalaudiovolume[NORMAL_VOLUME_TYPE_MAX];
+    unsigned char headsetaudiovolume[HEADSET_VOLUME_TYPE_MAX];
+    unsigned char speakeraudiovolume[SPEAKER_VOLUME_TYPE_MAX];
+    unsigned char headsetspeakeraudiovolume[HEADSET_SPEAKER_VOLUME_TYPE_MAX];
+    unsigned char extampaudiovolume[EXTAMP_VOLUME_TYPE_MAX];
+
+    unsigned char audiovolume_level[VER1_NUM_OF_VOL_TYPE];
+} AUDIO_VER1_CUSTOM_VOLUME_STRUCT;
+# 634 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_AUDIO_File.h"
+typedef enum {
+ AUDIO_GAIN_DEFAULT =-1,
+ AUDIO_GAIN_VOICE_CALL = 0,
+ AUDIO_GAIN_SYSTEM = 1,
+ AUDIO_GAIN_RING = 2,
+ AUDIO_GAIN_MUSIC = 3,
+ AUDIO_GAIN_ALARM = 4,
+ AUDIO_GAIN_NOTIFICATION = 5,
+ AUDIO_GAIN_BLUETOOTH_SCO = 6,
+ AUDIO_GAIN_ENFORCED_AUDIBLE = 7,
+ AUDIO_GAIN_DTMF = 8,
+ AUDIO_GAIN_TTS = 9,
+ AUDIO_GAIN_FM = 10,
+ AUDIO_GAIN_MATV = 11,
+ AUDIO_GAIN_MAX_STREAM = 11,
+    NUM_AUDIO_GAIN_TYPES
+}audio_gain_type;
+
+
+typedef enum {
+ GAIN_OUTPUT_EARPIECE = 0,
+ GAIN_OUTPUT_HEADSET = 1,
+ GAIN_OUTPUT_SPEAKER = 2,
+ GAIN_OUTPUT_DOCK = 3,
+ NUM_GAIN_OUTPUT_DEVICES = 4
+}output_gain_device;
+
+
+typedef enum {
+    GAIN_IDLE_RECORD_MIC =0,
+    GAIN_IDLE_RECORD_HEADSET ,
+    GAIN_VOICE_REC_MIC,
+    GAIN_VOICE_REC_HEADSET,
+    GAIN_VIDEO_REC_MIC,
+    GAIN_VIDEO_REC_HEADSET,
+    GAIN_INCALL_NB_ECEIVER,
+    GAIN_INCALL_NB_HEADSET,
+    GAIN_INCALL_NB_SPEAKER,
+    GAIN_INCALL_WB_ECEIVER,
+    GAIN_INCALL_WB_HEADSET,
+    GAIN_INCALL_WB_SPEAKER,
+    GAIN_VOIP_RECEIVER,
+    GAIN_VOIP_HEADSET,
+    GAIN_VOIP_SPEAKER,
+    GAIN_TTY_DEVICE,
+    GAIN_LEVEL_SHIFT,
+    GAIN_ANALOG_PLAY,
+    GAIN_VOICE_UNLOCK_MIC,
+    GAIN_VOICE_UNLOCK_HEADSET,
+    GAIN_RESERVED1_MIC,
+    GAIN_RESERVED1_HEADSET,
+    GAIN_RESERVED2_MIC,
+    GAIN_RESERVED2_HEADSET,
+    NUM_MIC_GAINS
+}microphone_device_gain;
+
+
+
+typedef struct _STREAM_ITEM_GAIN_STRUCT
+{
+     unsigned char digital[(18)];
+     unsigned char analog;
+     unsigned char amp[(10)];
+
+}STREAM_ITEM_GAIN;
+
+typedef struct _STREAM_GAIN_STRUCT
+{
+    STREAM_ITEM_GAIN stream[NUM_GAIN_OUTPUT_DEVICES];
+
+}STREAM_GAIN;
+
+
+typedef struct _SPEECH_ITEM_GAIN_STRUCT
+{
+     unsigned char digital;
+     unsigned char analog;
+     unsigned char amp[(10)];
+
+}SPEECH_ITEM_GAIN;
+
+typedef struct _SPEECH_GAIN_STRUCT
+{
+    SPEECH_ITEM_GAIN speech[NUM_GAIN_OUTPUT_DEVICES][(18)];
+
+}SPEECH_GAIN;
+
+
+
+typedef struct _SIDETONE_GAIN_STRUCT
+{
+    unsigned char sidetone[NUM_GAIN_OUTPUT_DEVICES];
+} SIDETONE_GAIN;
+
+
+
+typedef struct _MIC_ITEM_GAIN_STRUCT
+{
+     unsigned char digital;
+     unsigned char analog;
+}MIC_ITEM_GAIN;
+
+typedef struct _MICROPHONE_GAIN_STRUCT
+{
+    MIC_ITEM_GAIN mic[(32)];
+
+} MIC_GAIN;
+
+typedef struct _AUDIO_CUSTOM_GAIN_TABLE {
+    STREAM_GAIN voiceCall;
+    STREAM_GAIN system;
+    STREAM_GAIN ring;
+    STREAM_GAIN music;
+    STREAM_GAIN alarm;
+    STREAM_GAIN notification;
+    STREAM_GAIN blueToothSco;
+    STREAM_GAIN enforceAudible;
+    STREAM_GAIN dtmf;
+    STREAM_GAIN tts;
+    STREAM_GAIN fm;
+    STREAM_GAIN matv;
+    SPEECH_GAIN speechNB;
+    SPEECH_GAIN speechWB;
+    SIDETONE_GAIN sideToneNB;
+    SIDETONE_GAIN sideToneWB;
+    MIC_GAIN mic;
+} AUDIO_GAIN_TABLE_STRUCT;
+
+
+
+
+typedef struct _AUDIO_CUSTOM_BT_GAIN {
+    STREAM_GAIN blueToothNrec;
+} AUDIO_BT_GAIN_STRUCT;
+# 776 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_AUDIO_File.h"
+typedef struct _AUDIO_HD_RECORD_PARAM_STRUCT
+{
+
+    unsigned short hd_rec_mode_num;
+    unsigned short hd_rec_fir_num;
+
+
+    unsigned short hd_rec_speech_mode_para[(30)][(16)];
+
+
+    short hd_rec_fir[(16)][(90)];
+
+
+    unsigned short hd_rec_map_to_fir_for_ch1[(30)];
+    unsigned short hd_rec_map_to_fir_for_ch2[(30)];
+
+
+    unsigned char hd_rec_map_to_dev_mode[(30)];
+
+
+    unsigned char hd_rec_map_to_input_src[(30)];
+
+
+    unsigned char hd_rec_map_to_stereo_flag[(30)];
+
+} AUDIO_HD_RECORD_PARAM_STRUCT;
+# 811 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_AUDIO_File.h"
+enum HD_REC_DEVICE_SOURCE_T
+{
+    HD_REC_DEVICE_SOURCE_HANDSET = 0,
+    HD_REC_DEVICE_SOURCE_HEADSET = 1,
+    HD_REC_DEVICE_SOURCE_BT_EARPHONE = 2,
+    NUM_HD_REC_DEVICE_SOURCE
+};
+
+typedef struct
+{
+ unsigned char num_voice_recognition_scenes;
+    unsigned char num_voice_rec_scenes;
+    unsigned char num_video_rec_scenes;
+ unsigned char num_voice_unlock_scenes;
+ unsigned char num_customization_scenes;
+    unsigned char scene_table[10][NUM_HD_REC_DEVICE_SOURCE];
+ unsigned char scene_name[10][10];
+} AUDIO_HD_RECORD_SCENE_TABLE_STRUCT;
+# 839 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_AUDIO_File.h"
+typedef struct _VOICE_RECOGNITION_PARAM_STRUCT
+{
+
+   unsigned char ap_num;
+    unsigned char language_num;
+    unsigned char language_folder[8][32];
+    unsigned char cmd_num[8];
+    unsigned char ap_support_info[16][8][8];
+    unsigned char cust_param[8][32];
+
+} VOICE_RECOGNITION_PARAM_STRUCT;
+
+
+
+
+
+
+typedef struct
+{
+ unsigned int u32EnableFlg;
+
+}AUDIO_AUDENH_CONTROL_OPTION_STRUCT;
+
+
+
+
+
+typedef struct _AUDIO_BUFFER_DC_CALIBRATION_STRUCT
+{
+    unsigned short cali_flag;
+ unsigned short cali_val_hp_left;
+    unsigned short cali_val_hp_right;
+    unsigned short cali_val_speaker;
+} AUDIO_BUFFER_DC_CALIBRATION_STRUCT;
+
+
+
+
+
+
+enum AUDIO_VOIP_DEVICE_TYPE {
+ AUDIO_VOIP_DEVICE_NORMAL = 0,
+ AUDIO_VOIP_DEVICE_SPEAKER = 1,
+ AUDIO_VOIP_DEVICE_HEADSET = 2,
+ AUDIO_VOIP_DEVICE_BT = 3,
+    NUM_AUDIO_VOIP_DEVICE = (4)
+};
+
+typedef struct _AUDIO_VOIP_PARAM_STRUCT
+{
+
+    unsigned short speech_common_para[(12)];
+    unsigned short speech_mode_para[(4)][(16)];
+
+
+    short in_fir[(4)][(90)];
+
+    short out_fir[(4)][(90)];
+
+} AUDIO_VOIP_PARAM_STRUCT;
+
+
+
+
+
+enum AUDIO_HFP_DEVICE_TYPE {
+ AUDIO_HFP_DEVICE_NORMAL = 0,
+ AUDIO_HFP_DEVICE_SPEAKER = 1,
+ AUDIO_HFP_DEVICE_HEADSET = 2,
+ AUDIO_HFP_DEVICE_RESERVED = 3,
+    NUM_AUDIO_HFP_DEVICE
+};
+
+typedef struct _AUDIO_HFP_PARAM_STRUCT
+{
+
+    unsigned short speech_common_para[(12)];
+    unsigned short speech_mode_para[NUM_AUDIO_HFP_DEVICE][(16)];
+
+
+    short in_fir[NUM_AUDIO_HFP_DEVICE][(90)];
+
+    short out_fir[NUM_AUDIO_HFP_DEVICE][(90)];
+
+} AUDIO_HFP_PARAM_STRUCT;
+
+
+
+
+
+
+typedef struct _AUDIO_SPEAKER_MONITOR_PARAM_STRUCT
+{
+    float resistor[512];
+    float temp_initial;
+
+    float current_sensing_resistor;
+
+ unsigned short reso_freq_center;
+    unsigned short reso_freq_bw;
+    unsigned short reso_freq_gain;
+
+    unsigned short prefer_band_upper;
+    unsigned short prefer_band_lower;
+
+    unsigned short temp_limit_low;
+    unsigned short temp_limit_high;
+    unsigned short temp_control_time_slots;
+
+    unsigned short monitor_timer;
+} AUDIO_SPEAKER_MONITOR_PARAM_STRUCT;
+# 5 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_BT_File.h" 1
+# 42 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_BT_File.h"
+typedef struct
+{
+    unsigned char addr[6];
+    unsigned char Voice[2];
+    unsigned char Codec[4];
+    unsigned char Radio[6];
+    unsigned char Sleep[7];
+    unsigned char BtFTR[2];
+    unsigned char TxPWOffset[3];
+    unsigned char CoexAdjust[6];
+    unsigned char Reserved1[2];
+    unsigned char Reserved2[2];
+    unsigned char Reserved3[4];
+    unsigned char Reserved4[4];
+    unsigned char Reserved5[8];
+    unsigned char Reserved6[8];
+} ap_nvram_btradio_struct, ap_nvram_btradio_mt6610_struct;
+# 6 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_BWCS_File.h" 1
+# 111 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_BWCS_File.h"
+typedef struct
+{
+    unsigned int rt_rssi_th[3];
+    unsigned int nrt_rssi_th[3];
+    unsigned int ant_path_comp;
+    unsigned int ant_switch_prot_time;
+    unsigned int wifi_tx_flow[2];
+    unsigned int bt_rx_range[2];
+    unsigned int bt_tx_power[3];
+    unsigned int reserved[5];
+} ap_nvram_bwcs_config_struct;
+# 7 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_Camera_File.h" 1
+# 8 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_Camera_File_Max_Size.h" 1
+# 9 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_EXT_MDTYPE_File.h" 1
+# 63 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_EXT_MDTYPE_File.h"
+typedef struct
+{
+
+    unsigned int md_id;
+    unsigned int md_type;
+
+} ext_md_type_struct;
+# 10 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_FACTORY_File.h" 1
+# 100 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_FACTORY_File.h"
+typedef struct
+{
+
+      unsigned int rf_calabrated;
+} FACTORY_CFG_Struct;
+# 11 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_HWMON_File.h" 1
+# 99 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_HWMON_File.h"
+typedef struct
+{
+    int offset[3];
+} NVRAM_HWMON_ACC_STRUCT;
+# 113 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_HWMON_File.h"
+typedef struct
+{
+    int offset[3];
+} NVRAM_HWMON_GYRO_STRUCT;
+# 126 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_HWMON_File.h"
+typedef struct
+{
+    int ps_cali[3];
+} NVRAM_HWMON_PS_STRUCT;
+# 12 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_MDTYPE_File.h" 1
+# 69 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_MDTYPE_File.h"
+typedef struct
+{
+
+    unsigned int md_type;
+
+} md_type_struct;
+# 13 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_MD_SBP_File.h" 1
+# 68 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_MD_SBP_File.h"
+typedef struct
+{
+    unsigned int md_sbp_code;
+    unsigned int flag_updated;
+    unsigned int md2_sbp_code;
+    unsigned int flag2_updated;
+    unsigned int md3_sbp_code;
+    unsigned int flag3_updated;
+} MD_SBP_Struct;
+# 14 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_META_File.h" 1
+# 100 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_META_File.h"
+typedef struct
+{
+    char cComPort[20];
+    char cLogPort[20];
+    unsigned int iCombps;
+    unsigned int iLogbps;
+    unsigned int bLogEnable;
+
+} META_CFG_Struct;
+# 15 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_OMADMUSB_File.h" 1
+# 101 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_OMADMUSB_File.h"
+typedef struct
+{
+    int iIsEnable;
+    int iUsb;
+    int iAdb;
+    int iRndis;
+}OMADMUSB_CFG_Struct;
+# 16 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_SDIO_File.h" 1
+# 68 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_SDIO_File.h"
+typedef struct
+{
+    unsigned char file_count;
+    unsigned char id[19];
+    unsigned int file_length[19];
+    char data[3998];
+} ap_nvram_sdio_config_struct;
+# 17 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_SIM_File.h" 1
+# 105 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_SIM_File.h"
+typedef struct
+{
+ unsigned char sim2_ctl_flag;
+}ap_nvram_sim_config_struct;
+# 18 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_UART_File.h" 1
+# 112 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_UART_File.h"
+typedef struct
+{
+ unsigned char uart_ctl_flag[0x04];
+
+
+
+
+}ap_nvram_uart_config_struct;
+# 19 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 1 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_UUID_File.h" 1
+# 101 "./vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_UUID_File.h"
+typedef struct
+{
+
+      unsigned int uid[2];
+} NVRAM_UUID_STRUCT;
+# 19 "out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h" 2
+# 42 "vendor/mediatek/proprietary/custom/common/cgen/inc/ap_editor_data_item.h" 2
+# 1 "vendor/mediatek/proprietary/custom/common/cgen/inc/CFG_file_lid.h" 1
+# 203 "vendor/mediatek/proprietary/custom/common/cgen/inc/CFG_file_lid.h"
+typedef enum
+{
+ AP_CFG_FILE_VER_INFO_LID,
+ AP_CFG_RDEB_FILE_BT_ADDR_LID,
+
+ AP_CFG_RDCL_FILE_AUXADC_LID,
+ AP_CFG_RDCL_CAMERA_PARA_LID,
+ AP_CFG_RDCL_CAMERA_3A_LID,
+ AP_CFG_RDCL_CAMERA_SHADING_LID,
+ AP_CFG_RDCL_CAMERA_DEFECT_LID,
+ AP_CFG_RDCL_CAMERA_SENSOR_LID,
+ AP_CFG_RDCL_CAMERA_LENS_LID,
+ AP_CFG_RDCL_UART_LID,
+
+
+ AP_CFG_RDCL_FACTORY_LID,
+    AP_CFG_RDCL_BWCS_LID,
+    AP_CFG_RDCL_HWMON_ACC_LID,
+    AP_CFG_RDCL_HWMON_GYRO_LID,
+
+    AP_CFG_RDEB_OMADM_USB_LID,
+ AP_CFG_RDCL_FILE_VOICE_RECOGNIZE_PARAM_LID,
+ AP_CFG_RDCL_FILE_AUDIO_AUDENH_CONTROL_OPTION_PAR_LID,
+ AP_CFG_RDCL_FILE_AUDIO_VOIP_PAR_LID,
+ AP_CFG_RDCL_HWMON_PS_LID,
+ AP_CFG_FILE_MDTYPE_LID,
+ AP_CFG_FILE_EXT_MDTYPE_LID,
+ AP_CFG_RDCL_FILE_SDIO_LID,
+ AP_CFG_RDCL_CAMERA_VERSION_LID,
+ AP_CFG_RDCL_CAMERA_FEATURE_LID,
+ AP_CFG_RDCL_CAMERA_GEOMETRY_LID,
+ AP_CFG_RDCL_FILE_MD_SBP_LID,
+
+    AP_CFG_RDCL_CAMERA_SHADING2_LID,
+    AP_CFG_RDCL_CAMERA_SHADING3_LID,
+    AP_CFG_RDCL_CAMERA_SHADING4_LID,
+    AP_CFG_RDCL_CAMERA_SHADING5_LID,
+    AP_CFG_RDCL_CAMERA_SHADING6_LID,
+    AP_CFG_RDCL_CAMERA_SHADING7_LID,
+    AP_CFG_RDCL_CAMERA_SHADING8_LID,
+    AP_CFG_RDCL_CAMERA_SHADING9_LID,
+    AP_CFG_RDCL_CAMERA_SHADING10_LID,
+    AP_CFG_RDCL_CAMERA_SHADING11_LID,
+    AP_CFG_RDCL_CAMERA_SHADING12_LID,
+    AP_CFG_RDCL_CAMERA_PLINE_LID,
+    AP_CFG_RDCL_CAMERA_PLINE2_LID,
+    AP_CFG_RDCL_CAMERA_PLINE3_LID,
+    AP_CFG_RDCL_CAMERA_PLINE4_LID,
+    AP_CFG_RDCL_CAMERA_PLINE5_LID,
+    AP_CFG_RDCL_CAMERA_PLINE6_LID,
+    AP_CFG_RDCL_CAMERA_PLINE7_LID,
+    AP_CFG_RDCL_CAMERA_PLINE8_LID,
+    AP_CFG_RDCL_CAMERA_PLINE9_LID,
+    AP_CFG_RDCL_CAMERA_PLINE10_LID,
+    AP_CFG_RDCL_CAMERA_PLINE11_LID,
+    AP_CFG_RDCL_CAMERA_PLINE12_LID,
+
+
+ AP_CFG_CUSTOM_BEGIN_LID,
+}CFG_FILE_LID;
+# 43 "vendor/mediatek/proprietary/custom/common/cgen/inc/ap_editor_data_item.h" 2
+
+
+
+
+# 1 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_LID.h" 1
+# 136 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_LID.h"
+# 1 "vendor/mediatek/proprietary/custom/common/cgen/inc/CFG_file_lid.h" 1
+# 137 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_LID.h" 2
+
+
+typedef enum
+{
+    AP_CFG_RDCL_FILE_AUDIO_LID=AP_CFG_CUSTOM_BEGIN_LID,
+    AP_CFG_CUSTOM_FILE_GPS_LID,
+    AP_CFG_RDCL_FILE_AUDIO_COMPFLT_LID,
+    AP_CFG_RDCL_FILE_AUDIO_EFFECT_LID,
+    AP_CFG_RDEB_FILE_WIFI_LID,
+    AP_CFG_RDEB_WIFI_CUSTOM_LID,
+    AP_CFG_RDCL_FILE_AUDIO_PARAM_MED_LID,
+    AP_CFG_RDCL_FILE_AUDIO_VOLUME_CUSTOM_LID,
+    AP_CFG_RDCL_FILE_DUAL_MIC_CUSTOM_LID,
+    AP_CFG_RDCL_FILE_AUDIO_WB_PARAM_LID,
+    AP_CFG_REEB_PRODUCT_INFO_LID,
+
+
+
+    AP_CFG_RDCL_FILE_HEADPHONE_COMPFLT_LID,
+    AP_CFG_RDCL_FILE_AUDIO_GAIN_TABLE_LID,
+    AP_CFG_RDCL_FILE_AUDIO_VER1_VOLUME_CUSTOM_LID,
+    AP_CFG_RDCL_FILE_AUDIO_HD_REC_PAR_LID,
+    AP_CFG_RDCL_FILE_AUDIO_HD_REC_SCENE_LID,
+    AP_CFG_RDCL_FILE_AUDIO_BUFFER_DC_CALIBRATION_PAR_LID,
+    AP_CFG_RDCL_FILE_VIBSPK_COMPFLT_LID,
+    AP_CFG_RDCL_FILE_AUDIO_MUSIC_DRC_LID,
+    AP_CFG_RDCL_FILE_AUDIO_RINGTONE_DRC_LID,
+    AP_CFG_RDCL_FILE_AUDIO_MAGI_CONFERENCE_LID,
+    AP_CFG_RDCL_FILE_AUDIO_HAC_PARAM_LID,
+    AP_CFG_CUSTOM_FILE_MAX_LID,
+} CUSTOM_CFG_FILE_LID;
+# 48 "vendor/mediatek/proprietary/custom/common/cgen/inc/ap_editor_data_item.h" 2
+# 56 "vendor/mediatek/proprietary/custom/common/cgen/inc/ap_editor_data_item.h"
+typedef struct
+{
+ char cFileVer[4];
+}File_Ver_Struct;
+
+
+
+
+
+
+BEGIN_NVRAM_DATA
+# 81 "vendor/mediatek/proprietary/custom/common/cgen/inc/ap_editor_data_item.h"
+LID_BIT "000" AP_CFG_RDCL_FILE_AUXADC_LID
+     AUXADC_CFG_Struct *1
+     {
+
+     };
+
+LID_BIT "001" AP_CFG_RDEB_FILE_BT_ADDR_LID
+     ap_nvram_btradio_mt6610_struct *1
+     {
+
+     };
+
+LID_BIT "000" AP_CFG_RDCL_FACTORY_LID
+    FACTORY_CFG_Struct *1
+    {
+
+    };
+
+LID_BIT "000" AP_CFG_RDCL_CAMERA_PARA_LID
+    NVRAM_CAMERA_PARA_STRUCT *3
+    {
+
+    };
+
+LID_BIT "000" AP_CFG_RDCL_CAMERA_3A_LID
+    NVRAM_CAMERA_3A_STRUCT *3
+    {
+
+    };
+
+LID_BIT "000" AP_CFG_RDCL_CAMERA_SHADING_LID
+    NVRAM_CAMERA_SHADING_STRUCT *3
+    {
+
+    };
+
+LID_BIT "000" AP_CFG_RDCL_CAMERA_DEFECT_LID
+    NVRAM_CAMERA_DEFECT_STRUCT *3
+    {
+
+    };
+
+LID_BIT "000" AP_CFG_RDCL_CAMERA_SENSOR_LID
+    NVRAM_SENSOR_DATA_STRUCT *3
+    {
+
+    };
+
+LID_BIT "000" AP_CFG_RDCL_CAMERA_LENS_LID
+    NVRAM_LENS_PARA_STRUCT *3
+    {
+
+    };
+
+LID_BIT "000" AP_CFG_RDCL_BWCS_LID
+    ap_nvram_bwcs_config_struct *1
+    {
+
+    };
+
+LID_BIT "000" AP_CFG_RDCL_HWMON_ACC_LID
+    NVRAM_HWMON_ACC_STRUCT *1
+    {
+
+    };
+
+LID_BIT "001" AP_CFG_RDCL_FILE_MD_SBP_LID
+    MD_SBP_Struct *1
+    {
+
+    };
+
+LID_BIT "001" AP_CFG_RDCL_FILE_SDIO_LID
+    ap_nvram_sdio_config_struct *1
+    {
+
+    };
+
+END_NVRAM_DATA
+# 3 "out/target/product/cb04_6735_35u/obj/CGEN/apeditor/app_parse_db.c" 2
+# 1 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_data_item.h" 1
+# 40 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_data_item.h"
+# 1 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/custom_cfg_module_file.h" 1
+# 1 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_Custom1_File.h" 1
+
+
+
+typedef struct
+{
+ unsigned int Array[1];
+}File_Custom1_Struct;
+# 2 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/custom_cfg_module_file.h" 2
+# 1 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_GPS_File.h" 1
+# 73 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_GPS_File.h"
+typedef struct
+{
+    char dsp_dev[20];
+    unsigned char gps_if_type;
+
+    unsigned int gps_tcxo_hz;
+    unsigned int gps_tcxo_ppb;
+    unsigned char gps_tcxo_type;
+
+    unsigned char gps_lna_mode;
+
+    unsigned char gps_sbas_mode;
+    unsigned int C0;
+    unsigned int C1;
+    unsigned int initU;
+    unsigned int lastU;
+} ap_nvram_gps_config_struct;
+# 3 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/custom_cfg_module_file.h" 2
+# 1 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_PRODUCT_INFO_File.h" 1
+# 66 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_PRODUCT_INFO_File.h"
+typedef struct
+{
+    unsigned char imei[8];
+    unsigned char svn;
+    unsigned char pad;
+} nvram_ef_imei_imeisv_struct;
+
+typedef struct{
+  unsigned char barcode[64];
+  nvram_ef_imei_imeisv_struct IMEI[4];
+  unsigned char reserved[1024-40-64];
+}PRODUCT_INFO;
+# 4 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/custom_cfg_module_file.h" 2
+# 1 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_Wifi_File.h" 1
+# 146 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_Wifi_File.h"
+typedef signed char INT_8, *PINT_8, **PPINT_8;
+typedef unsigned char UINT_8, *PUINT_8, **PPUINT_8, *P_UINT_8;
+typedef unsigned short UINT_16, *PUINT_16, **PPUINT_16;
+typedef unsigned int UINT_32, *PUINT_32, **PPUINT_32;
+
+
+
+
+
+
+
+typedef struct _TX_PWR_PARAM_T {
+    INT_8 cTxPwr2G4Cck;
+
+
+
+     INT_8 cTxPwr2G4Dsss;
+     INT_8 acReserved[2];
+
+
+    INT_8 cTxPwr2G4OFDM_BPSK;
+    INT_8 cTxPwr2G4OFDM_QPSK;
+    INT_8 cTxPwr2G4OFDM_16QAM;
+    INT_8 cTxPwr2G4OFDM_Reserved;
+    INT_8 cTxPwr2G4OFDM_48Mbps;
+    INT_8 cTxPwr2G4OFDM_54Mbps;
+
+    INT_8 cTxPwr2G4HT20_BPSK;
+    INT_8 cTxPwr2G4HT20_QPSK;
+    INT_8 cTxPwr2G4HT20_16QAM;
+    INT_8 cTxPwr2G4HT20_MCS5;
+    INT_8 cTxPwr2G4HT20_MCS6;
+    INT_8 cTxPwr2G4HT20_MCS7;
+
+    INT_8 cTxPwr2G4HT40_BPSK;
+    INT_8 cTxPwr2G4HT40_QPSK;
+    INT_8 cTxPwr2G4HT40_16QAM;
+    INT_8 cTxPwr2G4HT40_MCS5;
+    INT_8 cTxPwr2G4HT40_MCS6;
+    INT_8 cTxPwr2G4HT40_MCS7;
+
+    INT_8 cTxPwr5GOFDM_BPSK;
+    INT_8 cTxPwr5GOFDM_QPSK;
+    INT_8 cTxPwr5GOFDM_16QAM;
+    INT_8 cTxPwr5GOFDM_Reserved;
+    INT_8 cTxPwr5GOFDM_48Mbps;
+    INT_8 cTxPwr5GOFDM_54Mbps;
+
+    INT_8 cTxPwr5GHT20_BPSK;
+    INT_8 cTxPwr5GHT20_QPSK;
+    INT_8 cTxPwr5GHT20_16QAM;
+    INT_8 cTxPwr5GHT20_MCS5;
+    INT_8 cTxPwr5GHT20_MCS6;
+    INT_8 cTxPwr5GHT20_MCS7;
+
+    INT_8 cTxPwr5GHT40_BPSK;
+    INT_8 cTxPwr5GHT40_QPSK;
+    INT_8 cTxPwr5GHT40_16QAM;
+    INT_8 cTxPwr5GHT40_MCS5;
+    INT_8 cTxPwr5GHT40_MCS6;
+    INT_8 cTxPwr5GHT40_MCS7;
+} TX_PWR_PARAM_T, *P_TX_PWR_PARAM_T;
+
+typedef struct _PWR_5G_OFFSET_T {
+    INT_8 cOffsetBand0;
+    INT_8 cOffsetBand1;
+    INT_8 cOffsetBand2;
+    INT_8 cOffsetBand3;
+    INT_8 cOffsetBand4;
+    INT_8 cOffsetBand5;
+    INT_8 cOffsetBand6;
+    INT_8 cOffsetBand7;
+} PWR_5G_OFFSET_T, *P_PWR_5G_OFFSET_T;
+
+typedef struct _PWR_PARAM_T {
+    UINT_32 au4Data[28];
+    UINT_32 u4RefValue1;
+    UINT_32 u4RefValue2;
+} PWR_PARAM_T, *P_PWR_PARAM_T;
+
+typedef struct _MT6620_CFG_PARAM_STRUCT {
+
+    UINT_16 u2Part1OwnVersion;
+    UINT_16 u2Part1PeerVersion;
+    UINT_8 aucMacAddress[6];
+    UINT_8 aucCountryCode[2];
+    TX_PWR_PARAM_T rTxPwr;
+    UINT_8 aucEFUSE[144];
+    UINT_8 ucTxPwrValid;
+    UINT_8 ucSupport5GBand;
+    UINT_8 fg2G4BandEdgePwrUsed;
+    INT_8 cBandEdgeMaxPwrCCK;
+    INT_8 cBandEdgeMaxPwrOFDM20;
+    INT_8 cBandEdgeMaxPwrOFDM40;
+
+    UINT_8 ucRegChannelListMap;
+    UINT_8 ucRegChannelListIndex;
+    UINT_8 aucRegSubbandInfo[36];
+    UINT_8 ucDefaultTestMode;
+    UINT_8 aucReserved2[256-241];
+
+
+    UINT_16 u2Part2OwnVersion;
+    UINT_16 u2Part2PeerVersion;
+    UINT_8 uc2G4BwFixed20M;
+    UINT_8 uc5GBwFixed20M;
+    UINT_8 ucEnable5GBand;
+    UINT_8 aucPreTailReserved;
+    UINT_8 aucTailReserved[256-8];
+} MT6620_CFG_PARAM_STRUCT, *P_MT6620_CFG_PARAM_STRUCT,
+    WIFI_CFG_PARAM_STRUCT, *P_WIFI_CFG_PARAM_STRUCT;
+
+typedef struct _WIFI_CUSTOM_PARAM_STRUCT
+{
+    UINT_32 u4Resv;
+} WIFI_CUSTOM_PARAM_STRUCT;
+# 4 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/custom_cfg_module_file.h" 2
+# 41 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_data_item.h" 2
+# 1 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_LID.h" 1
+# 42 "vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_data_item.h" 2
+
+
+
+
+
+
+BEGIN_NVRAM_DATA
+
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_LID
+AUDIO_CUSTOM_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_CUSTOM_FILE_GPS_LID
+ap_nvram_gps_config_struct *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_COMPFLT_LID
+AUDIO_ACF_CUSTOM_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_HEADPHONE_COMPFLT_LID
+AUDIO_ACF_CUSTOM_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_EFFECT_LID
+AUDIO_EFFECT_CUSTOM_PARAM_STRUCT *1
+{
+
+};
+
+
+LID_BIT "000" AP_CFG_RDEB_FILE_WIFI_LID
+WIFI_CFG_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_RDEB_WIFI_CUSTOM_LID
+WIFI_CUSTOM_PARAM_STRUCT *1
+{
+
+};
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_PARAM_MED_LID
+AUDIO_PARAM_MED_STRUCT *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_VOLUME_CUSTOM_LID
+AUDIO_VOLUME_CUSTOM_STRUCT *1
+{
+
+};
+
+LID_BIT "002" AP_CFG_RDCL_FILE_DUAL_MIC_CUSTOM_LID
+AUDIO_CUSTOM_EXTRA_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_WB_PARAM_LID
+AUDIO_CUSTOM_WB_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_REEB_PRODUCT_INFO_LID
+PRODUCT_INFO *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_GAIN_TABLE_LID
+AUDIO_GAIN_TABLE_STRUCT *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_VER1_VOLUME_CUSTOM_LID
+AUDIO_VER1_CUSTOM_VOLUME_STRUCT *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_HD_REC_PAR_LID
+AUDIO_HD_RECORD_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_AUDIO_HD_REC_SCENE_LID
+AUDIO_HD_RECORD_SCENE_TABLE_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_RDCL_FILE_VOICE_RECOGNIZE_PARAM_LID
+VOICE_RECOGNITION_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_RDCL_FILE_AUDIO_AUDENH_CONTROL_OPTION_PAR_LID
+AUDIO_AUDENH_CONTROL_OPTION_STRUCT *1
+{
+
+};
+
+
+
+LID_BIT "000" AP_CFG_RDCL_FILE_AUDIO_BUFFER_DC_CALIBRATION_PAR_LID
+AUDIO_BUFFER_DC_CALIBRATION_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_RDCL_FILE_AUDIO_VOIP_PAR_LID
+AUDIO_VOIP_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "001" AP_CFG_RDCL_FILE_VIBSPK_COMPFLT_LID
+AUDIO_ACF_CUSTOM_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_RDCL_FILE_AUDIO_MUSIC_DRC_LID
+AUDIO_ACF_CUSTOM_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_RDCL_FILE_AUDIO_RINGTONE_DRC_LID
+AUDIO_ACF_CUSTOM_PARAM_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_RDCL_FILE_AUDIO_MAGI_CONFERENCE_LID
+AUDIO_CUSTOM_MAGI_CONFERENCE_STRUCT *1
+{
+
+};
+
+LID_BIT "000" AP_CFG_RDCL_FILE_AUDIO_HAC_PARAM_LID
+AUDIO_CUSTOM_HAC_PARAM_STRUCT *1
+{
+
+};
+
+END_NVRAM_DATA
+# 3 "out/target/product/cb04_6735_35u/obj/CGEN/apeditor/app_parse_db.c" 2

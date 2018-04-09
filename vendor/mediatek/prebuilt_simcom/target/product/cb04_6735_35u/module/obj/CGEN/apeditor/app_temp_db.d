@@ -1,0 +1,37 @@
+out/target/product/cb04_6735_35u/obj/CGEN/apeditor/app_temp_db: \
+ out/target/product/cb04_6735_35u/obj/CGEN/apeditor/app_parse_db.c \
+ /usr/include/stdc-predef.h \
+ vendor/mediatek/proprietary/cgen/apeditor/tst_assert_header_file.h \
+ vendor/mediatek/proprietary/custom/common/cgen/inc/ap_editor_data_item.h \
+ vendor/mediatek/proprietary/custom/common/cgen/inc/NVRAM_Data_Type.h \
+ out/target/product/cb04_6735_35u/obj/CGEN/inc/cfg_module_file.h \
+ vendor/mediatek/proprietary/custom/mt6735/cgen/cfgfileinc/CFG_Camera_File.h \
+ vendor/mediatek/proprietary/custom/mt6735/cgen/cfgfileinc/CFG_Camera_File_Max_Size.h \
+ vendor/mediatek/proprietary/custom/mt6735/cgen/cfgfileinc/CFG_Camera_File_Max_Size.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_ADC_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_AUDIO_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_BT_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_BWCS_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_Camera_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_Camera_File_Max_Size.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_EXT_MDTYPE_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_FACTORY_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_HWMON_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_MDTYPE_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_MD_SBP_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_META_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_OMADMUSB_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_SDIO_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_SIM_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_UART_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/cfgfileinc/CFG_UUID_File.h \
+ vendor/mediatek/proprietary/custom/common/cgen/inc/CFG_file_lid.h \
+ vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_LID.h \
+ vendor/mediatek/proprietary/custom/common/cgen/inc/CFG_file_lid.h \
+ vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_data_item.h \
+ vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/custom_cfg_module_file.h \
+ vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_Custom1_File.h \
+ vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_GPS_File.h \
+ vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_PRODUCT_INFO_File.h \
+ vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/../cfgfileinc/CFG_Wifi_File.h \
+ vendor/mediatek/proprietary/custom/cb04_6735_35u/cgen/inc/Custom_NvRam_LID.h

@@ -1,0 +1,16 @@
+out/target/product/cb04_6735_35u/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/rs_mesh.bc: \
+  frameworks/rs/driver/runtime/rs_mesh.c \
+  frameworks/rs/scriptc/rs_core.rsh frameworks/rs/scriptc/rs_types.rsh \
+  external/clang/lib/Headers/stdbool.h \
+  frameworks/rs/scriptc/rs_allocation.rsh \
+  frameworks/rs/scriptc/rs_atomic.rsh \
+  frameworks/rs/scriptc/rs_core_math.rsh \
+  frameworks/rs/scriptc/rs_debug.rsh \
+  frameworks/rs/scriptc/rs_element.rsh frameworks/rs/scriptc/rs_math.rsh \
+  frameworks/rs/scriptc/rs_matrix.rsh \
+  frameworks/rs/scriptc/rs_object.rsh \
+  frameworks/rs/scriptc/rs_quaternion.rsh \
+  frameworks/rs/scriptc/rs_sampler.rsh frameworks/rs/scriptc/rs_time.rsh \
+  frameworks/rs/scriptc/rs_graphics.rsh \
+  frameworks/rs/scriptc/rs_mesh.rsh frameworks/rs/scriptc/rs_program.rsh \
+  frameworks/rs/driver/runtime/rs_structs.h

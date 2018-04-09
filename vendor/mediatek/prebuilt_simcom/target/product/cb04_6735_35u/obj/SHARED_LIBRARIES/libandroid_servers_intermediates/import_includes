@@ -1,0 +1,13 @@
+-I frameworks/native/services/inputflinger
+-I external/skia/include/config
+-I external/skia/include/core
+-I external/skia/include/pathops
+-I external/skia/include/pipe
+-I external/skia/include/effects
+-I external/skia/include/images
+-I external/skia/include/pathops
+-I external/skia/include/pdf
+-I external/skia/include/ports
+-I external/skia/include/utils
+-I external/skia/src/utils
+-I system/core/libsuspend/include

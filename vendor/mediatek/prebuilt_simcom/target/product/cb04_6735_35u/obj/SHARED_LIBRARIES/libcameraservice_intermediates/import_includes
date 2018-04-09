@@ -1,0 +1,2 @@
+-I system/media/camera/src/../include
+-I system/core/libsync/include
