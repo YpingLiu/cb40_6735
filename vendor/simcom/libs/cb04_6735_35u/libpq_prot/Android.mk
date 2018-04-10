@@ -1,0 +1,8 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE := libpq_prot
+LOCAL_SRC_FILES := libpq_prot.so
+LOCAL_SHARED_LIBRARIES := libstdc++
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)

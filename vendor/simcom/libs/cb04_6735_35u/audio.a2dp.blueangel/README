@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+provide a2dp hal interface
+
+HOW IT WAS BUILT?
+==================
+module build vendor\mediatek\proprietary\protect\external\bluetooth\blueangel\audio_a2dp_hw\Android.mk 
+will be output audio.a2dp.blueangel.so
+
+HOW TO USE IT?
+==============
+will be load by media server, and will communicate with mtkbt by socket
+

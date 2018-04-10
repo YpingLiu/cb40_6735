@@ -1,0 +1,23 @@
+A Goodix HotKnot verndor library
+
+WHAT IT DOES?
+=============
+HotKnot verndor library(libhotknot_vendor.so) is used to
+pass command or acquire data from kernel.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from MTK:
+
+shared library
+1. liblog.so
+2. libutils.so 
+3. libmtk_drvb.so 
+4. libcutils.so
+
+static library
+1. libdrvb.a
+
+
+HOW TO USE IT?
+==============

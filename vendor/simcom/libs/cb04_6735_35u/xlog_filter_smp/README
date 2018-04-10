@@ -1,0 +1,16 @@
+This module is a test program of xlog filter mechanism
+
+WHAT IT DOES?
+=============
+
+This module is a test program of xlog filter mechanism
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+liblog
+
+HOW TO USE IT?
+==============
+

@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+Wrapper API For IPC Communication
+
+HOW IT WAS BUILT?
+==================
+module build vendor\mediatek\proprietary\protect\external\bluetooth\blueangel\session\Android.mk 
+will be output libbtsession.so
+
+HOW TO USE IT?
+==============
+Use for C/S Model, load by client&server
+

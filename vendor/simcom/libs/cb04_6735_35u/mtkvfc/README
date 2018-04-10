@@ -1,0 +1,13 @@
+MTK native video color converter
+
+WHAT IT DOES?
+=============
+Convert video dumped frames to YUV420 color format.
+Support input format: MTKYUV, Android YV12 and ARGB8888.
+
+HOW TO USE IT?
+==============
+1. The executable bin file - mtkvfc, which is put in /system/xbin,
+   is automatically generated after system boot.
+2. Type mtkvfc at command line to show the usages.
+3. Converted file - output.yuv will be put in /mnt/sdcard.

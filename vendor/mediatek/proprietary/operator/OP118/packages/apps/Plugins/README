@@ -1,0 +1,27 @@
+OP118 customization features.
+
+This apk is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+It is a plugin apk which contains the OP118 customization for Host App
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from Mediatek:
+1. mediatek-common.jar
+2. Host App api interface,for example:com.mediatek.cmas.ext
+
+All the OP118 customization for host app will be built as OP118Plugin.apk  installed under system/plugin, 
+and the OP118Plugin.mpinfo also be copied to the installed path when build time
+
+HOW TO USE IT?
+==============
+
+Implement the interface provided by Host App to do customization.
+all api interface are at (packages/apps/xxx(Host App name)/ext).
+
+when run time, framework will find the OP118Plugin customization implementation via OP118Plugin.mpinfo.
+
+All the source code of  were written by MediaTek.

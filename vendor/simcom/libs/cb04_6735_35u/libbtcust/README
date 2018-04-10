@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+provide api to make bluetooth stack module access customer config parameter and apply
+
+HOW IT WAS BUILT?
+==================
+module build vendor\mediatek\proprietary\protect\external\bluetooth\blueangel\bt_cust\Android.mk 
+will be output libbtcust.so
+
+HOW TO USE IT?
+==============
+If any parameter by customer config need be accessed, need load by libbtcust.so
+

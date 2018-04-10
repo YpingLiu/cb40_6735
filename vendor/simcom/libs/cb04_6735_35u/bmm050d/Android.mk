@@ -1,0 +1,4 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_PREBUILT_EXECUTABLES := bmm050d
+include $(BUILD_MULTI_PREBUILT)

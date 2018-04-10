@@ -1,0 +1,21 @@
+The shared library 'libssladp.so' is a openSSL adaptation layer.
+This shared library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+'libssladp.so' is the adaptation layer between the binary file 'mtk_agpsd'
+and the shared library 'libssl.so'.
+
+HOW IT WAS BUILT?
+==================
+All source/dependency modules of this module are already put in 
+'vendor/mediatek/libs'.
+
+HOW TO USE IT?
+==============
+The shared library 'libssladp.so' is used by 'mtk_agpsd' in runtime 
+when a A-GPS SUPL session is running with TLS connection.
+
+Source
+==============
+All the source code of this shared library were written by MediaTek co..

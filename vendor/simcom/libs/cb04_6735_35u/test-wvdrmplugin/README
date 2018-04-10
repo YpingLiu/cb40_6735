@@ -1,0 +1,20 @@
+Bin of Drm test features, including test widevine plugin.
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+test-wvdrmplugin is used to test widevine plugin, it contains test plugin api.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+and the following libs from MediaTek:
+
+All source/dependency modules of this module are already put in
+'system/lib' folder.
+
+HOW TO USE IT?
+==============
+test-wvdrmplugin is used to test widevine plugin.

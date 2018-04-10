@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+this is voice codec for remote controller, use to decode to do voice recognization. this is 3rd party provide
+
+HOW IT WAS BUILT?
+==================
+module build vendor\mediatek\proprietary\protect\external\bluetooth\blueangel\3rd\adpcm-0.2\Android.mk 
+will be output libadpcm.so
+
+HOW TO USE IT?
+==============
+load by service mtkbt.
+

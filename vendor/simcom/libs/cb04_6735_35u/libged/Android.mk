@@ -1,0 +1,8 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE := libged
+LOCAL_SRC_FILES := libged.so
+LOCAL_SHARED_LIBRARIES := libstdc++ libsync
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)

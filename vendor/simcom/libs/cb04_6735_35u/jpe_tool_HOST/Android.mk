@@ -1,0 +1,8 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE := jpe_tool
+LOCAL_IS_HOST_MODULE := true
+LOCAL_SRC_FILES := jpe_tool.jar
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)

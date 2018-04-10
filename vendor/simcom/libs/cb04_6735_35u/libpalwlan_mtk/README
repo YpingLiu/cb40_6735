@@ -1,0 +1,26 @@
+This module creates Android Bluetooth 3.0 High Speed PAL(802.11 Protocol Adaptation Layer)
+
+WHAT IT DOES?
+=============
+PAL is a middle infrastructure that combine BT and 80211 WLAN
+
+It contains: PAL Manager/Physical Link Manager/Logical Link Manager/Data Manager
+
+It locates between AMP HCI interface and 80211 MAC layer
+
+
+HOW IT WAS BUILT?
+==================
+This module will be built only if MTK_BT_30_HS_SUPPORT=yes need following libs:
+libcutils liblog libnetutils
+
+All of the build product will be part of mtkbt acts as shared/static lib except pal_inject_input
+
+pal_inject_input is as tool used for certification
+
+
+HOW TO USE IT?
+==============
+The shared/static libs will be used by mtkbt exec bin file
+
+pal_inject_input tool is used when do BT High Speed certification with script

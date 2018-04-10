@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+Provide system relative api for bluetooth stack, such as OS_MemCpy
+
+HOW IT WAS BUILT?
+==================
+module build vendor\mediatek\proprietary\protect\external\bluetooth\blueangel\btstd\Android.mk 
+will be output libbtstd.so
+
+HOW TO USE IT?
+==============
+load by daemon service mtkbt, to expose common standard api
+

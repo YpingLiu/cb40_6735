@@ -1,0 +1,14 @@
+This module is a test program for liblog
+
+WHAT IT DOES?
+=============
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+liblog
+
+HOW TO USE IT?
+==============
+

@@ -1,0 +1,20 @@
+WHAT IT DOES?
+=============
+The mediatek/proprietary/protect/platform/mt6795/hardware/camera/lib/libn3d3a/
+is intended for 3A (AE/AWB/AF) Synchronization while there are not only one camera
+access permission ONLY allowed for HQ teams
+
+The code placed under this directory is platform dependent
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. liblog.so
+2. libcutils.so 
+
+HOW TO USE IT?
+==============
+Provide api for camera 3A mgr
+
+All the source code of this library were written by MediaTek co..
+

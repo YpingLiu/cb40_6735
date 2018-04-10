@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+Blueangel advance profile jni interface Part, Such as BIP/BPP/SIMAP/FTP
+
+HOW IT WAS BUILT?
+==================
+module build vendor\mediatek\proprietary\protect\external\bluetooth\blueangel\btadp_jni\Android.mk 
+will be output JNI lib
+
+HOW TO USE IT?
+==============
+export api to MtkBt.apk, to provide advance profile API
+
