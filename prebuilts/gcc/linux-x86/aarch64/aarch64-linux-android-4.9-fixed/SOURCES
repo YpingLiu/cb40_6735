@@ -1,0 +1,77 @@
+Using built-in specs.
+COLLECT_GCC=./bin/aarch64-linux-android-gcc
+COLLECT_LTO_WRAPPER=/proj/mtk04092/aarch64-linux-android-4.9-ca53-erratum-843419/bin/../libexec/gcc/aarch64-linux-android/4.9/lto-wrapper
+Target: aarch64-linux-android
+Configured with: /home/mtk04092/mtk-toolchain-src-20150402/build/../gcc/gcc-4.9/configure --prefix=/tmp/ndk-mtk04092/build/toolchain/prefix --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/tmp/ndk-mtk04092/build/toolchain/temp-install --with-mpfr=/tmp/ndk-mtk04092/build/toolchain/temp-install --with-mpc=/tmp/ndk-mtk04092/build/toolchain/temp-install --with-cloog=/tmp/ndk-mtk04092/build/toolchain/temp-install --with-isl=/tmp/ndk-mtk04092/build/toolchain/temp-install --with-ppl=/tmp/ndk-mtk04092/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-initfini-array --disable-nls --prefix=/tmp/ndk-mtk04092/build/toolchain/prefix --with-sysroot=/tmp/ndk-mtk04092/build/toolchain/prefix/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=7.6 --with-gxx-include-dir=/tmp/ndk-mtk04092/build/toolchain/prefix/include/c++/4.9 --with-bugurl=http://source.android.com/source/report-bugs.html --disable-bootstrap --disable-libquadmath --enable-plugins --enable-libgomp --disable-libsanitizer --enable-gold --enable-graphite=yes --with-cloog-version=0.18.0 --with-isl-version=0.11.1 --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --disable-gold --program-transform-name='s&^&aarch64-linux-android-&'
+Thread model: posix
+gcc version 4.9 20140514 (mtk-20150408) (GCC)
+
+gcc:
+commit 93bcfa5549f4bbd786e4abc1ac9d4f9e10a95ca4
+Author: Lai Wei-Chih <Robert.Lai@mediatek.com>
+Date:   Wed Apr 8 13:12:19 2015 +0800
+
+    Bump mtk release 20150408 for ca53 erratum 843419 fix.
+
+    Change-Id: Ie1f5e3485fda5d51f32a324bc68d07d2957efbb7
+
+binutils:
+commit a9dedea652b5198bebf99d646ffa6b698f1980e5
+Author: Marcus Shawcroft <marcus.shawcroft@arm.com>
+Date:   Mon Mar 30 18:06:22 2015 -0700
+
+    [AArch64] Workaround for cortex-a53 erratum 843419
+
+    Some early revisions of the Cortex-A53 have an erratum (843419).
+    The details of the erratum are quite complex and involve dynamic
+    conditions. For the purposes of the workaround we have simplified
+    the static conditions to an ADRP in the last two instructions of a
+    4KByte page, followed within four instructions by a load/store dependent
+    on the ADRP.
+
+    This patch adds support to conservatively scan for and workaround the erratum.
+    There are two different workaround strategies used. The first is to rewrite
+    ADRP instructions which form part of an erratum sequence with an ADR instruction.
+    In situations where the ADR provides insufficient offset the dependent
+    load or store instruction from the sequence is moved to a stub section
+    and branches are inserted from the original sequence to the relocated
+    instruction and back again.
+
+    Stub section sizes are rounded up to a multiple of 4096 in order to ensure
+    that the act of inserting work around stubs does not create more errata sequences.
+
+    Workaround stubs are always inserted into the stub section associated
+    with the input section containing the erratum sequence. This ensures that the
+    fully relocated form of the veneered load store instruction is available at the
+    point in time when the stub section is written.
+
+gdb:
+commit b80f01cebf5b2eceedf6aadaeb39aa6a4d0b584c
+Author: Ben Cheng <bccheng@google.com>
+
+    [7.7] patches to compile gdbserver with uapi headers.
+
+gmp:
+commit e6b9669dafc6a5f83c80b4b4176359b78bccdc90
+Author: David 'Digit' Turner <digit@google.com>
+
+    Add gmp-5.0.5.tar.bz2
+
+mpfr:
+commit bfcf1bfa38469208aaad8873cd4c68781061d90f
+Author: Andrew Hsieh <andrewhsieh@google.com>
+
+    add mpfr-3.1.1.tar.bz2
+
+build:
+commit 75542e77b565c2af968e48c1b12b32f343d913ae
+Author: Andrew Hsieh <andrewhsieh@google.com>
+
+    Fix binutils-2.24 detection
+
+expat:
+commit 40172a0ae9d40a068f1e1a48ffcf6a1ccf765ed5
+Author: Jing Yu <jingyu@google.com>
+
+    expat package for building gdb-7.3
+
